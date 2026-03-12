@@ -1,0 +1,127 @@
+name: Daily LeetCode POTD Fetch
+
+on:
+  # Runs every day at 5:30 AM IST = 00:00 UTC
+  schedule:
+    - cron: "0 0 * * *"
+
+  # Allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+    inputs:
+      date_override:
+        description: "Override date (YYYY-MM-DD) — leave blank for today"
+        required: false
+        default: ""
+      force_refetch:
+        description: "Force re-fetch even if data exists"
+        required: false
+        default: "false"
+        type: choice
+        options: ["false", "true"]
+
+jobs:
+  fetch-potd:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # needed to push data back to repo
+
+    steps:
+      # ── 1. Checkout repo ────────────────────────────────────────────────────
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # ── 2. Set up Python ────────────────────────────────────────────────────
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      # ── 3. Install dependencies ─────────────────────────────────────────────
+      - name: Install dependencies
+        run: |
+          pip install -r scripts/requirements.txt
+
+      # ── 4. Handle date override ─────────────────────────────────────────────
+      - name: Set date environment variable
+        run: |
+          if [ -n "${{ github.event.inputs.date_override }}" ]; then
+            echo "TARGET_DATE=${{ github.event.inputs.date_override }}" >> $GITHUB_ENV
+            echo "Using override date: ${{ github.event.inputs.date_override }}"
+          else
+            echo "TARGET_DATE=$(date -u +%Y-%m-%d)" >> $GITHUB_ENV
+            echo "Using today's date (UTC): $(date -u +%Y-%m-%d)"
+          fi
+
+      # ── 5. Handle force re-fetch ─────────────────────────────────────────────
+      - name: Delete existing data if force re-fetch
+        if: github.event.inputs.force_refetch == 'true'
+        run: |
+          FILE="data/${{ env.TARGET_DATE }}.json"
+          if [ -f "$FILE" ]; then
+            echo "Force re-fetch: deleting $FILE"
+            rm "$FILE"
+          fi
+
+      # ── 6. Fetch POTD ────────────────────────────────────────────────────────
+      - name: Fetch Problem of the Day
+        run: |
+          python scripts/fetch_potd.py
+        env:
+          PYTHONUNBUFFERED: "1"
+
+      # ── 7. Commit and push data ──────────────────────────────────────────────
+      - name: Commit and push fetched data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/
+
+          # Only commit if there's something new
+          if git diff --staged --quiet; then
+            echo "No changes to commit (data already up to date)."
+          else
+            DATE=$(date -u +%Y-%m-%d)
+            TITLE=$(python -c "
+          import json, os
+          path = f'data/{os.environ[\"TARGET_DATE\"]}.json'
+          if os.path.exists(path):
+              d = json.load(open(path))
+              print(d['problem']['title'])
+          else:
+              print('Problem')
+          ")
+            git commit -m "feat: POTD ${{ env.TARGET_DATE }} — $TITLE"
+            git push
+            echo "✅ Data committed and pushed."
+          fi
+        env:
+          TARGET_DATE: ${{ env.TARGET_DATE }}
+
+      # ── 8. Summary ───────────────────────────────────────────────────────────
+      - name: Print summary
+        if: always()
+        run: |
+          FILE="data/${{ env.TARGET_DATE }}.json"
+          if [ -f "$FILE" ]; then
+            echo "### ✅ POTD Fetch Successful" >> $GITHUB_STEP_SUMMARY
+            python -c "
+          import json
+          d = json.load(open('$FILE'))
+          p = d['problem']
+          sol = d['best_solution']
+          print(f\"| Field | Value |\")
+          print(f\"|---|---|\")
+          print(f\"| Date | {d['meta']['date']} |\")
+          print(f\"| Problem | #{p['id']} {p['title']} |\")
+          print(f\"| Difficulty | {p['difficulty']} |\")
+          print(f\"| Tags | {', '.join(p['tags'])} |\")
+          print(f\"| Solution Source | {sol['source_type']} |\")
+          print(f\"| Link | {p['link']} |\")
+          " >> $GITHUB_STEP_SUMMARY
+          else
+            echo "### ❌ POTD Fetch Failed — no output file found" >> $GITHUB_STEP_SUMMARY
+          fi
