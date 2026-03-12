@@ -19,11 +19,15 @@ from bs4 import BeautifulSoup
 LEETCODE_GRAPHQL = "https://leetcode.com/graphql"
 DATA_DIR = Path(__file__).parent.parent / "data"
 
+_session = os.getenv("LEETCODE_SESSION", "")
+_csrf    = os.getenv("LEETCODE_CSRF_TOKEN", "")
+
 HEADERS = {
     "Content-Type": "application/json",
     "User-Agent": "Mozilla/5.0 (compatible; POTD-Bot/1.0)",
     "Referer": "https://leetcode.com",
-    "x-csrftoken": "dummy",  # needed for some queries
+    "x-csrftoken": _csrf,
+    "Cookie": f"LEETCODE_SESSION={_session}; csrftoken={_csrf}",
 }
 
 # ─── GraphQL Queries ───────────────────────────────────────────────────────────
