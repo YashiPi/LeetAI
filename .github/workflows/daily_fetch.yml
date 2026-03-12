@@ -71,6 +71,8 @@ jobs:
           python scripts/fetch_potd.py
         env:
           PYTHONUNBUFFERED: "1"
+          LEETCODE_SESSION: ${{ secrets.LEETCODE_SESSION }}
+          LEETCODE_CSRF_TOKEN: ${{ secrets.LEETCODE_CSRF_TOKEN }}
 
       # ── 7. Commit and push data ──────────────────────────────────────────────
       - name: Commit and push fetched data
