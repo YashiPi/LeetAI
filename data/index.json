@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-03-14",
+    "id": "1415",
+    "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Backtracking"
+    ],
+    "link": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-13",
     "id": "3296",
     "title": "Minimum Number of Seconds to Make Mountain Height Zero",

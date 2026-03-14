@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-14T02:25:31.382235+00:00",
+    "date": "2026-03-14",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-14",
+    "link": "https://leetcode.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/",
+    "id": "1415",
+    "title": "The k-th Lexicographical String of All Happy Strings of Length n",
+    "slug": "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Backtracking"
+    ],
+    "hints": [
+      "Generate recursively all the happy strings of length n.",
+      "Sort them in lexicographical order and return the kth string if it exists."
+    ],
+    "stats": {
+      "total_accepted": "188.7K",
+      "total_submissions": "220.8K",
+      "acceptance_rate": "85.5%"
+    },
+    "likes": 1547,
+    "dislikes": 47,
+    "similar_questions": [],
+    "example_testcases": "1\n3\n1\n4\n3\n9",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string getHappyString(int n, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String getHappyString(int n, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def getHappyString(self, n: int, k: int) -> str:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @param {number} k\n * @return {string}\n */\nvar getHappyString = function(n, k) {\n    \n};"
+    },
+    "description": "A happy string is a string that:\n\nconsists only of letters of the set ['a', 'b', 'c'].\ns[i] != s[i + 1] for all values of i from 1 to s.length - 1 (string is 1-indexed).\n\nFor example, strings \"abc\", \"ac\", \"b\" and \"abcbabcbcb\" are all happy strings and strings \"aa\", \"baa\" and \"ababbc\" are not happy strings.\n\nGiven two integers n and k, consider a list of all happy strings of length n sorted in lexicographical order.\n\nReturn the kth string of this list or return an empty string if there are less than k happy strings of length n.\n\n \n\nExample 1:\n\nInput: n = 1, k = 3\nOutput: \"c\"\nExplanation: The list [\"a\", \"b\", \"c\"] contains all happy strings of length 1. The third string is \"c\".\n\n\nExample 2:\n\nInput: n = 1, k = 4\nOutput: \"\"\nExplanation: There are only 3 happy strings of length 1.\n\n\nExample 3:\n\nInput: n = 3, k = 9\nOutput: \"cab\"\nExplanation: There are 12 different happy string of length 3 [\"aba\", \"abc\", \"aca\", \"acb\", \"bab\", \"bac\", \"bca\", \"bcb\", \"cab\", \"cac\", \"cba\", \"cbc\"]. You will find the 9th string = \"cab\"\n\n\n \n\nConstraints:\n\n1 <= n <= 10\n1 <= k <= 100",
+    "description_html": "<p>A <strong>happy string</strong> is a string that:</p>\n\n<ul>\n\t<li>consists only of letters of the set <code>['a', 'b', 'c']</code>.</li>\n\t<li><code>s[i] != s[i + 1]</code> for all values of <code>i</code> from <code>1</code> to <code>s.length - 1</code> (string is 1-indexed).</li>\n</ul>\n\n<p>For example, strings <strong>\"abc\", \"ac\", \"b\"</strong> and <strong>\"abcbabcbcb\"</strong> are all happy strings and strings <strong>\"aa\", \"baa\"</strong> and <strong>\"ababbc\"</strong> are not happy strings.</p>\n\n<p>Given two integers <code>n</code> and <code>k</code>, consider a list of all happy strings of length <code>n</code> sorted in lexicographical order.</p>\n\n<p>Return <em>the kth string</em> of this list or return an <strong>empty string</strong> if there are less than <code>k</code> happy strings of length <code>n</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> n = 1, k = 3\n<strong>Output:</strong> \"c\"\n<strong>Explanation:</strong> The list [\"a\", \"b\", \"c\"] contains all happy strings of length 1. The third string is \"c\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> n = 1, k = 4\n<strong>Output:</strong> \"\"\n<strong>Explanation:</strong> There are only 3 happy strings of length 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> n = 3, k = 9\n<strong>Output:</strong> \"cab\"\n<strong>Explanation:</strong> There are 12 different happy string of length 3 [\"aba\", \"abc\", \"aca\", \"acb\", \"bab\", \"bac\", \"bca\", \"bcb\", \"cab\", \"cac\", \"cba\", \"cbc\"]. You will find the 9<sup>th</sup> string = \"cab\"\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 10</code></li>\n\t<li><code>1 &lt;= k &lt;= 100</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
