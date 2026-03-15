@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-03-15",
+    "id": "1622",
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Design",
+      "Segment Tree"
+    ],
+    "link": "https://leetcode.com/problems/fancy-sequence/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-14",
     "id": "1415",
     "title": "The k-th Lexicographical String of All Happy Strings of Length n",

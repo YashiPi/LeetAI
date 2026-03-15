@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-15T02:45:44.133261+00:00",
+    "date": "2026-03-15",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-15",
+    "link": "https://leetcode.com/problems/fancy-sequence/",
+    "id": "1622",
+    "title": "Fancy Sequence",
+    "slug": "fancy-sequence",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Design",
+      "Segment Tree"
+    ],
+    "hints": [
+      "Use two arrays to save the cumulative multipliers at each time point and cumulative sums adjusted by the current multiplier.",
+      "The function getIndex(idx) ask to the current value modulo 10^9+7. Use modular inverse and both arrays to calculate this value."
+    ],
+    "stats": {
+      "total_accepted": "18.9K",
+      "total_submissions": "88.8K",
+      "acceptance_rate": "21.3%"
+    },
+    "likes": 406,
+    "dislikes": 148,
+    "similar_questions": [],
+    "example_testcases": "[\"Fancy\",\"append\",\"addAll\",\"append\",\"multAll\",\"getIndex\",\"addAll\",\"append\",\"multAll\",\"getIndex\",\"getIndex\",\"getIndex\"]\n[[],[2],[3],[7],[2],[0],[3],[10],[2],[0],[1],[2]]",
+    "starter_codes": {
+      "cpp": "class Fancy {\npublic:\n    Fancy() {\n        \n    }\n    \n    void append(int val) {\n        \n    }\n    \n    void addAll(int inc) {\n        \n    }\n    \n    void multAll(int m) {\n        \n    }\n    \n    int getIndex(int idx) {\n        \n    }\n};\n\n/**\n * Your Fancy object will be instantiated and called as such:\n * Fancy* obj = new Fancy();\n * obj->append(val);\n * obj->addAll(inc);\n * obj->multAll(m);\n * int param_4 = obj->getIndex(idx);\n */",
+      "java": "class Fancy {\n\n    public Fancy() {\n        \n    }\n    \n    public void append(int val) {\n        \n    }\n    \n    public void addAll(int inc) {\n        \n    }\n    \n    public void multAll(int m) {\n        \n    }\n    \n    public int getIndex(int idx) {\n        \n    }\n}\n\n/**\n * Your Fancy object will be instantiated and called as such:\n * Fancy obj = new Fancy();\n * obj.append(val);\n * obj.addAll(inc);\n * obj.multAll(m);\n * int param_4 = obj.getIndex(idx);\n */",
+      "python3": "class Fancy:\n\n    def __init__(self):\n        \n\n    def append(self, val: int) -> None:\n        \n\n    def addAll(self, inc: int) -> None:\n        \n\n    def multAll(self, m: int) -> None:\n        \n\n    def getIndex(self, idx: int) -> int:\n        \n\n\n# Your Fancy object will be instantiated and called as such:\n# obj = Fancy()\n# obj.append(val)\n# obj.addAll(inc)\n# obj.multAll(m)\n# param_4 = obj.getIndex(idx)",
+      "javascript": "\nvar Fancy = function() {\n    \n};\n\n/** \n * @param {number} val\n * @return {void}\n */\nFancy.prototype.append = function(val) {\n    \n};\n\n/** \n * @param {number} inc\n * @return {void}\n */\nFancy.prototype.addAll = function(inc) {\n    \n};\n\n/** \n * @param {number} m\n * @return {void}\n */\nFancy.prototype.multAll = function(m) {\n    \n};\n\n/** \n * @param {number} idx\n * @return {number}\n */\nFancy.prototype.getIndex = function(idx) {\n    \n};\n\n/** \n * Your Fancy object will be instantiated and called as such:\n * var obj = new Fancy()\n * obj.append(val)\n * obj.addAll(inc)\n * obj.multAll(m)\n * var param_4 = obj.getIndex(idx)\n */"
+    },
+    "description": "Write an API that generates fancy sequences using the append, addAll, and multAll operations.\n\nImplement the Fancy class:\n\nFancy() Initializes the object with an empty sequence.\nvoid append(val) Appends an integer val to the end of the sequence.\nvoid addAll(inc) Increments all existing values in the sequence by an integer inc.\nvoid multAll(m) Multiplies all existing values in the sequence by an integer m.\nint getIndex(idx) Gets the current value at index idx (0-indexed) of the sequence modulo 109 + 7. If the index is greater or equal than the length of the sequence, return -1.\n\n \n\nExample 1:\n\nInput\n[\"Fancy\", \"append\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"getIndex\", \"getIndex\"]\n[[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]]\nOutput\n[null, null, null, null, null, 10, null, null, null, 26, 34, 20]\n\nExplanation\nFancy fancy = new Fancy();\nfancy.append(2);   // fancy sequence: [2]\nfancy.addAll(3);   // fancy sequence: [2+3] -> [5]\nfancy.append(7);   // fancy sequence: [5, 7]\nfancy.multAll(2);  // fancy sequence: [5*2, 7*2] -> [10, 14]\nfancy.getIndex(0); // return 10\nfancy.addAll(3);   // fancy sequence: [10+3, 14+3] -> [13, 17]\nfancy.append(10);  // fancy sequence: [13, 17, 10]\nfancy.multAll(2);  // fancy sequence: [13*2, 17*2, 10*2] -> [26, 34, 20]\nfancy.getIndex(0); // return 26\nfancy.getIndex(1); // return 34\nfancy.getIndex(2); // return 20\n\n\n \n\nConstraints:\n\n1 <= val, inc, m <= 100\n0 <= idx <= 105\nAt most 105 calls total will be made to append, addAll, multAll, and getIndex.",
+    "description_html": "<p>Write an API that generates fancy sequences using the <code>append</code>, <code>addAll</code>, and <code>multAll</code> operations.</p>\n\n<p>Implement the <code>Fancy</code> class:</p>\n\n<ul>\n\t<li><code>Fancy()</code> Initializes the object with an empty sequence.</li>\n\t<li><code>void append(val)</code> Appends an integer <code>val</code> to the end of the sequence.</li>\n\t<li><code>void addAll(inc)</code> Increments all existing values in the sequence by an integer <code>inc</code>.</li>\n\t<li><code>void multAll(m)</code> Multiplies all existing values in the sequence by an integer <code>m</code>.</li>\n\t<li><code>int getIndex(idx)</code> Gets the current value at index <code>idx</code> (0-indexed) of the sequence <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>. If the index is greater or equal than the length of the sequence, return <code>-1</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input</strong>\n[\"Fancy\", \"append\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"addAll\", \"append\", \"multAll\", \"getIndex\", \"getIndex\", \"getIndex\"]\n[[], [2], [3], [7], [2], [0], [3], [10], [2], [0], [1], [2]]\n<strong>Output</strong>\n[null, null, null, null, null, 10, null, null, null, 26, 34, 20]\n\n<strong>Explanation</strong>\nFancy fancy = new Fancy();\nfancy.append(2);   // fancy sequence: [2]\nfancy.addAll(3);   // fancy sequence: [2+3] -&gt; [5]\nfancy.append(7);   // fancy sequence: [5, 7]\nfancy.multAll(2);  // fancy sequence: [5*2, 7*2] -&gt; [10, 14]\nfancy.getIndex(0); // return 10\nfancy.addAll(3);   // fancy sequence: [10+3, 14+3] -&gt; [13, 17]\nfancy.append(10);  // fancy sequence: [13, 17, 10]\nfancy.multAll(2);  // fancy sequence: [13*2, 17*2, 10*2] -&gt; [26, 34, 20]\nfancy.getIndex(0); // return 26\nfancy.getIndex(1); // return 34\nfancy.getIndex(2); // return 20\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= val, inc, m &lt;= 100</code></li>\n\t<li><code>0 &lt;= idx &lt;= 10<sup>5</sup></code></li>\n\t<li>At most <code>10<sup>5</sup></code> calls total will be made to <code>append</code>, <code>addAll</code>, <code>multAll</code>, and <code>getIndex</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
