@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-03-17",
+    "id": "1727",
+    "title": "Largest Submatrix With Rearrangements",
+    "slug": "largest-submatrix-with-rearrangements",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/largest-submatrix-with-rearrangements/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-16",
     "id": "1878",
     "title": "Get Biggest Three Rhombus Sums in a Grid",
