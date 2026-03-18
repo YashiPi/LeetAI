@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-18T02:35:15.924480+00:00",
+    "date": "2026-03-18",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-18",
+    "link": "https://leetcode.com/problems/count-submatrices-with-top-left-element-and-sum-less-than-k/",
+    "id": "3070",
+    "title": "Count Submatrices with Top-Left Element and Sum Less Than k",
+    "slug": "count-submatrices-with-top-left-element-and-sum-less-than-k",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "37K",
+      "total_submissions": "60.3K",
+      "acceptance_rate": "61.3%"
+    },
+    "likes": 202,
+    "dislikes": 8,
+    "similar_questions": [],
+    "example_testcases": "[[7,6,3],[6,6,1]]\n18\n[[7,2,9],[1,5,0],[2,6,6]]\n20",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int countSubmatrices(vector<vector<int>>& grid, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int countSubmatrices(int[][] grid, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def countSubmatrices(self, grid: List[List[int]], k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} grid\n * @param {number} k\n * @return {number}\n */\nvar countSubmatrices = function(grid, k) {\n    \n};"
+    },
+    "description": "You are given a 0-indexed integer matrix grid and an integer k.\n\nReturn the number of submatrices that contain the top-left element of the grid, and have a sum less than or equal to k.\n\n \n\nExample 1:\n\nInput: grid = [[7,6,3],[6,6,1]], k = 18\nOutput: 4\nExplanation: There are only 4 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 18.\n\nExample 2:\n\nInput: grid = [[7,2,9],[1,5,0],[2,6,6]], k = 20\nOutput: 6\nExplanation: There are only 6 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 20.\n\n\n \n\nConstraints:\n\nm == grid.length \nn == grid[i].length\n1 <= n, m <= 1000 \n0 <= grid[i][j] <= 1000\n1 <= k <= 109",
+    "description_html": "<p>You are given a <strong>0-indexed</strong> integer matrix <code>grid</code> and an integer <code>k</code>.</p>\n\n<p>Return <em>the <strong>number</strong> of <span data-keyword=\"submatrix\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-:r1n:\" data-state=\"closed\" class=\"\">submatrices</button></span> that contain the top-left element of the</em> <code>grid</code>, <em>and have a sum less than or equal to </em><code>k</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2024/01/01/example1.png\" style=\"padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem;\">\n<pre><strong>Input:</strong> grid = [[7,6,3],[6,6,1]], k = 18\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> There are only 4 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 18.</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2024/01/01/example21.png\" style=\"padding: 10px; background: rgb(255, 255, 255); border-radius: 0.5rem;\">\n<pre><strong>Input:</strong> grid = [[7,2,9],[1,5,0],[2,6,6]], k = 20\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> There are only 6 submatrices, shown in the image above, that contain the top-left element of grid, and have a sum less than or equal to 20.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length </code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= n, m &lt;= 1000 </code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;= 1000</code></li>\n\t<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
