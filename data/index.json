@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-03-20",
+    "id": "3567",
+    "title": "Minimum Absolute Difference in Sliding Submatrix",
+    "slug": "minimum-absolute-difference-in-sliding-submatrix",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/minimum-absolute-difference-in-sliding-submatrix/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-19",
     "id": "3212",
     "title": "Count Submatrices With Equal Frequency of X and Y",
