@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-22T02:36:27.357460+00:00",
+    "date": "2026-03-22",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-22",
+    "link": "https://leetcode.com/problems/determine-whether-matrix-can-be-obtained-by-rotation/",
+    "id": "1886",
+    "title": "Determine Whether Matrix Can Be Obtained By Rotation",
+    "slug": "determine-whether-matrix-can-be-obtained-by-rotation",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "hints": [
+      "What is the maximum number of rotations you have to check?",
+      "Is there a formula you can use to rotate a matrix 90 degrees?"
+    ],
+    "stats": {
+      "total_accepted": "101.3K",
+      "total_submissions": "169.1K",
+      "acceptance_rate": "59.9%"
+    },
+    "likes": 1617,
+    "dislikes": 153,
+    "similar_questions": [
+      {
+        "title": "Rotate Image",
+        "slug": "rotate-image",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[[0,1],[1,0]]\n[[1,0],[0,1]]\n[[0,1],[1,1]]\n[[1,0],[0,1]]\n[[0,0,0],[0,1,0],[1,1,1]]\n[[1,1,1],[0,1,0],[0,0,0]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool findRotation(vector<vector<int>>& mat, vector<vector<int>>& target) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean findRotation(int[][] mat, int[][] target) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def findRotation(self, mat: List[List[int]], target: List[List[int]]) -> bool:\n        ",
+      "javascript": "/**\n * @param {number[][]} mat\n * @param {number[][]} target\n * @return {boolean}\n */\nvar findRotation = function(mat, target) {\n    \n};"
+    },
+    "description": "Given two n x n binary matrices mat and target, return true if it is possible to make mat equal to target by rotating mat in 90-degree increments, or false otherwise.\n\n \n\nExample 1:\n\nInput: mat = [[0,1],[1,0]], target = [[1,0],[0,1]]\nOutput: true\nExplanation: We can rotate mat 90 degrees clockwise to make mat equal target.\n\n\nExample 2:\n\nInput: mat = [[0,1],[1,1]], target = [[1,0],[0,1]]\nOutput: false\nExplanation: It is impossible to make mat equal to target by rotating mat.\n\n\nExample 3:\n\nInput: mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]\nOutput: true\nExplanation: We can rotate mat 90 degrees clockwise two times to make mat equal target.\n\n\n \n\nConstraints:\n\nn == mat.length == target.length\nn == mat[i].length == target[i].length\n1 <= n <= 10\nmat[i][j] and target[i][j] are either 0 or 1.",
+    "description_html": "<p>Given two <code>n x n</code> binary matrices <code>mat</code> and <code>target</code>, return <code>true</code><em> if it is possible to make </em><code>mat</code><em> equal to </em><code>target</code><em> by <strong>rotating</strong> </em><code>mat</code><em> in <strong>90-degree increments</strong>, or </em><code>false</code><em> otherwise.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/05/20/grid3.png\" style=\"width: 301px; height: 121px;\">\n<pre><strong>Input:</strong> mat = [[0,1],[1,0]], target = [[1,0],[0,1]]\n<strong>Output:</strong> true\n<strong>Explanation: </strong>We can rotate mat 90 degrees clockwise to make mat equal target.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/05/20/grid4.png\" style=\"width: 301px; height: 121px;\">\n<pre><strong>Input:</strong> mat = [[0,1],[1,1]], target = [[1,0],[0,1]]\n<strong>Output:</strong> false\n<strong>Explanation:</strong> It is impossible to make mat equal to target by rotating mat.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/05/26/grid4.png\" style=\"width: 661px; height: 184px;\">\n<pre><strong>Input:</strong> mat = [[0,0,0],[0,1,0],[1,1,1]], target = [[1,1,1],[0,1,0],[0,0,0]]\n<strong>Output:</strong> true\n<strong>Explanation: </strong>We can rotate mat 90 degrees clockwise two times to make mat equal target.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == mat.length == target.length</code></li>\n\t<li><code>n == mat[i].length == target[i].length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10</code></li>\n\t<li><code>mat[i][j]</code> and <code>target[i][j]</code> are either <code>0</code> or <code>1</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
