@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-03-25",
+    "id": "3546",
+    "title": "Equal Sum Grid Partition I",
+    "slug": "equal-sum-grid-partition-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Enumeration",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/equal-sum-grid-partition-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-24",
     "id": "2906",
     "title": "Construct Product Matrix",
