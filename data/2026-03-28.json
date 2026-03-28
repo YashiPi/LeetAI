@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-28T02:33:51.527840+00:00",
+    "date": "2026-03-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-28",
+    "link": "https://leetcode.com/problems/find-the-string-with-lcp/",
+    "id": "2573",
+    "title": "Find the String with LCP",
+    "slug": "find-the-string-with-lcp",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Greedy",
+      "Union-Find",
+      "Matrix"
+    ],
+    "hints": [
+      "Use the LCP array to determine which groups of elements must be equal.",
+      "Match the smallest letter to the group that contains the smallest unassigned index.",
+      "Build the LCP matrix of the resulting string then check if it is equal to the target LCP."
+    ],
+    "stats": {
+      "total_accepted": "9.6K",
+      "total_submissions": "25.3K",
+      "acceptance_rate": "37.9%"
+    },
+    "likes": 221,
+    "dislikes": 26,
+    "similar_questions": [],
+    "example_testcases": "[[4,0,2,0],[0,3,0,1],[2,0,2,0],[0,1,0,1]]\n[[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,1]]\n[[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,3]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string findTheString(vector<vector<int>>& lcp) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String findTheString(int[][] lcp) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def findTheString(self, lcp: List[List[int]]) -> str:\n        ",
+      "javascript": "/**\n * @param {number[][]} lcp\n * @return {string}\n */\nvar findTheString = function(lcp) {\n    \n};"
+    },
+    "description": "We define the lcp matrix of any 0-indexed string word of n lowercase English letters as an n x n grid such that:\n\nlcp[i][j] is equal to the length of the longest common prefix between the substrings word[i,n-1] and word[j,n-1].\n\nGiven an n x n matrix lcp, return the alphabetically smallest string word that corresponds to lcp. If there is no such string, return an empty string.\n\nA string a is lexicographically smaller than a string b (of the same length) if in the first position where a and b differ, string a has a letter that appears earlier in the alphabet than the corresponding letter in b. For example, \"aabd\" is lexicographically smaller than \"aaca\" because the first position they differ is at the third letter, and 'b' comes before 'c'.\n\n \n\nExample 1:\n\nInput: lcp = [[4,0,2,0],[0,3,0,1],[2,0,2,0],[0,1,0,1]]\nOutput: \"abab\"\nExplanation: lcp corresponds to any 4 letter string with two alternating letters. The lexicographically smallest of them is \"abab\".\n\n\nExample 2:\n\nInput: lcp = [[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,1]]\nOutput: \"aaaa\"\nExplanation: lcp corresponds to any 4 letter string with a single distinct letter. The lexicographically smallest of them is \"aaaa\". \n\n\nExample 3:\n\nInput: lcp = [[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,3]]\nOutput: \"\"\nExplanation: lcp[3][3] cannot be equal to 3 since word[3,...,3] consists of only a single letter; Thus, no answer exists.\n\n\n \n\nConstraints:\n\n1 <= n == lcp.length == lcp[i].length <= 1000\n0 <= lcp[i][j] <= n",
+    "description_html": "<p>We define the <code>lcp</code> matrix of any <strong>0-indexed</strong> string <code>word</code> of <code>n</code> lowercase English letters as an <code>n x n</code> grid such that:</p>\n\n<ul>\n\t<li><code>lcp[i][j]</code> is equal to the length of the <strong>longest common prefix</strong> between the substrings <code>word[i,n-1]</code> and <code>word[j,n-1]</code>.</li>\n</ul>\n\n<p>Given an&nbsp;<code>n x n</code> matrix <code>lcp</code>, return the alphabetically smallest string <code>word</code> that corresponds to <code>lcp</code>. If there is no such string, return an empty string.</p>\n\n<p>A string <code>a</code> is lexicographically smaller than a string <code>b</code> (of the same length) if in the first position where <code>a</code> and <code>b</code> differ, string <code>a</code> has a letter that appears earlier in the alphabet than the corresponding letter in <code>b</code>. For example, <code>\"aabd\"</code> is lexicographically smaller than <code>\"aaca\"</code> because the first position they differ is at the third letter, and <code>'b'</code> comes before <code>'c'</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> lcp = [[4,0,2,0],[0,3,0,1],[2,0,2,0],[0,1,0,1]]\n<strong>Output:</strong> \"abab\"\n<strong>Explanation:</strong> lcp corresponds to any 4 letter string with two alternating letters. The lexicographically smallest of them is \"abab\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> lcp = [[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,1]]\n<strong>Output:</strong> \"aaaa\"\n<strong>Explanation:</strong> lcp corresponds to any 4 letter string with a single distinct letter. The lexicographically smallest of them is \"aaaa\". \n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> lcp = [[4,3,2,1],[3,3,2,1],[2,2,2,1],[1,1,1,3]]\n<strong>Output:</strong> \"\"\n<strong>Explanation:</strong> lcp[3][3] cannot be equal to 3 since word[3,...,3] consists of only a single letter; Thus, no answer exists.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n ==&nbsp;</code><code>lcp.length == </code><code>lcp[i].length</code>&nbsp;<code>&lt;= 1000</code></li>\n\t<li><code><font face=\"monospace\">0 &lt;= lcp[i][j] &lt;= n</font></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

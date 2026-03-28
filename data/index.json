@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-03-28",
+    "id": "2573",
+    "title": "Find the String with LCP",
+    "slug": "find-the-string-with-lcp",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Greedy",
+      "Union-Find",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/find-the-string-with-lcp/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-27",
     "id": "2946",
     "title": "Matrix Similarity After Cyclic Shifts",
