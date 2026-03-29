@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-03-29T02:46:30.682475+00:00",
+    "date": "2026-03-29",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-03-29",
+    "link": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-i/",
+    "id": "2839",
+    "title": "Check if Strings Can be Made Equal With Operations I",
+    "slug": "check-if-strings-can-be-made-equal-with-operations-i",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "hints": [
+      "<div class=\"_1l1MA\">Since the strings are very small you can try a brute-force approach.</div>",
+      "<div class=\"_1l1MA\">There are only <code>2</code> different swaps that are possible in a string.</div>"
+    ],
+    "stats": {
+      "total_accepted": "50K",
+      "total_submissions": "100.6K",
+      "acceptance_rate": "49.7%"
+    },
+    "likes": 215,
+    "dislikes": 34,
+    "similar_questions": [],
+    "example_testcases": "\"abcd\"\n\"cdab\"\n\"abcd\"\n\"dacb\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool canBeEqual(string s1, string s2) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean canBeEqual(String s1, String s2) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def canBeEqual(self, s1: str, s2: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} s1\n * @param {string} s2\n * @return {boolean}\n */\nvar canBeEqual = function(s1, s2) {\n    \n};"
+    },
+    "description": "You are given two strings s1 and s2, both of length 4, consisting of lowercase English letters.\n\nYou can apply the following operation on any of the two strings any number of times:\n\nChoose any two indices i and j such that j - i = 2, then swap the two characters at those indices in the string.\n\nReturn true if you can make the strings s1 and s2 equal, and false otherwise.\n\n \n\nExample 1:\n\nInput: s1 = \"abcd\", s2 = \"cdab\"\nOutput: true\nExplanation: We can do the following operations on s1:\n- Choose the indices i = 0, j = 2. The resulting string is s1 = \"cbad\".\n- Choose the indices i = 1, j = 3. The resulting string is s1 = \"cdab\" = s2.\n\n\nExample 2:\n\nInput: s1 = \"abcd\", s2 = \"dacb\"\nOutput: false\nExplanation: It is not possible to make the two strings equal.\n\n\n \n\nConstraints:\n\ns1.length == s2.length == 4\ns1 and s2 consist only of lowercase English letters.",
+    "description_html": "<p>You are given two strings <code>s1</code> and <code>s2</code>, both of length <code>4</code>, consisting of <strong>lowercase</strong> English letters.</p>\n\n<p>You can apply the following operation on any of the two strings <strong>any</strong> number of times:</p>\n\n<ul>\n\t<li>Choose any two indices <code>i</code> and <code>j</code> such that <code>j - i = 2</code>, then <strong>swap</strong> the two characters at those indices in the string.</li>\n</ul>\n\n<p>Return <code>true</code><em> if you can make the strings </em><code>s1</code><em> and </em><code>s2</code><em> equal, and </em><code>false</code><em> otherwise</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s1 = \"abcd\", s2 = \"cdab\"\n<strong>Output:</strong> true\n<strong>Explanation:</strong> We can do the following operations on s1:\n- Choose the indices i = 0, j = 2. The resulting string is s1 = \"cbad\".\n- Choose the indices i = 1, j = 3. The resulting string is s1 = \"cdab\" = s2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s1 = \"abcd\", s2 = \"dacb\"\n<strong>Output:</strong> false\n<strong>Explanation:</strong> It is not possible to make the two strings equal.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>s1.length == s2.length == 4</code></li>\n\t<li><code>s1</code> and <code>s2</code> consist only of lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
