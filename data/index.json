@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-03-30",
+    "id": "2840",
+    "title": "Check if Strings Can be Made Equal With Operations II",
+    "slug": "check-if-strings-can-be-made-equal-with-operations-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/check-if-strings-can-be-made-equal-with-operations-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-29",
     "id": "2839",
     "title": "Check if Strings Can be Made Equal With Operations I",
