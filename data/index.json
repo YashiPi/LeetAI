@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-03-31",
+    "id": "3474",
+    "title": "Lexicographically Smallest Generated String",
+    "slug": "lexicographically-smallest-generated-string",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Greedy",
+      "String Matching"
+    ],
+    "link": "https://leetcode.com/problems/lexicographically-smallest-generated-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-30",
     "id": "2840",
     "title": "Check if Strings Can be Made Equal With Operations II",
