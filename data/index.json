@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-04-01",
+    "id": "2751",
+    "title": "Robot Collisions",
+    "slug": "robot-collisions",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Stack",
+      "Sorting",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/robot-collisions/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-03-31",
     "id": "3474",
     "title": "Lexicographically Smallest Generated String",
