@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-02",
+    "id": "3418",
+    "title": "Maximum Amount of Money Robot Can Earn",
+    "slug": "maximum-amount-of-money-robot-can-earn",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/maximum-amount-of-money-robot-can-earn/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-01",
     "id": "2751",
     "title": "Robot Collisions",
