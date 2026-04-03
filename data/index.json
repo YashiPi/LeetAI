@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-04-03",
+    "id": "3661",
+    "title": "Maximum Walls Destroyed by Robots",
+    "slug": "maximum-walls-destroyed-by-robots",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-walls-destroyed-by-robots/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-02",
     "id": "3418",
     "title": "Maximum Amount of Money Robot Can Earn",
