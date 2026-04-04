@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-04",
+    "id": "2075",
+    "title": "Decode the Slanted Ciphertext",
+    "slug": "decode-the-slanted-ciphertext",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/decode-the-slanted-ciphertext/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-03",
     "id": "3661",
     "title": "Maximum Walls Destroyed by Robots",
