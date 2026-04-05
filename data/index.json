@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-05",
+    "id": "657",
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/robot-return-to-origin/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-04",
     "id": "2075",
     "title": "Decode the Slanted Ciphertext",

@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "fetched_at": "2026-04-05T02:49:57.527545+00:00",
+    "date": "2026-04-05",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-04-05",
+    "link": "https://leetcode.com/problems/robot-return-to-origin/",
+    "id": "657",
+    "title": "Robot Return to Origin",
+    "slug": "robot-return-to-origin",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "555.5K",
+      "total_submissions": "724.3K",
+      "acceptance_rate": "76.7%"
+    },
+    "likes": 2620,
+    "dislikes": 753,
+    "similar_questions": [
+      {
+        "title": "Number of Provinces",
+        "slug": "number-of-provinces",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Execution of All Suffix Instructions Staying in a Grid",
+        "slug": "execution-of-all-suffix-instructions-staying-in-a-grid",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Furthest Point From Origin",
+        "slug": "furthest-point-from-origin",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "\"UD\"\n\"LL\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool judgeCircle(string moves) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean judgeCircle(String moves) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def judgeCircle(self, moves: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} moves\n * @return {boolean}\n */\nvar judgeCircle = function(moves) {\n    \n};"
+    },
+    "description": "There is a robot starting at the position (0, 0), the origin, on a 2D plane. Given a sequence of its moves, judge if this robot ends up at (0, 0) after it completes its moves.\n\nYou are given a string moves that represents the move sequence of the robot where moves[i] represents its ith move. Valid moves are 'R' (right), 'L' (left), 'U' (up), and 'D' (down).\n\nReturn true if the robot returns to the origin after it finishes all of its moves, or false otherwise.\n\nNote: The way that the robot is \"facing\" is irrelevant. 'R' will always make the robot move to the right once, 'L' will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.\n\n \n\nExample 1:\n\nInput: moves = \"UD\"\nOutput: true\nExplanation: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.\n\n\nExample 2:\n\nInput: moves = \"LL\"\nOutput: false\nExplanation: The robot moves left twice. It ends up two \"moves\" to the left of the origin. We return false because it is not at the origin at the end of its moves.\n\n\n \n\nConstraints:\n\n1 <= moves.length <= 2 * 104\nmoves only contains the characters 'U', 'D', 'L' and 'R'.",
+    "description_html": "<p>There is a robot starting at the position <code>(0, 0)</code>, the origin, on a 2D plane. Given a sequence of its moves, judge if this robot <strong>ends up at </strong><code>(0, 0)</code> after it completes its moves.</p>\n\n<p>You are given a string <code>moves</code> that represents the move sequence of the robot where <code>moves[i]</code> represents its <code>i<sup>th</sup></code> move. Valid moves are <code>'R'</code> (right), <code>'L'</code> (left), <code>'U'</code> (up), and <code>'D'</code> (down).</p>\n\n<p>Return <code>true</code><em> if the robot returns to the origin after it finishes all of its moves, or </em><code>false</code><em> otherwise</em>.</p>\n\n<p><strong>Note</strong>: The way that the robot is \"facing\" is irrelevant. <code>'R'</code> will always make the robot move to the right once, <code>'L'</code> will always make it move left, etc. Also, assume that the magnitude of the robot's movement is the same for each move.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> moves = \"UD\"\n<strong>Output:</strong> true\n<strong>Explanation</strong>: The robot moves up once, and then down once. All moves have the same magnitude, so it ended up at the origin where it started. Therefore, we return true.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> moves = \"LL\"\n<strong>Output:</strong> false\n<strong>Explanation</strong>: The robot moves left twice. It ends up two \"moves\" to the left of the origin. We return false because it is not at the origin at the end of its moves.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= moves.length &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li><code>moves</code> only contains the characters <code>'U'</code>, <code>'D'</code>, <code>'L'</code> and <code>'R'</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
