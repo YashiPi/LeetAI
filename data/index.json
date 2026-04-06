@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-06",
+    "id": "874",
+    "title": "Walking Robot Simulation",
+    "slug": "walking-robot-simulation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/walking-robot-simulation/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-05",
     "id": "657",
     "title": "Robot Return to Origin",
