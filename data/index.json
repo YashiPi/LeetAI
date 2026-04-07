@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-07",
+    "id": "2069",
+    "title": "Walking Robot Simulation II",
+    "slug": "walking-robot-simulation-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Design",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/walking-robot-simulation-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-06",
     "id": "874",
     "title": "Walking Robot Simulation",

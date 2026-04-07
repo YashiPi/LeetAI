@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "fetched_at": "2026-04-07T02:42:36.620319+00:00",
+    "date": "2026-04-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-04-07",
+    "link": "https://leetcode.com/problems/walking-robot-simulation-ii/",
+    "id": "2069",
+    "title": "Walking Robot Simulation II",
+    "slug": "walking-robot-simulation-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Design",
+      "Simulation"
+    ],
+    "hints": [
+      "The robot only moves along the perimeter of the grid. Can you think if modulus can help you quickly compute which cell it stops at?",
+      "After the robot moves one time, whenever the robot stops at some cell, it will always face a specific direction. i.e., The direction it faces is determined by the cell it stops at.",
+      "Can you precompute what direction it faces when it stops at each cell along the perimeter, and reuse the results?"
+    ],
+    "stats": {
+      "total_accepted": "21.8K",
+      "total_submissions": "76.2K",
+      "acceptance_rate": "28.7%"
+    },
+    "likes": 218,
+    "dislikes": 330,
+    "similar_questions": [
+      {
+        "title": "Walking Robot Simulation",
+        "slug": "walking-robot-simulation",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[\"Robot\",\"step\",\"step\",\"getPos\",\"getDir\",\"step\",\"step\",\"step\",\"getPos\",\"getDir\"]\n[[6,3],[2],[2],[],[],[2],[1],[4],[],[]]",
+    "starter_codes": {
+      "cpp": "class Robot {\npublic:\n    Robot(int width, int height) {\n        \n    }\n    \n    void step(int num) {\n        \n    }\n    \n    vector<int> getPos() {\n        \n    }\n    \n    string getDir() {\n        \n    }\n};\n\n/**\n * Your Robot object will be instantiated and called as such:\n * Robot* obj = new Robot(width, height);\n * obj->step(num);\n * vector<int> param_2 = obj->getPos();\n * string param_3 = obj->getDir();\n */",
+      "java": "class Robot {\n\n    public Robot(int width, int height) {\n        \n    }\n    \n    public void step(int num) {\n        \n    }\n    \n    public int[] getPos() {\n        \n    }\n    \n    public String getDir() {\n        \n    }\n}\n\n/**\n * Your Robot object will be instantiated and called as such:\n * Robot obj = new Robot(width, height);\n * obj.step(num);\n * int[] param_2 = obj.getPos();\n * String param_3 = obj.getDir();\n */",
+      "python3": "class Robot:\n\n    def __init__(self, width: int, height: int):\n        \n\n    def step(self, num: int) -> None:\n        \n\n    def getPos(self) -> List[int]:\n        \n\n    def getDir(self) -> str:\n        \n\n\n# Your Robot object will be instantiated and called as such:\n# obj = Robot(width, height)\n# obj.step(num)\n# param_2 = obj.getPos()\n# param_3 = obj.getDir()",
+      "javascript": "/**\n * @param {number} width\n * @param {number} height\n */\nvar Robot = function(width, height) {\n    \n};\n\n/** \n * @param {number} num\n * @return {void}\n */\nRobot.prototype.step = function(num) {\n    \n};\n\n/**\n * @return {number[]}\n */\nRobot.prototype.getPos = function() {\n    \n};\n\n/**\n * @return {string}\n */\nRobot.prototype.getDir = function() {\n    \n};\n\n/** \n * Your Robot object will be instantiated and called as such:\n * var obj = new Robot(width, height)\n * obj.step(num)\n * var param_2 = obj.getPos()\n * var param_3 = obj.getDir()\n */"
+    },
+    "description": "A width x height grid is on an XY-plane with the bottom-left cell at (0, 0) and the top-right cell at (width - 1, height - 1). The grid is aligned with the four cardinal directions (\"North\", \"East\", \"South\", and \"West\"). A robot is initially at cell (0, 0) facing direction \"East\".\n\nThe robot can be instructed to move for a specific number of steps. For each step, it does the following.\n\nAttempts to move forward one cell in the direction it is facing.\nIf the cell the robot is moving to is out of bounds, the robot instead turns 90 degrees counterclockwise and retries the step.\n\nAfter the robot finishes moving the number of steps required, it stops and awaits the next instruction.\n\nImplement the Robot class:\n\nRobot(int width, int height) Initializes the width x height grid with the robot at (0, 0) facing \"East\".\nvoid step(int num) Instructs the robot to move forward num steps.\nint[] getPos() Returns the current cell the robot is at, as an array of length 2, [x, y].\nString getDir() Returns the current direction of the robot, \"North\", \"East\", \"South\", or \"West\".\n\n \n\nExample 1:\n\nInput\n[\"Robot\", \"step\", \"step\", \"getPos\", \"getDir\", \"step\", \"step\", \"step\", \"getPos\", \"getDir\"]\n[[6, 3], [2], [2], [], [], [2], [1], [4], [], []]\nOutput\n[null, null, null, [4, 0], \"East\", null, null, null, [1, 2], \"West\"]\n\nExplanation\nRobot robot = new Robot(6, 3); // Initialize the grid and the robot at (0, 0) facing East.\nrobot.step(2);  // It moves two steps East to (2, 0), and faces East.\nrobot.step(2);  // It moves two steps East to (4, 0), and faces East.\nrobot.getPos(); // return [4, 0]\nrobot.getDir(); // return \"East\"\nrobot.step(2);  // It moves one step East to (5, 0), and faces East.\n                // Moving the next step East would be out of bounds, so it turns and faces North.\n                // Then, it moves one step North to (5, 1), and faces North.\nrobot.step(1);  // It moves one step North to (5, 2), and faces North (not West).\nrobot.step(4);  // Moving the next step North would be out of bounds, so it turns and faces West.\n                // Then, it moves four steps West to (1, 2), and faces West.\nrobot.getPos(); // return [1, 2]\nrobot.getDir(); // return \"West\"\n\n\n\n \n\nConstraints:\n\n2 <= width, height <= 100\n1 <= num <= 105\nAt most 104 calls in total will be made to step, getPos, and getDir.",
+    "description_html": "<p>A <code>width x height</code> grid is on an XY-plane with the <strong>bottom-left</strong> cell at <code>(0, 0)</code> and the <strong>top-right</strong> cell at <code>(width - 1, height - 1)</code>. The grid is aligned with the four cardinal directions (<code>\"North\"</code>, <code>\"East\"</code>, <code>\"South\"</code>, and <code>\"West\"</code>). A robot is <strong>initially</strong> at cell <code>(0, 0)</code> facing direction <code>\"East\"</code>.</p>\n\n<p>The robot can be instructed to move for a specific number of <strong>steps</strong>. For each step, it does the following.</p>\n\n<ol>\n\t<li>Attempts to move <strong>forward one</strong> cell in the direction it is facing.</li>\n\t<li>If the cell the robot is <strong>moving to</strong> is <strong>out of bounds</strong>, the robot instead <strong>turns</strong> 90 degrees <strong>counterclockwise</strong> and retries the step.</li>\n</ol>\n\n<p>After the robot finishes moving the number of steps required, it stops and awaits the next instruction.</p>\n\n<p>Implement the <code>Robot</code> class:</p>\n\n<ul>\n\t<li><code>Robot(int width, int height)</code> Initializes the <code>width x height</code> grid with the robot at <code>(0, 0)</code> facing <code>\"East\"</code>.</li>\n\t<li><code>void step(int num)</code> Instructs the robot to move forward <code>num</code> steps.</li>\n\t<li><code>int[] getPos()</code> Returns the current cell the robot is at, as an array of length 2, <code>[x, y]</code>.</li>\n\t<li><code>String getDir()</code> Returns the current direction of the robot, <code>\"North\"</code>, <code>\"East\"</code>, <code>\"South\"</code>, or <code>\"West\"</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"example-1\" src=\"https://assets.leetcode.com/uploads/2021/10/09/example-1.png\" style=\"width: 498px; height: 268px;\">\n<pre><strong>Input</strong>\n[\"Robot\", \"step\", \"step\", \"getPos\", \"getDir\", \"step\", \"step\", \"step\", \"getPos\", \"getDir\"]\n[[6, 3], [2], [2], [], [], [2], [1], [4], [], []]\n<strong>Output</strong>\n[null, null, null, [4, 0], \"East\", null, null, null, [1, 2], \"West\"]\n\n<strong>Explanation</strong>\nRobot robot = new Robot(6, 3); // Initialize the grid and the robot at (0, 0) facing East.\nrobot.step(2);  // It moves two steps East to (2, 0), and faces East.\nrobot.step(2);  // It moves two steps East to (4, 0), and faces East.\nrobot.getPos(); // return [4, 0]\nrobot.getDir(); // return \"East\"\nrobot.step(2);  // It moves one step East to (5, 0), and faces East.\n                // Moving the next step East would be out of bounds, so it turns and faces North.\n                // Then, it moves one step North to (5, 1), and faces North.\nrobot.step(1);  // It moves one step North to (5, 2), and faces <strong>North</strong> (not West).\nrobot.step(4);  // Moving the next step North would be out of bounds, so it turns and faces West.\n                // Then, it moves four steps West to (1, 2), and faces West.\nrobot.getPos(); // return [1, 2]\nrobot.getDir(); // return \"West\"\n\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= width, height &lt;= 100</code></li>\n\t<li><code>1 &lt;= num &lt;= 10<sup>5</sup></code></li>\n\t<li>At most <code>10<sup>4</sup></code> calls <strong>in total</strong> will be made to <code>step</code>, <code>getPos</code>, and <code>getDir</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
