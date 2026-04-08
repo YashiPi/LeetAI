@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-08",
+    "id": "3653",
+    "title": "XOR After Range Multiplication Queries I",
+    "slug": "xor-after-range-multiplication-queries-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/xor-after-range-multiplication-queries-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-07",
     "id": "2069",
     "title": "Walking Robot Simulation II",
