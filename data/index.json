@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-09",
+    "id": "3655",
+    "title": "XOR After Range Multiplication Queries II",
+    "slug": "xor-after-range-multiplication-queries-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Divide and Conquer"
+    ],
+    "link": "https://leetcode.com/problems/xor-after-range-multiplication-queries-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-08",
     "id": "3653",
     "title": "XOR After Range Multiplication Queries I",
