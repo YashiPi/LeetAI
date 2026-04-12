@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-12",
+    "id": "1320",
+    "title": "Minimum Distance to Type a Word Using Two Fingers",
+    "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/minimum-distance-to-type-a-word-using-two-fingers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-11",
     "id": "3741",
     "title": "Minimum Distance Between Three Equal Elements II",
