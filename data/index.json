@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-13",
+    "id": "1848",
+    "title": "Minimum Distance to the Target Element",
+    "slug": "minimum-distance-to-the-target-element",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "link": "https://leetcode.com/problems/minimum-distance-to-the-target-element/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-12",
     "id": "1320",
     "title": "Minimum Distance to Type a Word Using Two Fingers",
