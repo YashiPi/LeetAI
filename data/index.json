@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-14",
+    "id": "2463",
+    "title": "Minimum Total Distance Traveled",
+    "slug": "minimum-total-distance-traveled",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/minimum-total-distance-traveled/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-13",
     "id": "1848",
     "title": "Minimum Distance to the Target Element",
