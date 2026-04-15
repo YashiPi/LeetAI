@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-15",
+    "id": "2515",
+    "title": "Shortest Distance to Target String in a Circular Array",
+    "slug": "shortest-distance-to-target-string-in-a-circular-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-14",
     "id": "2463",
     "title": "Minimum Total Distance Traveled",

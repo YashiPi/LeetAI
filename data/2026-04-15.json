@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "fetched_at": "2026-04-15T02:51:16.405760+00:00",
+    "date": "2026-04-15",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-04-15",
+    "link": "https://leetcode.com/problems/shortest-distance-to-target-string-in-a-circular-array/",
+    "id": "2515",
+    "title": "Shortest Distance to Target String in a Circular Array",
+    "slug": "shortest-distance-to-target-string-in-a-circular-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String"
+    ],
+    "hints": [
+      "You have two options, either move straight to the left or move straight to the right.",
+      "Find the first target word and record the distance.",
+      "Choose the one with the minimum distance."
+    ],
+    "stats": {
+      "total_accepted": "46.5K",
+      "total_submissions": "87.5K",
+      "acceptance_rate": "53.1%"
+    },
+    "likes": 397,
+    "dislikes": 26,
+    "similar_questions": [
+      {
+        "title": "Defuse the Bomb",
+        "slug": "defuse-the-bomb",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "[\"hello\",\"i\",\"am\",\"leetcode\",\"hello\"]\n\"hello\"\n1\n[\"a\",\"b\",\"leetcode\"]\n\"leetcode\"\n0\n[\"i\",\"eat\",\"leetcode\"]\n\"ate\"\n0",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int closestTarget(vector<string>& words, string target, int startIndex) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int closestTarget(String[] words, String target, int startIndex) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def closestTarget(self, words: List[str], target: str, startIndex: int) -> int:\n        ",
+      "javascript": "/**\n * @param {string[]} words\n * @param {string} target\n * @param {number} startIndex\n * @return {number}\n */\nvar closestTarget = function(words, target, startIndex) {\n    \n};"
+    },
+    "description": "You are given a 0-indexed circular string array words and a string target. A circular array means that the array's end connects to the array's beginning.\n\nFormally, the next element of words[i] is words[(i + 1) % n] and the previous element of words[i] is words[(i - 1 + n) % n], where n is the length of words.\n\nStarting from startIndex, you can move to either the next word or the previous word with 1 step at a time.\n\nReturn the shortest distance needed to reach the string target. If the string target does not exist in words, return -1.\n\n \n\nExample 1:\n\nInput: words = [\"hello\",\"i\",\"am\",\"leetcode\",\"hello\"], target = \"hello\", startIndex = 1\nOutput: 1\nExplanation: We start from index 1 and can reach \"hello\" by\n- moving 3 units to the right to reach index 4.\n- moving 2 units to the left to reach index 4.\n- moving 4 units to the right to reach index 0.\n- moving 1 unit to the left to reach index 0.\nThe shortest distance to reach \"hello\" is 1.\n\n\nExample 2:\n\nInput: words = [\"a\",\"b\",\"leetcode\"], target = \"leetcode\", startIndex = 0\nOutput: 1\nExplanation: We start from index 0 and can reach \"leetcode\" by\n- moving 2 units to the right to reach index 2.\n- moving 1 unit to the left to reach index 2.\nThe shortest distance to reach \"leetcode\" is 1.\n\nExample 3:\n\nInput: words = [\"i\",\"eat\",\"leetcode\"], target = \"ate\", startIndex = 0\nOutput: -1\nExplanation: Since \"ate\" does not exist in words, we return -1.\n\n\n \n\nConstraints:\n\n1 <= words.length <= 100\n1 <= words[i].length <= 100\nwords[i] and target consist of only lowercase English letters.\n0 <= startIndex < words.length",
+    "description_html": "<p>You are given a <strong>0-indexed</strong> <strong>circular</strong> string array <code>words</code> and a string <code>target</code>. A <strong>circular array</strong> means that the array's end connects to the array's beginning.</p>\n\n<ul>\n\t<li>Formally, the next element of <code>words[i]</code> is <code>words[(i + 1) % n]</code> and the previous element of <code>words[i]</code> is <code>words[(i - 1 + n) % n]</code>, where <code>n</code> is the length of <code>words</code>.</li>\n</ul>\n\n<p>Starting from <code>startIndex</code>, you can move to either the next word or the previous word with <code>1</code> step at a time.</p>\n\n<p>Return <em>the <strong>shortest</strong> distance needed to reach the string</em> <code>target</code>. If the string <code>target</code> does not exist in <code>words</code>, return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> words = [\"hello\",\"i\",\"am\",\"leetcode\",\"hello\"], target = \"hello\", startIndex = 1\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> We start from index 1 and can reach \"hello\" by\n- moving 3 units to the right to reach index 4.\n- moving 2 units to the left to reach index 4.\n- moving 4 units to the right to reach index 0.\n- moving 1 unit to the left to reach index 0.\nThe shortest distance to reach \"hello\" is 1.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> words = [\"a\",\"b\",\"leetcode\"], target = \"leetcode\", startIndex = 0\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> We start from index 0 and can reach \"leetcode\" by\n- moving 2 units to the right to reach index 2.\n- moving 1 unit to the left to reach index 2.\nThe shortest distance to reach \"leetcode\" is 1.</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> words = [\"i\",\"eat\",\"leetcode\"], target = \"ate\", startIndex = 0\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> Since \"ate\" does not exist in <code>words</code>, we return -1.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 100</code></li>\n\t<li><code>words[i]</code> and <code>target</code> consist of only lowercase English letters.</li>\n\t<li><code>0 &lt;= startIndex &lt; words.length</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
