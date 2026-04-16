@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-16",
+    "id": "3488",
+    "title": "Closest Equal Element Queries",
+    "slug": "closest-equal-element-queries",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search"
+    ],
+    "link": "https://leetcode.com/problems/closest-equal-element-queries/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-15",
     "id": "2515",
     "title": "Shortest Distance to Target String in a Circular Array",
