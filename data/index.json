@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-17",
+    "id": "3761",
+    "title": "Minimum Absolute Distance Between Mirror Pairs",
+    "slug": "minimum-absolute-distance-between-mirror-pairs",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/minimum-absolute-distance-between-mirror-pairs/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-16",
     "id": "3488",
     "title": "Closest Equal Element Queries",
