@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-04-18",
+    "id": "3783",
+    "title": "Mirror Distance of an Integer",
+    "slug": "mirror-distance-of-an-integer",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/mirror-distance-of-an-integer/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-17",
     "id": "3761",
     "title": "Minimum Absolute Distance Between Mirror Pairs",
