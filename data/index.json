@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-19",
+    "id": "1855",
+    "title": "Maximum Distance Between a Pair of Values",
+    "slug": "maximum-distance-between-a-pair-of-values",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "link": "https://leetcode.com/problems/maximum-distance-between-a-pair-of-values/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-18",
     "id": "3783",
     "title": "Mirror Distance of an Integer",
