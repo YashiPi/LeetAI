@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-20",
+    "id": "2078",
+    "title": "Two Furthest Houses With Different Colors",
+    "slug": "two-furthest-houses-with-different-colors",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/two-furthest-houses-with-different-colors/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-19",
     "id": "1855",
     "title": "Maximum Distance Between a Pair of Values",
