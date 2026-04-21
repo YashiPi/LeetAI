@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-21",
+    "id": "1722",
+    "title": "Minimize Hamming Distance After Swap Operations",
+    "slug": "minimize-hamming-distance-after-swap-operations",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Union-Find"
+    ],
+    "link": "https://leetcode.com/problems/minimize-hamming-distance-after-swap-operations/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-20",
     "id": "2078",
     "title": "Two Furthest Houses With Different Colors",
