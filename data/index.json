@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-22",
+    "id": "2452",
+    "title": "Words Within Two Edits of Dictionary",
+    "slug": "words-within-two-edits-of-dictionary",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "link": "https://leetcode.com/problems/words-within-two-edits-of-dictionary/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-21",
     "id": "1722",
     "title": "Minimize Hamming Distance After Swap Operations",
