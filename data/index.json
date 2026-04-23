@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-23",
+    "id": "2615",
+    "title": "Sum of Distances",
+    "slug": "sum-of-distances",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/sum-of-distances/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-22",
     "id": "2452",
     "title": "Words Within Two Edits of Dictionary",
