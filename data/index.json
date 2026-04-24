@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-04-24",
+    "id": "2833",
+    "title": "Furthest Point From Origin",
+    "slug": "furthest-point-from-origin",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Counting"
+    ],
+    "link": "https://leetcode.com/problems/furthest-point-from-origin/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-23",
     "id": "2615",
     "title": "Sum of Distances",
