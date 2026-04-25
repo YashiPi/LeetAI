@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-04-25",
+    "id": "3464",
+    "title": "Maximize the Distance Between Points on a Square",
+    "slug": "maximize-the-distance-between-points-on-a-square",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Geometry",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximize-the-distance-between-points-on-a-square/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-24",
     "id": "2833",
     "title": "Furthest Point From Origin",
