@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-04-26",
+    "id": "1559",
+    "title": "Detect Cycles in 2D Grid",
+    "slug": "detect-cycles-in-2d-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/detect-cycles-in-2d-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-25",
     "id": "3464",
     "title": "Maximize the Distance Between Points on a Square",
