@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-04-27",
+    "id": "1391",
+    "title": "Check if There is a Valid Path in a Grid",
+    "slug": "check-if-there-is-a-valid-path-in-a-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/check-if-there-is-a-valid-path-in-a-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-26",
     "id": "1559",
     "title": "Detect Cycles in 2D Grid",
