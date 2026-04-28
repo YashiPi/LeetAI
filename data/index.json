@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-04-28",
+    "id": "2033",
+    "title": "Minimum Operations to Make a Uni-Value Grid",
+    "slug": "minimum-operations-to-make-a-uni-value-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-27",
     "id": "1391",
     "title": "Check if There is a Valid Path in a Grid",

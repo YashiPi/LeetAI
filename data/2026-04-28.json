@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "fetched_at": "2026-04-28T03:31:28.110427+00:00",
+    "date": "2026-04-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-04-28",
+    "link": "https://leetcode.com/problems/minimum-operations-to-make-a-uni-value-grid/",
+    "id": "2033",
+    "title": "Minimum Operations to Make a Uni-Value Grid",
+    "slug": "minimum-operations-to-make-a-uni-value-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Matrix"
+    ],
+    "hints": [
+      "Is it possible to make two integers a and b equal if they have different remainders dividing by x?",
+      "If it is possible, which number should you select to minimize the number of operations?",
+      "What if the elements are sorted?"
+    ],
+    "stats": {
+      "total_accepted": "151.4K",
+      "total_submissions": "222.4K",
+      "acceptance_rate": "68.1%"
+    },
+    "likes": 1132,
+    "dislikes": 76,
+    "similar_questions": [
+      {
+        "title": "Minimum Moves to Equal Array Elements II",
+        "slug": "minimum-moves-to-equal-array-elements-ii",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[[2,4],[6,8]]\n2\n[[1,5],[2,3]]\n1\n[[1,2],[3,4]]\n2",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minOperations(vector<vector<int>>& grid, int x) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minOperations(int[][] grid, int x) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minOperations(self, grid: List[List[int]], x: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} grid\n * @param {number} x\n * @return {number}\n */\nvar minOperations = function(grid, x) {\n    \n};"
+    },
+    "description": "You are given a 2D integer grid of size m x n and an integer x. In one operation, you can add x to or subtract x from any element in the grid.\n\nA uni-value grid is a grid where all the elements of it are equal.\n\nReturn the minimum number of operations to make the grid uni-value. If it is not possible, return -1.\n\n \n\nExample 1:\n\nInput: grid = [[2,4],[6,8]], x = 2\nOutput: 4\nExplanation: We can make every element equal to 4 by doing the following: \n- Add x to 2 once.\n- Subtract x from 6 once.\n- Subtract x from 8 twice.\nA total of 4 operations were used.\n\n\nExample 2:\n\nInput: grid = [[1,5],[2,3]], x = 1\nOutput: 5\nExplanation: We can make every element equal to 3.\n\n\nExample 3:\n\nInput: grid = [[1,2],[3,4]], x = 2\nOutput: -1\nExplanation: It is impossible to make every element equal.\n\n\n \n\nConstraints:\n\nm == grid.length\nn == grid[i].length\n1 <= m, n <= 105\n1 <= m * n <= 105\n1 <= x, grid[i][j] <= 104",
+    "description_html": "<p>You are given a 2D integer <code>grid</code> of size <code>m x n</code> and an integer <code>x</code>. In one operation, you can <strong>add</strong> <code>x</code> to or <strong>subtract</strong> <code>x</code> from any element in the <code>grid</code>.</p>\n\n<p>A <strong>uni-value grid</strong> is a grid where all the elements of it are equal.</p>\n\n<p>Return <em>the <strong>minimum</strong> number of operations to make the grid <strong>uni-value</strong></em>. If it is not possible, return <code>-1</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/09/21/gridtxt.png\" style=\"width: 164px; height: 165px;\">\n<pre><strong>Input:</strong> grid = [[2,4],[6,8]], x = 2\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> We can make every element equal to 4 by doing the following: \n- Add x to 2 once.\n- Subtract x from 6 once.\n- Subtract x from 8 twice.\nA total of 4 operations were used.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/09/21/gridtxt-1.png\" style=\"width: 164px; height: 165px;\">\n<pre><strong>Input:</strong> grid = [[1,5],[2,3]], x = 1\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> We can make every element equal to 3.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/09/21/gridtxt-2.png\" style=\"width: 164px; height: 165px;\">\n<pre><strong>Input:</strong> grid = [[1,2],[3,4]], x = 2\n<strong>Output:</strong> -1\n<strong>Explanation:</strong> It is impossible to make every element equal.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= m * n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= x, grid[i][j] &lt;= 10<sup>4</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
