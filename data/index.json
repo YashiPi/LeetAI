@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-04-29",
+    "id": "3225",
+    "title": "Maximum Score From Grid Operations",
+    "slug": "maximum-score-from-grid-operations",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/maximum-score-from-grid-operations/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-28",
     "id": "2033",
     "title": "Minimum Operations to Make a Uni-Value Grid",
