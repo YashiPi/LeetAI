@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-04-30",
+    "id": "3742",
+    "title": "Maximum Path Score in a Grid",
+    "slug": "maximum-path-score-in-a-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/maximum-path-score-in-a-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-29",
     "id": "3225",
     "title": "Maximum Score From Grid Operations",
