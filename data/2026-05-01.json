@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-01T03:40:56.479895+00:00",
+    "date": "2026-05-01",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-01",
+    "link": "https://leetcode.com/problems/rotate-function/",
+    "id": "396",
+    "title": "Rotate Function",
+    "slug": "rotate-function",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "121.7K",
+      "total_submissions": "259.6K",
+      "acceptance_rate": "46.9%"
+    },
+    "likes": 1713,
+    "dislikes": 282,
+    "similar_questions": [],
+    "example_testcases": "[4,3,2,6]\n[100]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxRotateFunction(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxRotateFunction(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxRotateFunction(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxRotateFunction = function(nums) {\n    \n};"
+    },
+    "description": "You are given an integer array nums of length n.\n\nAssume arrk to be an array obtained by rotating nums by k positions clock-wise. We define the rotation function F on nums as follow:\n\nF(k) = 0 * arrk[0] + 1 * arrk[1] + ... + (n - 1) * arrk[n - 1].\n\nReturn the maximum value of F(0), F(1), ..., F(n-1).\n\nThe test cases are generated so that the answer fits in a 32-bit integer.\n\n \n\nExample 1:\n\nInput: nums = [4,3,2,6]\nOutput: 26\nExplanation:\nF(0) = (0 * 4) + (1 * 3) + (2 * 2) + (3 * 6) = 0 + 3 + 4 + 18 = 25\nF(1) = (0 * 6) + (1 * 4) + (2 * 3) + (3 * 2) = 0 + 4 + 6 + 6 = 16\nF(2) = (0 * 2) + (1 * 6) + (2 * 4) + (3 * 3) = 0 + 6 + 8 + 9 = 23\nF(3) = (0 * 3) + (1 * 2) + (2 * 6) + (3 * 4) = 0 + 2 + 12 + 12 = 26\nSo the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.\n\n\nExample 2:\n\nInput: nums = [100]\nOutput: 0\n\n\n \n\nConstraints:\n\nn == nums.length\n1 <= n <= 105\n-100 <= nums[i] <= 100",
+    "description_html": "<p>You are given an integer array <code>nums</code> of length <code>n</code>.</p>\n\n<p>Assume <code>arr<sub>k</sub></code> to be an array obtained by rotating <code>nums</code> by <code>k</code> positions clock-wise. We define the <strong>rotation function</strong> <code>F</code> on <code>nums</code> as follow:</p>\n\n<ul>\n\t<li><code>F(k) = 0 * arr<sub>k</sub>[0] + 1 * arr<sub>k</sub>[1] + ... + (n - 1) * arr<sub>k</sub>[n - 1].</code></li>\n</ul>\n\n<p>Return <em>the maximum value of</em> <code>F(0), F(1), ..., F(n-1)</code>.</p>\n\n<p>The test cases are generated so that the answer fits in a <strong>32-bit</strong> integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> nums = [4,3,2,6]\n<strong>Output:</strong> 26\n<strong>Explanation:</strong>\nF(0) = (0 * 4) + (1 * 3) + (2 * 2) + (3 * 6) = 0 + 3 + 4 + 18 = 25\nF(1) = (0 * 6) + (1 * 4) + (2 * 3) + (3 * 2) = 0 + 4 + 6 + 6 = 16\nF(2) = (0 * 2) + (1 * 6) + (2 * 4) + (3 * 3) = 0 + 6 + 8 + 9 = 23\nF(3) = (0 * 3) + (1 * 2) + (2 * 6) + (3 * 4) = 0 + 2 + 12 + 12 = 26\nSo the maximum value of F(0), F(1), F(2), F(3) is F(3) = 26.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> nums = [100]\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == nums.length</code></li>\n\t<li><code>1 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-100 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

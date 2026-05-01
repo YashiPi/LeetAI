@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-01",
+    "id": "396",
+    "title": "Rotate Function",
+    "slug": "rotate-function",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/rotate-function/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-04-30",
     "id": "3742",
     "title": "Maximum Path Score in a Grid",
