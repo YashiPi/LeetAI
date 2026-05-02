@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-02",
+    "id": "788",
+    "title": "Rotated Digits",
+    "slug": "rotated-digits",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/rotated-digits/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-01",
     "id": "396",
     "title": "Rotate Function",
