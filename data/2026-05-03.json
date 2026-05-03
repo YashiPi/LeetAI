@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-03T03:33:27.076710+00:00",
+    "date": "2026-05-03",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-03",
+    "link": "https://leetcode.com/problems/rotate-string/",
+    "id": "796",
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "String Matching"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "824.9K",
+      "total_submissions": "1.3M",
+      "acceptance_rate": "65.5%"
+    },
+    "likes": 4885,
+    "dislikes": 434,
+    "similar_questions": [],
+    "example_testcases": "\"abcde\"\n\"cdeab\"\n\"abcde\"\n\"abced\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool rotateString(string s, string goal) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean rotateString(String s, String goal) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def rotateString(self, s: str, goal: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {string} goal\n * @return {boolean}\n */\nvar rotateString = function(s, goal) {\n    \n};"
+    },
+    "description": "Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.\n\nA shift on s consists of moving the leftmost character of s to the rightmost position.\n\nFor example, if s = \"abcde\", then it will be \"bcdea\" after one shift.\n\n \n\nExample 1:\n\nInput: s = \"abcde\", goal = \"cdeab\"\nOutput: true\n\n\nExample 2:\n\nInput: s = \"abcde\", goal = \"abced\"\nOutput: false\n\n\n \n\nConstraints:\n\n1 <= s.length, goal.length <= 100\ns and goal consist of lowercase English letters.",
+    "description_html": "<p>Given two strings <code>s</code> and <code>goal</code>, return <code>true</code> <em>if and only if</em> <code>s</code> <em>can become</em> <code>goal</code> <em>after some number of <strong>shifts</strong> on</em> <code>s</code>.</p>\n\n<p>A <strong>shift</strong> on <code>s</code> consists of moving the leftmost character of <code>s</code> to the rightmost position.</p>\n\n<ul>\n\t<li>For example, if <code>s = \"abcde\"</code>, then it will be <code>\"bcdea\"</code> after one shift.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> s = \"abcde\", goal = \"cdeab\"\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> s = \"abcde\", goal = \"abced\"\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length, goal.length &lt;= 100</code></li>\n\t<li><code>s</code> and <code>goal</code> consist of lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

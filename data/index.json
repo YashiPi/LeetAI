@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-03",
+    "id": "796",
+    "title": "Rotate String",
+    "slug": "rotate-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "String Matching"
+    ],
+    "link": "https://leetcode.com/problems/rotate-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-02",
     "id": "788",
     "title": "Rotated Digits",
