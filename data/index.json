@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-04",
+    "id": "48",
+    "title": "Rotate Image",
+    "slug": "rotate-image",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/rotate-image/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-03",
     "id": "796",
     "title": "Rotate String",
