@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-05T02:57:53.775069+00:00",
+    "date": "2026-05-05",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-05",
+    "link": "https://leetcode.com/problems/rotate-list/",
+    "id": "61",
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "1.6M",
+      "total_submissions": "3.9M",
+      "acceptance_rate": "41.8%"
+    },
+    "likes": 11313,
+    "dislikes": 1556,
+    "similar_questions": [
+      {
+        "title": "Rotate Array",
+        "slug": "rotate-array",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Split Linked List in Parts",
+        "slug": "split-linked-list-in-parts",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[1,2,3,4,5]\n2\n[0,1,2]\n4",
+    "starter_codes": {
+      "cpp": "/**\n * Definition for singly-linked list.\n * struct ListNode {\n *     int val;\n *     ListNode *next;\n *     ListNode() : val(0), next(nullptr) {}\n *     ListNode(int x) : val(x), next(nullptr) {}\n *     ListNode(int x, ListNode *next) : val(x), next(next) {}\n * };\n */\nclass Solution {\npublic:\n    ListNode* rotateRight(ListNode* head, int k) {\n        \n    }\n};",
+      "java": "/**\n * Definition for singly-linked list.\n * public class ListNode {\n *     int val;\n *     ListNode next;\n *     ListNode() {}\n *     ListNode(int val) { this.val = val; }\n *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }\n * }\n */\nclass Solution {\n    public ListNode rotateRight(ListNode head, int k) {\n        \n    }\n}",
+      "python3": "# Definition for singly-linked list.\n# class ListNode:\n#     def __init__(self, val=0, next=None):\n#         self.val = val\n#         self.next = next\nclass Solution:\n    def rotateRight(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:\n        ",
+      "javascript": "/**\n * Definition for singly-linked list.\n * function ListNode(val, next) {\n *     this.val = (val===undefined ? 0 : val)\n *     this.next = (next===undefined ? null : next)\n * }\n */\n/**\n * @param {ListNode} head\n * @param {number} k\n * @return {ListNode}\n */\nvar rotateRight = function(head, k) {\n    \n};"
+    },
+    "description": "Given the head of a linked list, rotate the list to the right by k places.\n\n \n\nExample 1:\n\nInput: head = [1,2,3,4,5], k = 2\nOutput: [4,5,1,2,3]\n\n\nExample 2:\n\nInput: head = [0,1,2], k = 4\nOutput: [2,0,1]\n\n\n \n\nConstraints:\n\nThe number of nodes in the list is in the range [0, 500].\n-100 <= Node.val <= 100\n0 <= k <= 2 * 109",
+    "description_html": "<p>Given the <code>head</code> of a linked&nbsp;list, rotate the list to the right by <code>k</code> places.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/rotate1.jpg\" style=\"width: 450px; height: 191px;\">\n<pre><strong>Input:</strong> head = [1,2,3,4,5], k = 2\n<strong>Output:</strong> [4,5,1,2,3]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/11/13/roate2.jpg\" style=\"width: 305px; height: 350px;\">\n<pre><strong>Input:</strong> head = [0,1,2], k = 4\n<strong>Output:</strong> [2,0,1]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li>The number of nodes in the list is in the range <code>[0, 500]</code>.</li>\n\t<li><code>-100 &lt;= Node.val &lt;= 100</code></li>\n\t<li><code>0 &lt;= k &lt;= 2 * 10<sup>9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

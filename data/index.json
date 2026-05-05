@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-05",
+    "id": "61",
+    "title": "Rotate List",
+    "slug": "rotate-list",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "link": "https://leetcode.com/problems/rotate-list/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-04",
     "id": "48",
     "title": "Rotate Image",
