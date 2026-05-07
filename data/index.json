@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-07",
+    "id": "3660",
+    "title": "Jump Game IX",
+    "slug": "jump-game-ix",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/jump-game-ix/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-06",
     "id": "1861",
     "title": "Rotating the Box",
