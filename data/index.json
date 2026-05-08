@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-05-08",
+    "id": "3629",
+    "title": "Minimum Jumps to Reach End via Prime Teleportation",
+    "slug": "minimum-jumps-to-reach-end-via-prime-teleportation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Breadth-First Search",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/minimum-jumps-to-reach-end-via-prime-teleportation/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-07",
     "id": "3660",
     "title": "Jump Game IX",
