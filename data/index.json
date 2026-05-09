@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-09",
+    "id": "1914",
+    "title": "Cyclically Rotating a Grid",
+    "slug": "cyclically-rotating-a-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/cyclically-rotating-a-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-08",
     "id": "3629",
     "title": "Minimum Jumps to Reach End via Prime Teleportation",

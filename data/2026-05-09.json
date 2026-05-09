@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-09T03:24:17.742001+00:00",
+    "date": "2026-05-09",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-09",
+    "link": "https://leetcode.com/problems/cyclically-rotating-a-grid/",
+    "id": "1914",
+    "title": "Cyclically Rotating a Grid",
+    "slug": "cyclically-rotating-a-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ],
+    "hints": [
+      "First, you need to consider each layer separately as an array.",
+      "Just cycle this array and then re-assign it."
+    ],
+    "stats": {
+      "total_accepted": "20.9K",
+      "total_submissions": "37K",
+      "acceptance_rate": "56.5%"
+    },
+    "likes": 296,
+    "dislikes": 284,
+    "similar_questions": [],
+    "example_testcases": "[[40,10],[30,20]]\n1\n[[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]]\n2",
+    "starter_codes": {
+      "cpp": "class Solution {\r\npublic:\r\n    vector<vector<int>> rotateGrid(vector<vector<int>>& grid, int k) {\r\n        \r\n    }\r\n};",
+      "java": "class Solution {\r\n    public int[][] rotateGrid(int[][] grid, int k) {\r\n        \r\n    }\r\n}",
+      "python3": "class Solution:\r\n    def rotateGrid(self, grid: List[List[int]], k: int) -> List[List[int]]:",
+      "javascript": "/**\r\n * @param {number[][]} grid\r\n * @param {number} k\r\n * @return {number[][]}\r\n */\r\nvar rotateGrid = function(grid, k) {\r\n    \r\n};"
+    },
+    "description": "You are given an m x n integer matrix grid​​​, where m and n are both even integers, and an integer k.\n\nThe matrix is composed of several layers, which is shown in the below image, where each color is its own layer:\n\nA cyclic rotation of the matrix is done by cyclically rotating each layer in the matrix. To cyclically rotate a layer once, each element in the layer will take the place of the adjacent element in the counter-clockwise direction. An example rotation is shown below:\n\nReturn the matrix after applying k cyclic rotations to it.\n\n \n\nExample 1:\n\nInput: grid = [[40,10],[30,20]], k = 1\nOutput: [[10,20],[40,30]]\nExplanation: The figures above represent the grid at every state.\n\n\nExample 2:\n\nInput: grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], k = 2\nOutput: [[3,4,8,12],[2,11,10,16],[1,7,6,15],[5,9,13,14]]\nExplanation: The figures above represent the grid at every state.\n\n\n \n\nConstraints:\n\nm == grid.length\nn == grid[i].length\n2 <= m, n <= 50\nBoth m and n are even integers.\n1 <= grid[i][j] <= 5000\n1 <= k <= 109",
+    "description_html": "<p>You are given an <code>m x n</code> integer matrix <code>grid</code>​​​, where <code>m</code> and <code>n</code> are both <strong>even</strong> integers, and an integer <code>k</code>.</p>\n\n<p>The matrix is composed of several layers, which is shown in the below image, where each color is its own layer:</p>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/10/ringofgrid.png\" style=\"width: 231px; height: 258px;\"></p>\n\n<p>A cyclic rotation of the matrix is done by cyclically rotating <strong>each layer</strong> in the matrix. To cyclically rotate a layer once, each element in the layer will take the place of the adjacent element in the <strong>counter-clockwise</strong> direction. An example rotation is shown below:</p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/22/explanation_grid.jpg\" style=\"width: 500px; height: 268px;\">\n<p>Return <em>the matrix after applying </em><code>k</code> <em>cyclic rotations to it</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/19/rod2.png\" style=\"width: 421px; height: 191px;\">\n<pre><strong>Input:</strong> grid = [[40,10],[30,20]], k = 1\n<strong>Output:</strong> [[10,20],[40,30]]\n<strong>Explanation:</strong> The figures above represent the grid at every state.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<strong><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/10/ringofgrid5.png\" style=\"width: 231px; height: 262px;\"></strong> <strong><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/10/ringofgrid6.png\" style=\"width: 231px; height: 262px;\"></strong> <strong><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2021/06/10/ringofgrid7.png\" style=\"width: 231px; height: 262px;\"></strong>\n\n<pre><strong>Input:</strong> grid = [[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]], k = 2\n<strong>Output:</strong> [[3,4,8,12],[2,11,10,16],[1,7,6,15],[5,9,13,14]]\n<strong>Explanation:</strong> The figures above represent the grid at every state.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>2 &lt;= m, n &lt;= 50</code></li>\n\t<li>Both <code>m</code> and <code>n</code> are <strong>even</strong> integers.</li>\n\t<li><code>1 &lt;= grid[i][j] &lt;=<sup> </sup>5000</code></li>\n\t<li><code>1 &lt;= k &lt;= 10<sup>9</sup></code></li>\n</ul>"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
