@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-10",
+    "id": "2770",
+    "title": "Maximum Number of Jumps to Reach the Last Index",
+    "slug": "maximum-number-of-jumps-to-reach-the-last-index",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-jumps-to-reach-the-last-index/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-09",
     "id": "1914",
     "title": "Cyclically Rotating a Grid",
