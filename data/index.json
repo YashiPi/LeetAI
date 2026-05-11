@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-11",
+    "id": "2553",
+    "title": "Separate the Digits in an Array",
+    "slug": "separate-the-digits-in-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/separate-the-digits-in-an-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-10",
     "id": "2770",
     "title": "Maximum Number of Jumps to Reach the Last Index",
