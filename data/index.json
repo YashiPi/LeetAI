@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-13",
+    "id": "1674",
+    "title": "Minimum Moves to Make Array Complementary",
+    "slug": "minimum-moves-to-make-array-complementary",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/minimum-moves-to-make-array-complementary/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-12",
     "id": "1665",
     "title": "Minimum Initial Energy to Finish Tasks",
