@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-14",
+    "id": "2784",
+    "title": "Check if Array is Good",
+    "slug": "check-if-array-is-good",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/check-if-array-is-good/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-13",
     "id": "1674",
     "title": "Minimum Moves to Make Array Complementary",
