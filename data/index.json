@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-16",
+    "id": "154",
+    "title": "Find Minimum in Rotated Sorted Array II",
+    "slug": "find-minimum-in-rotated-sorted-array-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "link": "https://leetcode.com/problems/find-minimum-in-rotated-sorted-array-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-15",
     "id": "153",
     "title": "Find Minimum in Rotated Sorted Array",
