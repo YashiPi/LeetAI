@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-17",
+    "id": "1306",
+    "title": "Jump Game III",
+    "slug": "jump-game-iii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search"
+    ],
+    "link": "https://leetcode.com/problems/jump-game-iii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-16",
     "id": "154",
     "title": "Find Minimum in Rotated Sorted Array II",
