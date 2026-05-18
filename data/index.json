@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-18",
+    "id": "1345",
+    "title": "Jump Game IV",
+    "slug": "jump-game-iv",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search"
+    ],
+    "link": "https://leetcode.com/problems/jump-game-iv/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-17",
     "id": "1306",
     "title": "Jump Game III",
