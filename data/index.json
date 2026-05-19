@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-19",
+    "id": "2540",
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "link": "https://leetcode.com/problems/minimum-common-value/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-18",
     "id": "1345",
     "title": "Jump Game IV",

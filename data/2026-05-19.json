@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-19T03:56:40.459014+00:00",
+    "date": "2026-05-19",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-19",
+    "link": "https://leetcode.com/problems/minimum-common-value/",
+    "id": "2540",
+    "title": "Minimum Common Value",
+    "slug": "minimum-common-value",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search"
+    ],
+    "hints": [
+      "Try to use a set.",
+      "Otherwise, try to use a two-pointer approach."
+    ],
+    "stats": {
+      "total_accepted": "330.6K",
+      "total_submissions": "564.3K",
+      "acceptance_rate": "58.6%"
+    },
+    "likes": 1278,
+    "dislikes": 44,
+    "similar_questions": [
+      {
+        "title": "Intersection of Two Arrays",
+        "slug": "intersection-of-two-arrays",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Intersection of Two Arrays II",
+        "slug": "intersection-of-two-arrays-ii",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "[1,2,3]\n[2,4]\n[1,2,3,6]\n[2,3,4,5]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int getCommon(vector<int>& nums1, vector<int>& nums2) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int getCommon(int[] nums1, int[] nums2) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def getCommon(self, nums1: List[int], nums2: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums1\n * @param {number[]} nums2\n * @return {number}\n */\nvar getCommon = function(nums1, nums2) {\n    \n};"
+    },
+    "description": "Given two integer arrays nums1 and nums2, sorted in non-decreasing order, return the minimum integer common to both arrays. If there is no common integer amongst nums1 and nums2, return -1.\n\nNote that an integer is said to be common to nums1 and nums2 if both arrays have at least one occurrence of that integer.\n\n \n\nExample 1:\n\nInput: nums1 = [1,2,3], nums2 = [2,4]\nOutput: 2\nExplanation: The smallest element common to both arrays is 2, so we return 2.\n\n\nExample 2:\n\nInput: nums1 = [1,2,3,6], nums2 = [2,3,4,5]\nOutput: 2\nExplanation: There are two common elements in the array 2 and 3 out of which 2 is the smallest, so 2 is returned.\n\n\n \n\nConstraints:\n\n1 <= nums1.length, nums2.length <= 105\n1 <= nums1[i], nums2[j] <= 109\nBoth nums1 and nums2 are sorted in non-decreasing order.",
+    "description_html": "<p>Given two integer arrays <code>nums1</code> and <code>nums2</code>, sorted in non-decreasing order, return <em>the <strong>minimum integer common</strong> to both arrays</em>. If there is no common integer amongst <code>nums1</code> and <code>nums2</code>, return <code>-1</code>.</p>\n\n<p>Note that an integer is said to be <strong>common</strong> to <code>nums1</code> and <code>nums2</code> if both arrays have <strong>at least one</strong> occurrence of that integer.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> nums1 = [1,2,3], nums2 = [2,4]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The smallest element common to both arrays is 2, so we return 2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> nums1 = [1,2,3,6], nums2 = [2,3,4,5]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> There are two common elements in the array 2 and 3 out of which 2 is the smallest, so 2 is returned.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums1.length, nums2.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums1[i], nums2[j] &lt;= 10<sup>9</sup></code></li>\n\t<li>Both <code>nums1</code> and <code>nums2</code> are sorted in <strong>non-decreasing</strong> order.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
