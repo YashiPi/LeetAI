@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-22",
+    "id": "33",
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-21",
     "id": "3043",
     "title": "Find the Length of the Longest Common Prefix",

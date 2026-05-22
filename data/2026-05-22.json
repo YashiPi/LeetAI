@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-22T03:56:52.803619+00:00",
+    "date": "2026-05-22",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-22",
+    "link": "https://leetcode.com/problems/search-in-rotated-sorted-array/",
+    "id": "33",
+    "title": "Search in Rotated Sorted Array",
+    "slug": "search-in-rotated-sorted-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "4.5M",
+      "total_submissions": "10.1M",
+      "acceptance_rate": "44.6%"
+    },
+    "likes": 30172,
+    "dislikes": 1836,
+    "similar_questions": [
+      {
+        "title": "Search in Rotated Sorted Array II",
+        "slug": "search-in-rotated-sorted-array-ii",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Find Minimum in Rotated Sorted Array",
+        "slug": "find-minimum-in-rotated-sorted-array",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Pour Water Between Buckets to Make Water Levels Equal",
+        "slug": "pour-water-between-buckets-to-make-water-levels-equal",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[4,5,6,7,0,1,2]\n0\n[4,5,6,7,0,1,2]\n3\n[1]\n0",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int search(vector<int>& nums, int target) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int search(int[] nums, int target) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def search(self, nums: List[int], target: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar search = function(nums, target) {\n    \n};"
+    },
+    "description": "There is an integer array nums sorted in ascending order (with distinct values).\n\nPrior to being passed to your function, nums is possibly left rotated at an unknown index k (1 <= k < nums.length) such that the resulting array is [nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]] (0-indexed). For example, [0,1,2,4,5,6,7] might be left rotated by 3 indices and become [4,5,6,7,0,1,2].\n\nGiven the array nums after the possible rotation and an integer target, return the index of target if it is in nums, or -1 if it is not in nums.\n\nYou must write an algorithm with O(log n) runtime complexity.\n\n \n\nExample 1:\n\nInput: nums = [4,5,6,7,0,1,2], target = 0\nOutput: 4\n\n\nExample 2:\n\nInput: nums = [4,5,6,7,0,1,2], target = 3\nOutput: -1\n\n\nExample 3:\n\nInput: nums = [1], target = 0\nOutput: -1\n\n\n \n\nConstraints:\n\n1 <= nums.length <= 5000\n-104 <= nums[i] <= 104\nAll values of nums are unique.\nnums is an ascending array that is possibly rotated.\n-104 <= target <= 104",
+    "description_html": "<p>There is an integer array <code>nums</code> sorted in ascending order (with <strong>distinct</strong> values).</p>\n\n<p>Prior to being passed to your function, <code>nums</code> is <strong>possibly left rotated</strong> at an unknown index <code>k</code> (<code>1 &lt;= k &lt; nums.length</code>) such that the resulting array is <code>[nums[k], nums[k+1], ..., nums[n-1], nums[0], nums[1], ..., nums[k-1]]</code> (<strong>0-indexed</strong>). For example, <code>[0,1,2,4,5,6,7]</code> might be left rotated by&nbsp;<code>3</code>&nbsp;indices and become <code>[4,5,6,7,0,1,2]</code>.</p>\n\n<p>Given the array <code>nums</code> <strong>after</strong> the possible rotation and an integer <code>target</code>, return <em>the index of </em><code>target</code><em> if it is in </em><code>nums</code><em>, or </em><code>-1</code><em> if it is not in </em><code>nums</code>.</p>\n\n<p>You must write an algorithm with <code>O(log n)</code> runtime complexity.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 0\n<strong>Output:</strong> 4\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [4,5,6,7,0,1,2], target = 3\n<strong>Output:</strong> -1\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> nums = [1], target = 0\n<strong>Output:</strong> -1\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 5000</code></li>\n\t<li><code>-10<sup>4</sup> &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n\t<li>All values of <code>nums</code> are <strong>unique</strong>.</li>\n\t<li><code>nums</code> is an ascending array that is possibly rotated.</li>\n\t<li><code>-10<sup>4</sup> &lt;= target &lt;= 10<sup>4</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
