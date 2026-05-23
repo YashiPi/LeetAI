@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-05-23",
+    "id": "1752",
+    "title": "Check if Array Is Sorted and Rotated",
+    "slug": "check-if-array-is-sorted-and-rotated",
+    "difficulty": "Easy",
+    "tags": [
+      "Array"
+    ],
+    "link": "https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-22",
     "id": "33",
     "title": "Search in Rotated Sorted Array",
