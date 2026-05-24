@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-24",
+    "id": "1340",
+    "title": "Jump Game V",
+    "slug": "jump-game-v",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/jump-game-v/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-23",
     "id": "1752",
     "title": "Check if Array Is Sorted and Rotated",
