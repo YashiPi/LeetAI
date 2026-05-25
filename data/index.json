@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-05-25",
+    "id": "1871",
+    "title": "Jump Game VII",
+    "slug": "jump-game-vii",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Sliding Window",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/jump-game-vii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-24",
     "id": "1340",
     "title": "Jump Game V",
