@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-26T03:52:14.820639+00:00",
+    "date": "2026-05-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-26",
+    "link": "https://leetcode.com/problems/count-the-number-of-special-characters-i/",
+    "id": "3120",
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "hints": [
+      "The constraints are small. For all 52 characters, check if they are present in <code>word</code>."
+    ],
+    "stats": {
+      "total_accepted": "81.9K",
+      "total_submissions": "116.9K",
+      "acceptance_rate": "70.0%"
+    },
+    "likes": 219,
+    "dislikes": 7,
+    "similar_questions": [
+      {
+        "title": "Detect Capital",
+        "slug": "detect-capital",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Greatest English Letter in Upper and Lower Case",
+        "slug": "greatest-english-letter-in-upper-and-lower-case",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Count the Number of Special Characters II",
+        "slug": "count-the-number-of-special-characters-ii",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"aaAbcBC\"\n\"abc\"\n\"abBCab\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int numberOfSpecialChars(string word) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int numberOfSpecialChars(String word) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def numberOfSpecialChars(self, word: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} word\n * @return {number}\n */\nvar numberOfSpecialChars = function(word) {\n    \n};"
+    },
+    "description": "You are given a string word. A letter is called special if it appears both in lowercase and uppercase in word.\n\nReturn the number of special letters in word.\n\n \n\nExample 1:\n\nInput: word = \"aaAbcBC\"\n\nOutput: 3\n\nExplanation:\n\nThe special characters in word are 'a', 'b', and 'c'.\n\nExample 2:\n\nInput: word = \"abc\"\n\nOutput: 0\n\nExplanation:\n\nNo character in word appears in uppercase.\n\nExample 3:\n\nInput: word = \"abBCab\"\n\nOutput: 1\n\nExplanation:\n\nThe only special character in word is 'b'.\n\n \n\nConstraints:\n\n1 <= word.length <= 50\nword consists of only lowercase and uppercase English letters.",
+    "description_html": "<p>You are given a string <code>word</code>. A letter is called <strong>special</strong> if it appears <strong>both</strong> in lowercase and uppercase in <code>word</code>.</p>\n\n<p>Return the number of<em> </em><strong>special</strong> letters in<em> </em><code>word</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">word = \"aaAbcBC\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The special characters in <code>word</code> are <code>'a'</code>, <code>'b'</code>, and <code>'c'</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">word = \"abc\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">0</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>No character in <code>word</code> appears in uppercase.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">word = \"abBCab\"</span></p>\n\n<p><strong>Output:</strong> 1</p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The only special character in <code>word</code> is <code>'b'</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= word.length &lt;= 50</code></li>\n\t<li><code>word</code> consists of only lowercase and uppercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

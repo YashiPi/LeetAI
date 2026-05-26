@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-26",
+    "id": "3120",
+    "title": "Count the Number of Special Characters I",
+    "slug": "count-the-number-of-special-characters-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/count-the-number-of-special-characters-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-25",
     "id": "1871",
     "title": "Jump Game VII",
