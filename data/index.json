@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-27",
+    "id": "3121",
+    "title": "Count the Number of Special Characters II",
+    "slug": "count-the-number-of-special-characters-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/count-the-number-of-special-characters-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-26",
     "id": "3120",
     "title": "Count the Number of Special Characters I",
