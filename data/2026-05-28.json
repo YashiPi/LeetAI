@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-28T03:57:10.422514+00:00",
+    "date": "2026-05-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-28",
+    "link": "https://leetcode.com/problems/longest-common-suffix-queries/",
+    "id": "3093",
+    "title": "Longest Common Suffix Queries",
+    "slug": "longest-common-suffix-queries",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
+    ],
+    "hints": [
+      "If we reverse the strings, the problem changes to finding the longest common prefix.",
+      "Build a Trie, each node is a letter and only saves the best word’s index in each node, based on the criteria."
+    ],
+    "stats": {
+      "total_accepted": "21.7K",
+      "total_submissions": "52.4K",
+      "acceptance_rate": "41.5%"
+    },
+    "likes": 232,
+    "dislikes": 23,
+    "similar_questions": [
+      {
+        "title": "Longest Common Prefix",
+        "slug": "longest-common-prefix",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Find the Length of the Longest Common Prefix",
+        "slug": "find-the-length-of-the-longest-common-prefix",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[\"abcd\",\"bcd\",\"xbcd\"]\n[\"cd\",\"bcd\",\"xyz\"]\n[\"abcdefgh\",\"poiuygh\",\"ghghgh\"]\n[\"gh\",\"acbfgh\",\"acbfegh\"]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> stringIndices(vector<string>& wordsContainer, vector<string>& wordsQuery) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int[] stringIndices(String[] wordsContainer, String[] wordsQuery) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def stringIndices(self, wordsContainer: List[str], wordsQuery: List[str]) -> List[int]:\n        ",
+      "javascript": "/**\n * @param {string[]} wordsContainer\n * @param {string[]} wordsQuery\n * @return {number[]}\n */\nvar stringIndices = function(wordsContainer, wordsQuery) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
