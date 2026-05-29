@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "fetched_at": "2026-05-29T03:58:13.932736+00:00",
+    "date": "2026-05-29",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-05-29",
+    "link": "https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/",
+    "id": "3300",
+    "title": "Minimum Element After Replacement With Digit Sum",
+    "slug": "minimum-element-after-replacement-with-digit-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "hints": [
+      "Convert to string and calculate the sum for each element."
+    ],
+    "stats": {
+      "total_accepted": "89.9K",
+      "total_submissions": "104.1K",
+      "acceptance_rate": "86.3%"
+    },
+    "likes": 132,
+    "dislikes": 4,
+    "similar_questions": [
+      {
+        "title": "Sum of Digits of String After Convert",
+        "slug": "sum-of-digits-of-string-after-convert",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "[10,12,13,14]\n[1,2,3,4]\n[999,19,199]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minElement(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minElement(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minElement(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minElement = function(nums) {\n    \n};"
+    },
+    "description": "You are given an integer array nums.\n\nYou replace each element in nums with the sum of its digits.\n\nReturn the minimum element in nums after all replacements.\n\n \n\nExample 1:\n\nInput: nums = [10,12,13,14]\n\nOutput: 1\n\nExplanation:\n\nnums becomes [1, 3, 4, 5] after all replacements, with minimum element 1.\n\nExample 2:\n\nInput: nums = [1,2,3,4]\n\nOutput: 1\n\nExplanation:\n\nnums becomes [1, 2, 3, 4] after all replacements, with minimum element 1.\n\nExample 3:\n\nInput: nums = [999,19,199]\n\nOutput: 10\n\nExplanation:\n\nnums becomes [27, 10, 19] after all replacements, with minimum element 10.\n\n \n\nConstraints:\n\n1 <= nums.length <= 100\n1 <= nums[i] <= 104",
+    "description_html": "<p>You are given an integer array <code>nums</code>.</p>\n\n<p>You replace each element in <code>nums</code> with the <strong>sum</strong> of its digits.</p>\n\n<p>Return the <strong>minimum</strong> element in <code>nums</code> after all replacements.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [10,12,13,14]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><code>nums</code> becomes <code>[1, 3, 4, 5]</code> after all replacements, with minimum element 1.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3,4]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><code>nums</code> becomes <code>[1, 2, 3, 4]</code> after all replacements, with minimum element 1.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [999,19,199]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">10</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><code>nums</code> becomes <code>[27, 10, 19]</code> after all replacements, with minimum element 10.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

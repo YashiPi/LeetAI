@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-05-29",
+    "id": "3300",
+    "title": "Minimum Element After Replacement With Digit Sum",
+    "slug": "minimum-element-after-replacement-with-digit-sum",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/minimum-element-after-replacement-with-digit-sum/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-28",
     "id": "3093",
     "title": "Longest Common Suffix Queries",
