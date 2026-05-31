@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-05-31",
+    "id": "2126",
+    "title": "Destroying Asteroids",
+    "slug": "destroying-asteroids",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/destroying-asteroids/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-30",
     "id": "3161",
     "title": "Block Placement Queries",
