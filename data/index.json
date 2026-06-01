@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-01",
+    "id": "2144",
+    "title": "Minimum Cost of Buying Candies With Discount",
+    "slug": "minimum-cost-of-buying-candies-with-discount",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-05-31",
     "id": "2126",
     "title": "Destroying Asteroids",
