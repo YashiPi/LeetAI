@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-06-02",
+    "id": "3633",
+    "title": "Earliest Finish Time for Land and Water Rides I",
+    "slug": "earliest-finish-time-for-land-and-water-rides-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/earliest-finish-time-for-land-and-water-rides-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-01",
     "id": "2144",
     "title": "Minimum Cost of Buying Candies With Discount",
