@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-05",
+    "id": "3753",
+    "title": "Total Waviness of Numbers in Range II",
+    "slug": "total-waviness-of-numbers-in-range-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/total-waviness-of-numbers-in-range-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-04",
     "id": "3751",
     "title": "Total Waviness of Numbers in Range I",
