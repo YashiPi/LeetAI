@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-07T04:15:45.508004+00:00",
+    "date": "2026-06-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-07",
+    "link": "https://leetcode.com/problems/create-binary-tree-from-descriptions/",
+    "id": "2196",
+    "title": "Create Binary Tree From Descriptions",
+    "slug": "create-binary-tree-from-descriptions",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Tree",
+      "Binary Tree"
+    ],
+    "hints": [
+      "Could you represent and store the descriptions more efficiently?",
+      "Could you find the root node?",
+      "The node that is not a child in any of the descriptions is the root node."
+    ],
+    "stats": {
+      "total_accepted": "183.1K",
+      "total_submissions": "222.9K",
+      "acceptance_rate": "82.2%"
+    },
+    "likes": 1714,
+    "dislikes": 41,
+    "similar_questions": [
+      {
+        "title": "Convert Sorted List to Binary Search Tree",
+        "slug": "convert-sorted-list-to-binary-search-tree",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Number Of Ways To Reconstruct A Tree",
+        "slug": "number-of-ways-to-reconstruct-a-tree",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "[[20,15,1],[20,17,0],[50,20,1],[50,80,0],[80,19,1]]\n[[1,2,1],[2,3,0],[3,4,1]]",
+    "starter_codes": {
+      "cpp": "/**\n * Definition for a binary tree node.\n * struct TreeNode {\n *     int val;\n *     TreeNode *left;\n *     TreeNode *right;\n *     TreeNode() : val(0), left(nullptr), right(nullptr) {}\n *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}\n *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}\n * };\n */\nclass Solution {\npublic:\n    TreeNode* createBinaryTree(vector<vector<int>>& descriptions) {\n        \n    }\n};",
+      "java": "/**\n * Definition for a binary tree node.\n * public class TreeNode {\n *     int val;\n *     TreeNode left;\n *     TreeNode right;\n *     TreeNode() {}\n *     TreeNode(int val) { this.val = val; }\n *     TreeNode(int val, TreeNode left, TreeNode right) {\n *         this.val = val;\n *         this.left = left;\n *         this.right = right;\n *     }\n * }\n */\nclass Solution {\n    public TreeNode createBinaryTree(int[][] descriptions) {\n        \n    }\n}",
+      "python3": "# Definition for a binary tree node.\n# class TreeNode:\n#     def __init__(self, val=0, left=None, right=None):\n#         self.val = val\n#         self.left = left\n#         self.right = right\nclass Solution:\n    def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:\n        ",
+      "javascript": "/**\n * Definition for a binary tree node.\n * function TreeNode(val, left, right) {\n *     this.val = (val===undefined ? 0 : val)\n *     this.left = (left===undefined ? null : left)\n *     this.right = (right===undefined ? null : right)\n * }\n */\n/**\n * @param {number[][]} descriptions\n * @return {TreeNode}\n */\nvar createBinaryTree = function(descriptions) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
