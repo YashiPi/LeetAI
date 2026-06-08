@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-08",
+    "id": "2161",
+    "title": "Partition Array According to Given Pivot",
+    "slug": "partition-array-according-to-given-pivot",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/partition-array-according-to-given-pivot/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-07",
     "id": "2196",
     "title": "Create Binary Tree From Descriptions",
