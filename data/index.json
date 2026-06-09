@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-09",
+    "id": "3689",
+    "title": "Maximum Total Subarray Value I",
+    "slug": "maximum-total-subarray-value-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/maximum-total-subarray-value-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-08",
     "id": "2161",
     "title": "Partition Array According to Given Pivot",
