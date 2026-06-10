@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-10T04:00:24.319303+00:00",
+    "date": "2026-06-10",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-10",
+    "link": "https://leetcode.com/problems/maximum-total-subarray-value-ii/",
+    "id": "3691",
+    "title": "Maximum Total Subarray Value II",
+    "slug": "maximum-total-subarray-value-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Segment Tree",
+      "Heap (Priority Queue)"
+    ],
+    "hints": [
+      "For fixed <code>l</code>, the sequence <code>v(l,r)=max(nums[l..r])−min(nums[l..r])</code> is non-increasing as <code>r</code> moves left.",
+      "Build RMQs (sparse tables) for range max/min so each <code>v(l,r)</code> is queryable in <code>O(1)</code>.",
+      "Use a max-heap with <code>v(l,n-1)</code> for all <code>l</code>; pop the largest <code>k</code> times, and after popping an entry from <code>(l,r)</code> push <code>(l,r-1)</code> if <code>r>l</code>."
+    ],
+    "stats": {
+      "total_accepted": "19.4K",
+      "total_submissions": "70.7K",
+      "acceptance_rate": "27.5%"
+    },
+    "likes": 140,
+    "dislikes": 7,
+    "similar_questions": [],
+    "example_testcases": "[1,3,2]\n2\n[4,2,5,1]\n3",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long maxTotalValue(vector<int>& nums, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long maxTotalValue(int[] nums, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxTotalValue(self, nums: List[int], k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar maxTotalValue = function(nums, k) {\n    \n};"
+    },
+    "description": "You are given an integer array nums of length n and an integer k.\n\nYou must select exactly k distinct non-empty subarrays nums[l..r] of nums. Subarrays may overlap, but the exact same subarray (same l and r) cannot be chosen more than once.\n\nThe value of a subarray nums[l..r] is defined as: max(nums[l..r]) - min(nums[l..r]).\n\nThe total value is the sum of the values of all chosen subarrays.\n\nReturn the maximum possible total value you can achieve.\n\n \n\nExample 1:\n\nInput: nums = [1,3,2], k = 2\n\nOutput: 4\n\nExplanation:\n\nOne optimal approach is:\n\nChoose nums[0..1] = [1, 3]. The maximum is 3 and the minimum is 1, giving a value of 3 - 1 = 2.\nChoose nums[0..2] = [1, 3, 2]. The maximum is still 3 and the minimum is still 1, so the value is also 3 - 1 = 2.\n\nAdding these gives 2 + 2 = 4.\n\nExample 2:\n\nInput: nums = [4,2,5,1], k = 3\n\nOutput: 12\n\nExplanation:\n\nOne optimal approach is:\n\nChoose nums[0..3] = [4, 2, 5, 1]. The maximum is 5 and the minimum is 1, giving a value of 5 - 1 = 4.\nChoose nums[1..3] = [2, 5, 1]. The maximum is 5 and the minimum is 1, so the value is also 4.\nChoose nums[2..3] = [5, 1]. The maximum is 5 and the minimum is 1, so the value is again 4.\n\nAdding these gives 4 + 4 + 4 = 12.\n\n \n\nConstraints:\n\n1 <= n == nums.length <= 5 * 10​​​​​​​4\n0 <= nums[i] <= 109\n1 <= k <= min(105, n * (n + 1) / 2)",
+    "description_html": "<p>You are given an integer array <code>nums</code> of length <code>n</code> and an integer <code>k</code>.</p>\n\n<p>You must select <strong>exactly</strong> <code>k</code> <strong>distinct</strong> non-empty <span data-keyword=\"subarray-nonempty\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_1m_\" data-state=\"closed\" class=\"\">subarrays</button></span> <code>nums[l..r]</code> of <code>nums</code>. Subarrays may overlap, but the exact same subarray (same <code>l</code> and <code>r</code>) <strong>cannot</strong> be chosen more than once.</p>\n\n<p>The <strong>value</strong> of a subarray <code>nums[l..r]</code> is defined as: <code>max(nums[l..r]) - min(nums[l..r])</code>.</p>\n\n<p>The <strong>total value</strong> is the sum of the <strong>values</strong> of all chosen subarrays.</p>\n\n<p>Return the <strong>maximum</strong> possible total value you can achieve.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,3,2], k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">4</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>One optimal approach is:</p>\n\n<ul>\n\t<li>Choose <code>nums[0..1] = [1, 3]</code>. The maximum is 3 and the minimum is 1, giving a value of <code>3 - 1 = 2</code>.</li>\n\t<li>Choose <code>nums[0..2] = [1, 3, 2]</code>. The maximum is still 3 and the minimum is still 1, so the value is also <code>3 - 1 = 2</code>.</li>\n</ul>\n\n<p>Adding these gives <code>2 + 2 = 4</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [4,2,5,1], k = 3</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">12</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>One optimal approach is:</p>\n\n<ul>\n\t<li>Choose <code>nums[0..3] = [4, 2, 5, 1]</code>. The maximum is 5 and the minimum is 1, giving a value of <code>5 - 1 = 4</code>.</li>\n\t<li>Choose <code>nums[1..3] = [2, 5, 1]</code>. The maximum is 5 and the minimum is 1, so the value is also <code>4</code>.</li>\n\t<li>Choose <code>nums[2..3] = [5, 1]</code>. The maximum is 5 and the minimum is 1, so the value is again <code>4</code>.</li>\n</ul>\n\n<p>Adding these gives <code>4 + 4 + 4 = 12</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums.length &lt;= 5 * 10<sup>​​​​​​​4</sup></code></li>\n\t<li><code>0 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= min(10<sup>5</sup>, n * (n + 1) / 2)</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

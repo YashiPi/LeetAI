@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-06-10",
+    "id": "3691",
+    "title": "Maximum Total Subarray Value II",
+    "slug": "maximum-total-subarray-value-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Segment Tree",
+      "Heap (Priority Queue)"
+    ],
+    "link": "https://leetcode.com/problems/maximum-total-subarray-value-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-09",
     "id": "3689",
     "title": "Maximum Total Subarray Value I",
