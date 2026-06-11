@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-11T04:19:25.516421+00:00",
+    "date": "2026-06-11",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-11",
+    "link": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-i/",
+    "id": "3558",
+    "title": "Number of Ways to Assign Edge Weights I",
+    "slug": "number-of-ways-to-assign-edge-weights-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Tree",
+      "Depth-First Search"
+    ],
+    "hints": [
+      "Depth‑First Search (DFS) to compute the depth of each node from the root.",
+      "Find the maximum depth, <code>max_depth</code>.",
+      "The number of <code>2</code>s doesn’t affect parity; we only need an odd number of <code>1</code>s along the path.",
+      "The number of ways to choose an odd count of 1s among <code>max_depth</code> edges is <code>2^(max_depth-1)</code>."
+    ],
+    "stats": {
+      "total_accepted": "23K",
+      "total_submissions": "39.4K",
+      "acceptance_rate": "58.4%"
+    },
+    "likes": 103,
+    "dislikes": 9,
+    "similar_questions": [],
+    "example_testcases": "[[1,2]]\n[[1,2],[1,3],[3,4],[3,5]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int assignEdgeWeights(vector<vector<int>>& edges) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int assignEdgeWeights(int[][] edges) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def assignEdgeWeights(self, edges: List[List[int]]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} edges\n * @return {number}\n */\nvar assignEdgeWeights = function(edges) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
