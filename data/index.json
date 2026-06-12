@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-12",
+    "id": "3559",
+    "title": "Number of Ways to Assign Edge Weights II",
+    "slug": "number-of-ways-to-assign-edge-weights-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search"
+    ],
+    "link": "https://leetcode.com/problems/number-of-ways-to-assign-edge-weights-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-11",
     "id": "3558",
     "title": "Number of Ways to Assign Edge Weights I",
