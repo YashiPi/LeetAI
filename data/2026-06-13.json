@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-13T04:04:26.731311+00:00",
+    "date": "2026-06-13",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-13",
+    "link": "https://leetcode.com/problems/weighted-word-mapping/",
+    "id": "3838",
+    "title": "Weighted Word Mapping",
+    "slug": "weighted-word-mapping",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Simulation"
+    ],
+    "hints": [
+      "For each word, sum character weights using <code>weights[c - 'a']</code>",
+      "Take the sum modulo <code>26</code>",
+      "Map the value to a character using reverse order: <code>char = 'z' - value</code>",
+      "Append all mapped characters in order to form the result string"
+    ],
+    "stats": {
+      "total_accepted": "61.8K",
+      "total_submissions": "70.8K",
+      "acceptance_rate": "87.3%"
+    },
+    "likes": 80,
+    "dislikes": 2,
+    "similar_questions": [],
+    "example_testcases": "[\"abcd\",\"def\",\"xyz\"]\n[5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]\n[\"a\",\"b\",\"c\"]\n[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]\n[\"abcd\"]\n[7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string mapWordWeights(vector<string>& words, vector<int>& weights) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String mapWordWeights(String[] words, int[] weights) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def mapWordWeights(self, words: List[str], weights: List[int]) -> str:\n        ",
+      "javascript": "/**\n * @param {string[]} words\n * @param {number[]} weights\n * @return {string}\n */\nvar mapWordWeights = function(words, weights) {\n    \n};"
+    },
+    "description": "You are given an array of strings words, where each string represents a word containing lowercase English letters.\n\nYou are also given an integer array weights of length 26, where weights[i] represents the weight of the ith lowercase English letter.\n\nThe weight of a word is defined as the sum of the weights of its characters.\n\nFor each word, take its weight modulo 26 and map the result to a lowercase English letter using reverse alphabetical order (0 -> 'z', 1 -> 'y', ..., 25 -> 'a').\n\nReturn a string formed by concatenating the mapped characters for all words in order.\n\n \n\nExample 1:\n\nInput: words = [\"abcd\",\"def\",\"xyz\"], weights = [5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]\n\nOutput: \"rij\"\n\nExplanation:\n\nThe weight of \"abcd\" is 5 + 3 + 12 + 14 = 34. The result modulo 26 is 34 % 26 = 8, which maps to 'r'.\nThe weight of \"def\" is 14 + 1 + 2 = 17. The result modulo 26 is 17 % 26 = 17, which maps to 'i'.\nThe weight of \"xyz\" is 7 + 7 + 2 = 16. The result modulo 26 is 16 % 26 = 16, which maps to 'j'.\n\nThus, the string formed by concatenating the mapped characters is \"rij\".\n\nExample 2:\n\nInput: words = [\"a\",\"b\",\"c\"], weights = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]\n\nOutput: \"yyy\"\n\nExplanation:\n\nEach word has weight 1. The result modulo 26 is 1 % 26 = 1, which maps to 'y'.\n\nThus, the string formed by concatenating the mapped characters is \"yyy\".\n\nExample 3:\n\nInput: words = [\"abcd\"], weights = [7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]\n\nOutput: \"g\"\n\nExplanation:​​​​​​​\n\nThe weight of \"abcd\" is 7 + 5 + 3 + 4 = 19. The result modulo 26 is 19 % 26 = 19, which maps to 'g'.\n\nThus, the string formed by concatenating the mapped characters is \"g\".\n\n \n\nConstraints:\n\n1 <= words.length <= 100\n1 <= words[i].length <= 10\nweights.length == 26\n1 <= weights[i] <= 100\nwords[i] consists of lowercase English letters.",
+    "description_html": "<p>You are given an array of strings <code>words</code>, where each string represents a word containing lowercase English letters.</p>\n\n<p>You are also given an integer array <code>weights</code> of length 26, where <code>weights[i]</code> represents the weight of the <code>i<sup>th</sup></code> lowercase English letter.</p>\n\n<p>The <strong>weight</strong> of a word is defined as the <strong>sum</strong> of the weights of its characters.</p>\n\n<p>For each word, take its weight modulo 26 and map the result to a lowercase English letter using reverse alphabetical order (<code>0 -&gt; 'z', 1 -&gt; 'y', ..., 25 -&gt; 'a'</code>).</p>\n\n<p>Return a string formed by concatenating the mapped characters for all words in order.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [\"abcd\",\"def\",\"xyz\"], weights = [5,3,12,14,1,2,3,2,10,6,6,9,7,8,7,10,8,9,6,9,9,8,3,7,7,2]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"rij\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The weight of <code>\"abcd\"</code> is <code>5 + 3 + 12 + 14 = 34</code>. The result modulo 26 is <code>34 % 26 = 8</code>, which maps to <code>'r'</code>.</li>\n\t<li>The weight of <code>\"def\"</code> is <code>14 + 1 + 2 = 17</code>. The result modulo 26 is <code>17 % 26 = 17</code>, which maps to <code>'i'</code>.</li>\n\t<li>The weight of <code>\"xyz\"</code> is <code>7 + 7 + 2 = 16</code>. The result modulo 26 is <code>16 % 26 = 16</code>, which maps to <code>'j'</code>.</li>\n</ul>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>\"rij\"</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [\"a\",\"b\",\"c\"], weights = [1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"yyy\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Each word has weight 1. The result modulo 26 is <code>1 % 26 = 1</code>, which maps to <code>'y'</code>.</p>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>\"yyy\"</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">words = [\"abcd\"], weights = [7,5,3,4,3,5,4,9,4,2,2,7,10,2,5,10,6,1,2,2,4,1,3,4,4,5]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"g\"</span></p>\n\n<p><strong>Explanation:​​​​​​​</strong></p>\n\n<p>The weight of <code>\"abcd\"</code> is <code>7 + 5 + 3 + 4 = 19</code>. The result modulo 26 is <code>19 % 26 = 19</code>, which maps to <code>'g'</code>.</p>\n\n<p>Thus, the string formed by concatenating the mapped characters is <code>\"g\"</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= words.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= words[i].length &lt;= 10</code></li>\n\t<li><code>weights.length == 26</code></li>\n\t<li><code>1 &lt;= weights[i] &lt;= 100</code></li>\n\t<li><code>words[i]</code> consists of lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

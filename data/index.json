@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-13",
+    "id": "3838",
+    "title": "Weighted Word Mapping",
+    "slug": "weighted-word-mapping",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/weighted-word-mapping/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-12",
     "id": "3559",
     "title": "Number of Ways to Assign Edge Weights II",
