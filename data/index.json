@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-14",
+    "id": "2130",
+    "title": "Maximum Twin Sum of a Linked List",
+    "slug": "maximum-twin-sum-of-a-linked-list",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Stack"
+    ],
+    "link": "https://leetcode.com/problems/maximum-twin-sum-of-a-linked-list/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-13",
     "id": "3838",
     "title": "Weighted Word Mapping",
