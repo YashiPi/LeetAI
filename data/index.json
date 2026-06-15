@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-15",
+    "id": "2095",
+    "title": "Delete the Middle Node of a Linked List",
+    "slug": "delete-the-middle-node-of-a-linked-list",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ],
+    "link": "https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-14",
     "id": "2130",
     "title": "Maximum Twin Sum of a Linked List",
