@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-16",
+    "id": "3612",
+    "title": "Process String with Special Operations I",
+    "slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/process-string-with-special-operations-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-15",
     "id": "2095",
     "title": "Delete the Middle Node of a Linked List",

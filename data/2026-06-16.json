@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-16T04:34:54.104119+00:00",
+    "date": "2026-06-16",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-16",
+    "link": "https://leetcode.com/problems/process-string-with-special-operations-i/",
+    "id": "3612",
+    "title": "Process String with Special Operations I",
+    "slug": "process-string-with-special-operations-i",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "hints": [
+      "Simulate as described"
+    ],
+    "stats": {
+      "total_accepted": "68.7K",
+      "total_submissions": "101.8K",
+      "acceptance_rate": "67.4%"
+    },
+    "likes": 107,
+    "dislikes": 15,
+    "similar_questions": [],
+    "example_testcases": "\"a#b%*\"\n\"z*#\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string processStr(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String processStr(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def processStr(self, s: str) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {string}\n */\nvar processStr = function(s) {\n    \n};"
+    },
+    "description": "You are given a string s consisting of lowercase English letters and the special characters: *, #, and %.\n\nBuild a new string result by processing s according to the following rules from left to right:\n\nIf the letter is a lowercase English letter append it to result.\nA '*' removes the last character from result, if it exists.\nA '#' duplicates the current result and appends it to itself.\nA '%' reverses the current result.\n\nReturn the final string result after processing all characters in s.\n\n \n\nExample 1:\n\nInput: s = \"a#b%*\"\n\nOutput: \"ba\"\n\nExplanation:\n\ni\ts[i]\tOperation\tCurrent result\n0\t'a'\tAppend 'a'\t\"a\"\n1\t'#'\tDuplicate result\t\"aa\"\n2\t'b'\tAppend 'b'\t\"aab\"\n3\t'%'\tReverse result\t\"baa\"\n4\t'*'\tRemove the last character\t\"ba\"\n\nThus, the final result is \"ba\".\n\nExample 2:\n\nInput: s = \"z*#\"\n\nOutput: \"\"\n\nExplanation:\n\ni\ts[i]\tOperation\tCurrent result\n0\t'z'\tAppend 'z'\t\"z\"\n1\t'*'\tRemove the last character\t\"\"\n2\t'#'\tDuplicate the string\t\"\"\n\nThus, the final result is \"\".\n\n \n\nConstraints:\n\n1 <= s.length <= 20\ns consists of only lowercase English letters and special characters *, #, and %.",
+    "description_html": "<p>You are given a string <code>s</code> consisting of lowercase English letters and the special characters: <code>*</code>, <code>#</code>, and <code>%</code>.</p>\n\n<p>Build a new string <code>result</code> by processing <code>s</code> according to the following rules from left to right:</p>\n\n<ul>\n\t<li>If the letter is a <strong>lowercase</strong> English letter append it to <code>result</code>.</li>\n\t<li>A <code>'*'</code> <strong>removes</strong> the last character from <code>result</code>, if it exists.</li>\n\t<li>A <code>'#'</code> <strong>duplicates</strong> the current <code>result</code> and <strong>appends</strong> it to itself.</li>\n\t<li>A <code>'%'</code> <strong>reverses</strong> the current <code>result</code>.</li>\n</ul>\n\n<p>Return the final string <code>result</code> after processing all characters in <code>s</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"a#b%*\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"ba\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table style=\"border: 1px solid black;\"><thead><tr><th style=\"border: 1px solid black;\"><code>i</code></th><th style=\"border: 1px solid black;\"><code>s[i]</code></th><th style=\"border: 1px solid black;\">Operation</th><th style=\"border: 1px solid black;\">Current <code>result</code></th></tr></thead><tbody><tr><td style=\"border: 1px solid black;\">0</td><td style=\"border: 1px solid black;\"><code>'a'</code></td><td style=\"border: 1px solid black;\">Append <code>'a'</code></td><td style=\"border: 1px solid black;\"><code>\"a\"</code></td></tr><tr><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\"><code>'#'</code></td><td style=\"border: 1px solid black;\">Duplicate <code>result</code></td><td style=\"border: 1px solid black;\"><code>\"aa\"</code></td></tr><tr><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\"><code>'b'</code></td><td style=\"border: 1px solid black;\">Append <code>'b'</code></td><td style=\"border: 1px solid black;\"><code>\"aab\"</code></td></tr><tr><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\"><code>'%'</code></td><td style=\"border: 1px solid black;\">Reverse <code>result</code></td><td style=\"border: 1px solid black;\"><code>\"baa\"</code></td></tr><tr><td style=\"border: 1px solid black;\">4</td><td style=\"border: 1px solid black;\"><code>'*'</code></td><td style=\"border: 1px solid black;\">Remove the last character</td><td style=\"border: 1px solid black;\"><code>\"ba\"</code></td></tr></tbody></table>\n\n<p>Thus, the final <code>result</code> is <code>\"ba\"</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"z*#\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table style=\"border: 1px solid black;\"><thead><tr><th style=\"border: 1px solid black;\"><code>i</code></th><th style=\"border: 1px solid black;\"><code>s[i]</code></th><th style=\"border: 1px solid black;\">Operation</th><th style=\"border: 1px solid black;\">Current <code>result</code></th></tr></thead><tbody><tr><td style=\"border: 1px solid black;\">0</td><td style=\"border: 1px solid black;\"><code>'z'</code></td><td style=\"border: 1px solid black;\">Append <code>'z'</code></td><td style=\"border: 1px solid black;\"><code>\"z\"</code></td></tr><tr><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\"><code>'*'</code></td><td style=\"border: 1px solid black;\">Remove the last character</td><td style=\"border: 1px solid black;\"><code>\"\"</code></td></tr><tr><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\"><code>'#'</code></td><td style=\"border: 1px solid black;\">Duplicate the string</td><td style=\"border: 1px solid black;\"><code>\"\"</code></td></tr></tbody></table>\n\n<p>Thus, the final <code>result</code> is <code>\"\"</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 20</code></li>\n\t<li><code>s</code> consists of only lowercase English letters and special characters <code>*</code>, <code>#</code>, and <code>%</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
