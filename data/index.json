@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-17",
+    "id": "3614",
+    "title": "Process String with Special Operations II",
+    "slug": "process-string-with-special-operations-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/process-string-with-special-operations-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-16",
     "id": "3612",
     "title": "Process String with Special Operations I",
