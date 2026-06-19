@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-19",
+    "id": "1732",
+    "title": "Find the Highest Altitude",
+    "slug": "find-the-highest-altitude",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/find-the-highest-altitude/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-18",
     "id": "1344",
     "title": "Angle Between Hands of a Clock",
