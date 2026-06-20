@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-20",
+    "id": "1840",
+    "title": "Maximum Building Height",
+    "slug": "maximum-building-height",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-building-height/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-19",
     "id": "1732",
     "title": "Find the Highest Altitude",
