@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-22T04:44:59.860930+00:00",
+    "date": "2026-06-22",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-22",
+    "link": "https://leetcode.com/problems/maximum-number-of-balloons/",
+    "id": "1189",
+    "title": "Maximum Number of Balloons",
+    "slug": "maximum-number-of-balloons",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ],
+    "hints": [
+      "Count the frequency of letters in the given string.",
+      "Find the letter than can make the minimum number of instances of the word \"balloon\"."
+    ],
+    "stats": {
+      "total_accepted": "360.9K",
+      "total_submissions": "590.9K",
+      "acceptance_rate": "61.1%"
+    },
+    "likes": 1964,
+    "dislikes": 123,
+    "similar_questions": [],
+    "example_testcases": "\"nlaebolko\"\n\"loonbalxballpoon\"\n\"leetcode\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxNumberOfBalloons(string text) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxNumberOfBalloons(String text) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxNumberOfBalloons(self, text: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} text\n * @return {number}\n */\nvar maxNumberOfBalloons = function(text) {\n    \n};"
+    },
+    "description": "Given a string text, you want to use the characters of text to form as many instances of the word \"balloon\" as possible.\n\nYou can use each character in text at most once. Return the maximum number of instances that can be formed.\n\n \n\nExample 1:\n\nInput: text = \"nlaebolko\"\nOutput: 1\n\n\nExample 2:\n\nInput: text = \"loonbalxballpoon\"\nOutput: 2\n\n\nExample 3:\n\nInput: text = \"leetcode\"\nOutput: 0\n\n\n \n\nConstraints:\n\n1 <= text.length <= 104\ntext consists of lower case English letters only.\n\n \n\nNote: This question is the same as 2287: Rearrange Characters to Make Target String.",
+    "description_html": "<p>Given a string <code>text</code>, you want to use the characters of <code>text</code> to form as many instances of the word <strong>\"balloon\"</strong> as possible.</p>\n\n<p>You can use each character in <code>text</code> <strong>at most once</strong>. Return the maximum number of instances that can be formed.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<p><strong><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2019/09/05/1536_ex1_upd.JPG\" style=\"width: 132px; height: 35px;\"></strong></p>\n\n<pre><strong>Input:</strong> text = \"nlaebolko\"\n<strong>Output:</strong> 1\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<p><strong><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2019/09/05/1536_ex2_upd.JPG\" style=\"width: 267px; height: 35px;\"></strong></p>\n\n<pre><strong>Input:</strong> text = \"loonbalxballpoon\"\n<strong>Output:</strong> 2\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> text = \"leetcode\"\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= text.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>text</code> consists of lower case English letters only.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong>Note:</strong> This question is the same as <a href=\"https://leetcode.com/problems/rearrange-characters-to-make-target-string/description/\" target=\"_blank\"> 2287: Rearrange Characters to Make Target String.</a></p>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
