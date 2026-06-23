@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-23",
+    "id": "3699",
+    "title": "Number of ZigZag Arrays I",
+    "slug": "number-of-zigzag-arrays-i",
+    "difficulty": "Hard",
+    "tags": [
+      "Dynamic Programming",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/number-of-zigzag-arrays-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-22",
     "id": "1189",
     "title": "Maximum Number of Balloons",
