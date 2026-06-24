@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-06-24",
+    "id": "3700",
+    "title": "Number of ZigZag Arrays II",
+    "slug": "number-of-zigzag-arrays-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/number-of-zigzag-arrays-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-23",
     "id": "3699",
     "title": "Number of ZigZag Arrays I",
