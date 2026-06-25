@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-06-25",
+    "id": "3737",
+    "title": "Count Subarrays With Majority Element I",
+    "slug": "count-subarrays-with-majority-element-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Counting",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/count-subarrays-with-majority-element-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-24",
     "id": "3700",
     "title": "Number of ZigZag Arrays II",
