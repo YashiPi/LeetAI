@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-06-26",
+    "id": "3739",
+    "title": "Count Subarrays With Majority Element II",
+    "slug": "count-subarrays-with-majority-element-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/count-subarrays-with-majority-element-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-25",
     "id": "3737",
     "title": "Count Subarrays With Majority Element I",

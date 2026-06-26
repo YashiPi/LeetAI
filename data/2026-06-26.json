@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-26T03:59:07.483869+00:00",
+    "date": "2026-06-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-26",
+    "link": "https://leetcode.com/problems/count-subarrays-with-majority-element-ii/",
+    "id": "3739",
+    "title": "Count Subarrays With Majority Element II",
+    "slug": "count-subarrays-with-majority-element-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Prefix Sum"
+    ],
+    "hints": [
+      "Convert to +1/-1: let <code>arr[i] = 1</code> if <code>nums[i] == target</code> else <code>-1</code>.",
+      "Build prefix sums: <code>pref[0]=0</code>, <code>pref[k] = pref[k - 1] + arr[k - 1]</code> for <code>k=1..n</code>.",
+      "Count pairs <code>(i < j)</code> with <code>pref[j] > pref[i]</code> (these correspond to subarrays where <code>target</code> is majority).",
+      "Use coordinate compression on all <code>pref</code> values and a Fenwick tree / ordered map: iterate <code>k</code> from <code>0..n</code>, query how many previous <code>pref</code> are < current, add to <code>ans</code>, then update.",
+      "If <code>target</code> never appears return <code>0</code>."
+    ],
+    "stats": {
+      "total_accepted": "17.6K",
+      "total_submissions": "31K",
+      "acceptance_rate": "56.7%"
+    },
+    "likes": 139,
+    "dislikes": 6,
+    "similar_questions": [],
+    "example_testcases": "[1,2,2,3]\n2\n[1,1,1,1]\n1\n[1,2,3]\n4",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long countMajoritySubarrays(vector<int>& nums, int target) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long countMajoritySubarrays(int[] nums, int target) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def countMajoritySubarrays(self, nums: List[int], target: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} target\n * @return {number}\n */\nvar countMajoritySubarrays = function(nums, target) {\n    \n};"
+    },
+    "description": "You are given an integer array nums and an integer target.\n\nReturn the number of subarrays of nums in which target is the majority element.\n\nThe majority element of a subarray is the element that appears strictly more than half of the times in that subarray.\n\n \n\nExample 1:\n\nInput: nums = [1,2,2,3], target = 2\n\nOutput: 5\n\nExplanation:\n\nValid subarrays with target = 2 as the majority element:\n\nnums[1..1] = [2]\nnums[2..2] = [2]\nnums[1..2] = [2,2]\nnums[0..2] = [1,2,2]\nnums[1..3] = [2,2,3]\n\nSo there are 5 such subarrays.\n\nExample 2:\n\nInput: nums = [1,1,1,1], target = 1\n\nOutput: 10\n\nExplanation:\n\n​​​​​​​All 10 subarrays have 1 as the majority element.\n\nExample 3:\n\nInput: nums = [1,2,3], target = 4\n\nOutput: 0\n\nExplanation:\n\ntarget = 4 does not appear in nums at all. Therefore, there cannot be any subarray where 4 is the majority element. Hence the answer is 0.\n\n \n\nConstraints:\n\n1 <= nums.length <= 10​​​​​​​5\n1 <= nums[i] <= 10​​​​​​​9\n1 <= target <= 109",
+    "description_html": "<p>You are given an integer array <code>nums</code> and an integer <code>target</code>.</p>\n\n<p>Return the number of <strong><span data-keyword=\"subarray-nonempty\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_1m_\" data-state=\"closed\" class=\"\">subarrays</button></span></strong> of <code>nums</code> in which <code>target</code> is the <strong>majority element</strong>.</p>\n\n<p>The <strong>majority element</strong> of a subarray is the element that appears <strong>strictly more than half</strong> of the times in that subarray.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,2,3], target = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">5</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Valid subarrays with <code>target = 2</code> as the majority element:</p>\n\n<ul>\n\t<li><code>nums[1..1] = [2]</code></li>\n\t<li><code>nums[2..2] = [2]</code></li>\n\t<li><code>nums[1..2] = [2,2]</code></li>\n\t<li><code>nums[0..2] = [1,2,2]</code></li>\n\t<li><code>nums[1..3] = [2,2,3]</code></li>\n</ul>\n\n<p>So there are 5 such subarrays.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,1,1,1], target = 1</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">10</span></p>\n\n<p><strong>Explanation: </strong></p>\n\n<p><strong>​​​​​​​</strong>All 10 subarrays have 1 as the majority element.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3], target = 4</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">0</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><code>target = 4</code> does not appear in <code>nums</code> at all. Therefore, there cannot be any subarray where 4 is the majority element. Hence the answer is 0.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>​​​​​​​5</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>​​​​​​​9</sup></code></li>\n\t<li><code>1 &lt;= target &lt;= 10<sup>9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
