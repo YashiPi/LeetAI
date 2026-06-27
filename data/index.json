@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-27",
+    "id": "3020",
+    "title": "Find the Maximum Number of Elements in Subset",
+    "slug": "find-the-maximum-number-of-elements-in-subset",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/find-the-maximum-number-of-elements-in-subset/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-26",
     "id": "3739",
     "title": "Count Subarrays With Majority Element II",
