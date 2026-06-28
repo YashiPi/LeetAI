@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-06-28",
+    "id": "1846",
+    "title": "Maximum Element After Decreasing and Rearranging",
+    "slug": "maximum-element-after-decreasing-and-rearranging",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-06-27",
     "id": "3020",
     "title": "Find the Maximum Number of Elements in Subset",

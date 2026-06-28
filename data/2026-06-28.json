@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-28T04:08:46.397742+00:00",
+    "date": "2026-06-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-28",
+    "link": "https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/",
+    "id": "1846",
+    "title": "Maximum Element After Decreasing and Rearranging",
+    "slug": "maximum-element-after-decreasing-and-rearranging",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "hints": [
+      "Sort the Array.",
+      "Decrement each element to the largest integer that satisfies the conditions."
+    ],
+    "stats": {
+      "total_accepted": "127.3K",
+      "total_submissions": "191.7K",
+      "acceptance_rate": "66.4%"
+    },
+    "likes": 1169,
+    "dislikes": 282,
+    "similar_questions": [],
+    "example_testcases": "[2,2,1,2,1]\n[100,1,1000]\n[1,2,3,4,5]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maximumElementAfterDecrementingAndRearranging(vector<int>& arr) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maximumElementAfterDecrementingAndRearranging(int[] arr) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maximumElementAfterDecrementingAndRearranging(self, arr: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar maximumElementAfterDecrementingAndRearranging = function(arr) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
