@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "fetched_at": "2026-06-30T03:55:21.474071+00:00",
+    "date": "2026-06-30",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-06-30",
+    "link": "https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/",
+    "id": "1358",
+    "title": "Number of Substrings Containing All Three Characters",
+    "slug": "number-of-substrings-containing-all-three-characters",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "hints": [
+      "For each position we simply need to find the first occurrence of a/b/c on or after this position.",
+      "So we can pre-compute three link-list of indices of each a, b, and c."
+    ],
+    "stats": {
+      "total_accepted": "490.6K",
+      "total_submissions": "663.7K",
+      "acceptance_rate": "73.9%"
+    },
+    "likes": 4549,
+    "dislikes": 83,
+    "similar_questions": [
+      {
+        "title": "Vowels of All Substrings",
+        "slug": "vowels-of-all-substrings",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Count Complete Substrings",
+        "slug": "count-complete-substrings",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "\"abcabc\"\n\"aaacb\"\n\"abc\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int numberOfSubstrings(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int numberOfSubstrings(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def numberOfSubstrings(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar numberOfSubstrings = function(s) {\n    \n};"
+    },
+    "description": "Given a string s consisting only of characters a, b and c.\n\nReturn the number of substrings containing at least one occurrence of all these characters a, b and c.\n\n \n\nExample 1:\n\nInput: s = \"abcabc\"\nOutput: 10\nExplanation: The substrings containing at least one occurrence of the characters a, b and c are \"abc\", \"abca\", \"abcab\", \"abcabc\", \"bca\", \"bcab\", \"bcabc\", \"cab\", \"cabc\" and \"abc\" (again). \n\n\nExample 2:\n\nInput: s = \"aaacb\"\nOutput: 3\nExplanation: The substrings containing at least one occurrence of the characters a, b and c are \"aaacb\", \"aacb\" and \"acb\". \n\n\nExample 3:\n\nInput: s = \"abc\"\nOutput: 1\n\n\n \n\nConstraints:\n\n3 <= s.length <= 5 x 10^4\ns only consists of a, b or c characters.",
+    "description_html": "<p>Given a string <code>s</code>&nbsp;consisting only of characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>Return the number of substrings containing <b>at least</b>&nbsp;one occurrence of all these characters <em>a</em>, <em>b</em> and <em>c</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"abcabc\"\n<strong>Output:</strong> 10\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are \"</em>abc<em>\", \"</em>abca<em>\", \"</em>abcab<em>\", \"</em>abcabc<em>\", \"</em>bca<em>\", \"</em>bcab<em>\", \"</em>bcabc<em>\", \"</em>cab<em>\", \"</em>cabc<em>\" </em>and<em> \"</em>abc<em>\" </em>(<strong>again</strong>)<em>. </em>\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"aaacb\"\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The substrings containing&nbsp;at least&nbsp;one occurrence of the characters&nbsp;<em>a</em>,&nbsp;<em>b</em>&nbsp;and&nbsp;<em>c are \"</em>aaacb<em>\", \"</em>aacb<em>\" </em>and<em> \"</em>acb<em>\".</em><em> </em>\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"abc\"\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>3 &lt;= s.length &lt;= 5 x 10^4</code></li>\n\t<li><code>s</code>&nbsp;only consists of&nbsp;<em>a</em>, <em>b</em> or <em>c&nbsp;</em>characters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
