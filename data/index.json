@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-04",
+    "id": "2492",
+    "title": "Minimum Score of a Path Between Two Cities",
+    "slug": "minimum-score-of-a-path-between-two-cities",
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "link": "https://leetcode.com/problems/minimum-score-of-a-path-between-two-cities/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-03",
     "id": "3620",
     "title": "Network Recovery Pathways",
