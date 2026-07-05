@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-05",
+    "id": "1301",
+    "title": "Number of Paths with Max Score",
+    "slug": "number-of-paths-with-max-score",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/number-of-paths-with-max-score/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-04",
     "id": "2492",
     "title": "Minimum Score of a Path Between Two Cities",
