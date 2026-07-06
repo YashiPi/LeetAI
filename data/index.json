@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-06",
+    "id": "1288",
+    "title": "Remove Covered Intervals",
+    "slug": "remove-covered-intervals",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/remove-covered-intervals/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-05",
     "id": "1301",
     "title": "Number of Paths with Max Score",

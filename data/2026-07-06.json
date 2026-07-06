@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-06T03:51:32.381478+00:00",
+    "date": "2026-07-06",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-06",
+    "link": "https://leetcode.com/problems/remove-covered-intervals/",
+    "id": "1288",
+    "title": "Remove Covered Intervals",
+    "slug": "remove-covered-intervals",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting"
+    ],
+    "hints": [
+      "How to check if an interval is covered by another?",
+      "Compare each interval to all others and check if it is covered by any interval."
+    ],
+    "stats": {
+      "total_accepted": "157.2K",
+      "total_submissions": "277.2K",
+      "acceptance_rate": "56.7%"
+    },
+    "likes": 2354,
+    "dislikes": 61,
+    "similar_questions": [],
+    "example_testcases": "[[1,4],[3,6],[2,8]]\n[[1,4],[2,3]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int removeCoveredIntervals(vector<vector<int>>& intervals) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int removeCoveredIntervals(int[][] intervals) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def removeCoveredIntervals(self, intervals: List[List[int]]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} intervals\n * @return {number}\n */\nvar removeCoveredIntervals = function(intervals) {\n    \n};"
+    },
+    "description": "Given an array intervals where intervals[i] = [li, ri] represent the interval [li, ri), remove all intervals that are covered by another interval in the list.\n\nThe interval [a, b) is covered by the interval [c, d) if and only if c <= a and b <= d.\n\nReturn the number of remaining intervals.\n\n \n\nExample 1:\n\nInput: intervals = [[1,4],[3,6],[2,8]]\nOutput: 2\nExplanation: Interval [3,6] is covered by [2,8], therefore it is removed.\n\n\nExample 2:\n\nInput: intervals = [[1,4],[2,3]]\nOutput: 1\n\n\n \n\nConstraints:\n\n1 <= intervals.length <= 1000\nintervals[i].length == 2\n0 <= li < ri <= 105\nAll the given intervals are unique.",
+    "description_html": "<p>Given an array <code>intervals</code> where <code>intervals[i] = [l<sub>i</sub>, r<sub>i</sub>]</code> represent the interval <code>[l<sub>i</sub>, r<sub>i</sub>)</code>, remove all intervals that are covered by another interval in the list.</p>\n\n<p>The interval <code>[a, b)</code> is covered by the interval <code>[c, d)</code> if and only if <code>c &lt;= a</code> and <code>b &lt;= d</code>.</p>\n\n<p>Return <em>the number of remaining intervals</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> intervals = [[1,4],[3,6],[2,8]]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> Interval [3,6] is covered by [2,8], therefore it is removed.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> intervals = [[1,4],[2,3]]\n<strong>Output:</strong> 1\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= intervals.length &lt;= 1000</code></li>\n\t<li><code>intervals[i].length == 2</code></li>\n\t<li><code>0 &lt;= l<sub>i</sub> &lt; r<sub>i</sub> &lt;= 10<sup>5</sup></code></li>\n\t<li>All the given intervals are <strong>unique</strong>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
