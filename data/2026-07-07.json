@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-07T03:41:15.094826+00:00",
+    "date": "2026-07-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-07",
+    "link": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/",
+    "id": "3754",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "hints": [
+      "Simulate as described"
+    ],
+    "stats": {
+      "total_accepted": "57K",
+      "total_submissions": "95.6K",
+      "acceptance_rate": "59.6%"
+    },
+    "likes": 69,
+    "dislikes": 1,
+    "similar_questions": [],
+    "example_testcases": "10203004\n1000",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long sumAndMultiply(int n) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long sumAndMultiply(int n) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def sumAndMultiply(self, n: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @return {number}\n */\nvar sumAndMultiply = function(n) {\n    \n};"
+    },
+    "description": "You are given an integer n.\n\nForm a new integer x by concatenating all the non-zero digits of n in their original order. If there are no non-zero digits, x = 0.\n\nLet sum be the sum of digits in x.\n\nReturn an integer representing the value of x * sum.\n\n \n\nExample 1:\n\nInput: n = 10203004\n\nOutput: 12340\n\nExplanation:\n\nThe non-zero digits are 1, 2, 3, and 4. Thus, x = 1234.\nThe sum of digits is sum = 1 + 2 + 3 + 4 = 10.\nTherefore, the answer is x * sum = 1234 * 10 = 12340.\n\nExample 2:\n\nInput: n = 1000\n\nOutput: 1\n\nExplanation:\n\nThe non-zero digit is 1, so x = 1 and sum = 1.\nTherefore, the answer is x * sum = 1 * 1 = 1.\n\n \n\nConstraints:\n\n0 <= n <= 109",
+    "description_html": "<p>You are given an integer <code>n</code>.</p>\n\n<p>Form a new integer <code>x</code> by concatenating all the <strong>non-zero digits</strong> of <code>n</code> in their original order. If there are no <strong>non-zero</strong> digits, <code>x = 0</code>.</p>\n\n<p>Let <code>sum</code> be the <strong>sum of digits</strong> in <code>x</code>.</p>\n\n<p>Return an integer representing the value of <code>x * sum</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 10203004</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">12340</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The non-zero digits are 1, 2, 3, and 4. Thus, <code>x = 1234</code>.</li>\n\t<li>The sum of digits is <code>sum = 1 + 2 + 3 + 4 = 10</code>.</li>\n\t<li>Therefore, the answer is <code>x * sum = 1234 * 10 = 12340</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 1000</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">1</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The non-zero digit is 1, so <code>x = 1</code> and <code>sum = 1</code>.</li>\n\t<li>Therefore, the answer is <code>x * sum = 1 * 1 = 1</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= n &lt;= 10<sup>9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

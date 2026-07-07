@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-07-07",
+    "id": "3754",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
+    "slug": "concatenate-non-zero-digits-and-multiply-by-sum-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-06",
     "id": "1288",
     "title": "Remove Covered Intervals",
