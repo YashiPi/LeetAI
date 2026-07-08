@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-08",
+    "id": "3756",
+    "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
+    "slug": "concatenate-non-zero-digits-and-multiply-by-sum-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "String",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/concatenate-non-zero-digits-and-multiply-by-sum-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-07",
     "id": "3754",
     "title": "Concatenate Non-Zero Digits and Multiply by Sum I",
