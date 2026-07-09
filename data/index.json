@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-09",
+    "id": "3532",
+    "title": "Path Existence Queries in a Graph I",
+    "slug": "path-existence-queries-in-a-graph-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "link": "https://leetcode.com/problems/path-existence-queries-in-a-graph-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-08",
     "id": "3756",
     "title": "Concatenate Non-Zero Digits and Multiply by Sum II",
