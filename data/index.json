@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-11",
+    "id": "2685",
+    "title": "Count the Number of Complete Components",
+    "slug": "count-the-number-of-complete-components",
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ],
+    "link": "https://leetcode.com/problems/count-the-number-of-complete-components/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-10",
     "id": "3534",
     "title": "Path Existence Queries in a Graph II",
