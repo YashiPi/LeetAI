@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-12",
+    "id": "1331",
+    "title": "Rank Transform of an Array",
+    "slug": "rank-transform-of-an-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/rank-transform-of-an-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-11",
     "id": "2685",
     "title": "Count the Number of Complete Components",
