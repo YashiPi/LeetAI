@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-13T03:19:09.120613+00:00",
+    "date": "2026-07-13",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-13",
+    "link": "https://leetcode.com/problems/sequential-digits/",
+    "id": "1291",
+    "title": "Sequential Digits",
+    "slug": "sequential-digits",
+    "difficulty": "Medium",
+    "tags": [
+      "Enumeration"
+    ],
+    "hints": [
+      "Generate all numbers with sequential digits and check if they are in the given range.",
+      "Fix the starting digit then do a recursion that tries to append all valid digits."
+    ],
+    "stats": {
+      "total_accepted": "245K",
+      "total_submissions": "372.7K",
+      "acceptance_rate": "65.7%"
+    },
+    "likes": 2948,
+    "dislikes": 179,
+    "similar_questions": [],
+    "example_testcases": "100\n300\n1000\n13000",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> sequentialDigits(int low, int high) {\n        \n    }\n};",
+      "java": "class Solution {\n    public List<Integer> sequentialDigits(int low, int high) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def sequentialDigits(self, low: int, high: int) -> List[int]:\n        ",
+      "javascript": "/**\n * @param {number} low\n * @param {number} high\n * @return {number[]}\n */\nvar sequentialDigits = function(low, high) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
