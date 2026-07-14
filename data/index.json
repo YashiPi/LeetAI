@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-07-14",
+    "id": "3336",
+    "title": "Find the Number of Subsequences With Equal GCD",
+    "slug": "find-the-number-of-subsequences-with-equal-gcd",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/find-the-number-of-subsequences-with-equal-gcd/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-13",
     "id": "1291",
     "title": "Sequential Digits",
