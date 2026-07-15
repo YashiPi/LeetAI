@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-15",
+    "id": "3658",
+    "title": "GCD of Odd and Even Sums",
+    "slug": "gcd-of-odd-and-even-sums",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/gcd-of-odd-and-even-sums/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-14",
     "id": "3336",
     "title": "Find the Number of Subsequences With Equal GCD",
