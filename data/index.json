@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-07-16",
+    "id": "3867",
+    "title": "Sum of GCD of Formed Pairs",
+    "slug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers",
+      "Sorting",
+      "Simulation",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-15",
     "id": "3658",
     "title": "GCD of Odd and Even Sums",

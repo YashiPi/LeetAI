@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-16T02:47:37.346983+00:00",
+    "date": "2026-07-16",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-16",
+    "link": "https://leetcode.com/problems/sum-of-gcd-of-formed-pairs/",
+    "id": "3867",
+    "title": "Sum of GCD of Formed Pairs",
+    "slug": "sum-of-gcd-of-formed-pairs",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers",
+      "Sorting",
+      "Simulation",
+      "Number Theory"
+    ],
+    "hints": [
+      "Maintain a running prefix maximum <code>mx<sub>i</sub></code> while iterating nums to compute <code>prefixGcd[i] = gcd(nums[i], mx<sub>i</sub>)</code>.",
+      "Sort <code>prefixGcd</code> in non-decreasing order.",
+      "Form pairs by combining smallest unpaired and largest unpaired elements.",
+      "Compute gcd for each pair and sum them; ignore middle element if <code>n</code> is odd."
+    ],
+    "stats": {
+      "total_accepted": "38.8K",
+      "total_submissions": "56.8K",
+      "acceptance_rate": "68.3%"
+    },
+    "likes": 49,
+    "dislikes": 13,
+    "similar_questions": [],
+    "example_testcases": "[2,6,4]\n[3,6,2,8]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long gcdSum(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long gcdSum(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def gcdSum(self, nums: list[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar gcdSum = function(nums) {\n    \n};"
+    },
+    "description": "You are given an integer array nums of length n.\n\nConstruct an array prefixGcd where for each index i:\n\nLet mxi = max(nums[0], nums[1], ..., nums[i]).\nprefixGcd[i] = gcd(nums[i], mxi).\n\nAfter constructing prefixGcd:\n\nSort prefixGcd in non-decreasing order.\nForm pairs by taking the smallest unpaired element and the largest unpaired element.\nRepeat this process until no more pairs can be formed.\nFor each formed pair, compute the gcd of the two elements.\nIf n is odd, the middle element in the prefixGcd array remains unpaired and should be ignored.\n\nReturn an integer denoting the sum of the GCD values of all formed pairs.\n\nThe term gcd(a, b) denotes the greatest common divisor of a and b.\n\n \n\nExample 1:\n\nInput: nums = [2,6,4]\n\nOutput: 2\n\nExplanation:\n\nConstruct prefixGcd:\n\ni\tnums[i]\tmxi\tprefixGcd[i]\n0\t2\t2\t2\n1\t6\t6\t6\n2\t4\t6\t2\n\nprefixGcd = [2, 6, 2]. After sorting, it forms [2, 2, 6].\n\nPair the smallest and largest elements: gcd(2, 6) = 2. The remaining middle element 2 is ignored. Thus, the sum is 2.\n\nExample 2:\n\nInput: nums = [3,6,2,8]\n\nOutput: 5\n\nExplanation:\n\nConstruct prefixGcd:\n\ni\tnums[i]\tmxi\tprefixGcd[i]\n0\t3\t3\t3\n1\t6\t6\t6\n2\t2\t6\t2\n3\t8\t8\t8\n\nprefixGcd = [3, 6, 2, 8]. After sorting, it forms [2, 3, 6, 8].\n\nForm pairs: gcd(2, 8) = 2 and gcd(3, 6) = 3. Thus, the sum is 2 + 3 = 5.\n\n \n\nConstraints:\n\n1 <= n == nums.length <= 105\n1 <= nums[i] <= 10​​​​​​​9",
+    "description_html": "<p>You are given an integer array <code>nums</code> of length <code>n</code>.</p>\n\n<p>Construct an array <code>prefixGcd</code> where for each index <code>i</code>:</p>\n\n<ul>\n\t<li>Let <code>mx<sub>i</sub> = max(nums[0], nums[1], ..., nums[i])</code>.</li>\n\t<li><code>prefixGcd[i] = gcd(nums[i], mx<sub>i</sub>)</code>.</li>\n</ul>\n\n<p>After constructing <code>prefixGcd</code>:</p>\n\n<ul>\n\t<li>Sort <code>prefixGcd</code> in <strong>non-decreasing</strong> order.</li>\n\t<li>Form pairs by taking the <strong>smallest unpaired</strong> element and the <strong>largest unpaired</strong> element.</li>\n\t<li>Repeat this process until no more pairs can be formed.</li>\n\t<li>For each formed pair, <strong>compute</strong> the <code>gcd</code> of the two elements.</li>\n\t<li>If <code>n</code> is odd, the <strong>middle</strong> element in the <code>prefixGcd</code> array remains <strong>unpaired</strong> and should be ignored.</li>\n</ul>\n\n<p>Return an integer denoting the <strong>sum of the GCD</strong> values of all formed pairs.</p>\nThe term <code>gcd(a, b)</code> denotes the <strong>greatest common divisor</strong> of <code>a</code> and <code>b</code>.\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,6,4]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Construct <code>prefixGcd</code>:</p>\n\n<table style=\"border: 1px solid black;\"><thead><tr><th style=\"border: 1px solid black;\"><code>i</code></th><th style=\"border: 1px solid black;\"><code>nums[i]</code></th><th style=\"border: 1px solid black;\"><code>mx<sub>i</sub></code></th><th style=\"border: 1px solid black;\"><code>prefixGcd[i]</code></th></tr></thead><tbody><tr><td style=\"border: 1px solid black;\">0</td><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">2</td></tr><tr><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">6</td></tr><tr><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">4</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">2</td></tr></tbody></table>\n\n<p><code>prefixGcd = [2, 6, 2]</code>. After sorting, it forms <code>[2, 2, 6]</code>.</p>\n\n<p>Pair the smallest and largest elements: <code>gcd(2, 6) = 2</code>. The remaining middle element 2 is ignored. Thus, the sum is 2.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [3,6,2,8]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">5</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Construct <code>prefixGcd</code>:</p>\n\n<table style=\"border: 1px solid black;\"><thead><tr><th style=\"border: 1px solid black;\"><code>i</code></th><th style=\"border: 1px solid black;\"><code>nums[i]</code></th><th style=\"border: 1px solid black;\"><code>mx<sub>i</sub></code></th><th style=\"border: 1px solid black;\"><code>prefixGcd[i]</code></th></tr></thead><tbody><tr><td style=\"border: 1px solid black;\">0</td><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\">3</td></tr><tr><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">6</td></tr><tr><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">6</td><td style=\"border: 1px solid black;\">2</td></tr><tr><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\">8</td><td style=\"border: 1px solid black;\">8</td><td style=\"border: 1px solid black;\">8</td></tr></tbody></table>\n\n<p><code>prefixGcd = [3, 6, 2, 8]</code>. After sorting, it forms <code>[2, 3, 6, 8]</code>.</p>\n\n<p>Form pairs: <code>gcd(2, 8) = 2</code> and <code>gcd(3, 6) = 3</code>. Thus, the sum is <code>2 + 3 = 5</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>​​​​​​​9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
