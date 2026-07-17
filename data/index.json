@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-07-17",
+    "id": "3312",
+    "title": "Sorted GCD Pair Queries",
+    "slug": "sorted-gcd-pair-queries",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Combinatorics",
+      "Counting",
+      "Number Theory",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/sorted-gcd-pair-queries/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-16",
     "id": "3867",
     "title": "Sum of GCD of Formed Pairs",
