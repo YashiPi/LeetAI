@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-18T02:42:53.593784+00:00",
+    "date": "2026-07-18",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-18",
+    "link": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+    "id": "1979",
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Number Theory"
+    ],
+    "hints": [
+      "Find the minimum and maximum in one iteration. Let them be mn and mx.",
+      "Try all the numbers in the range [1, mn] and check the largest number which divides both of them."
+    ],
+    "stats": {
+      "total_accepted": "272.7K",
+      "total_submissions": "338.5K",
+      "acceptance_rate": "80.6%"
+    },
+    "likes": 1340,
+    "dislikes": 56,
+    "similar_questions": [
+      {
+        "title": "Greatest Common Divisor of Strings",
+        "slug": "greatest-common-divisor-of-strings",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Number of Different Subsequences GCDs",
+        "slug": "number-of-different-subsequences-gcds",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Three Divisors",
+        "slug": "three-divisors",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Smallest Even Multiple",
+        "slug": "smallest-even-multiple",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Number of Subarrays With GCD Equal to K",
+        "slug": "number-of-subarrays-with-gcd-equal-to-k",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Find the Number of Subsequences With Equal GCD",
+        "slug": "find-the-number-of-subsequences-with-equal-gcd",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Maximum Subarray With Equal Products",
+        "slug": "maximum-subarray-with-equal-products",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "[2,5,6,9,10]\n[7,5,6,8,3]\n[3,3]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int findGCD(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int findGCD(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def findGCD(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar findGCD = function(nums) {\n    \n};"
+    },
+    "description": "Given an integer array nums, return the greatest common divisor of the smallest number and largest number in nums.\n\nThe greatest common divisor of two numbers is the largest positive integer that evenly divides both numbers.\n\n \n\nExample 1:\n\nInput: nums = [2,5,6,9,10]\nOutput: 2\nExplanation:\nThe smallest number in nums is 2.\nThe largest number in nums is 10.\nThe greatest common divisor of 2 and 10 is 2.\n\n\nExample 2:\n\nInput: nums = [7,5,6,8,3]\nOutput: 1\nExplanation:\nThe smallest number in nums is 3.\nThe largest number in nums is 8.\nThe greatest common divisor of 3 and 8 is 1.\n\n\nExample 3:\n\nInput: nums = [3,3]\nOutput: 3\nExplanation:\nThe smallest number in nums is 3.\nThe largest number in nums is 3.\nThe greatest common divisor of 3 and 3 is 3.\n\n\n \n\nConstraints:\n\n2 <= nums.length <= 1000\n1 <= nums[i] <= 1000",
+    "description_html": "<p>Given an integer array <code>nums</code>, return<strong> </strong><em>the <strong>greatest common divisor</strong> of the smallest number and largest number in </em><code>nums</code>.</p>\n\n<p>The <strong>greatest common divisor</strong> of two numbers is the largest positive integer that evenly divides both numbers.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> nums = [2,5,6,9,10]\n<strong>Output:</strong> 2\n<strong>Explanation:</strong>\nThe smallest number in nums is 2.\nThe largest number in nums is 10.\nThe greatest common divisor of 2 and 10 is 2.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> nums = [7,5,6,8,3]\n<strong>Output:</strong> 1\n<strong>Explanation:</strong>\nThe smallest number in nums is 3.\nThe largest number in nums is 8.\nThe greatest common divisor of 3 and 8 is 1.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> nums = [3,3]\n<strong>Output:</strong> 3\n<strong>Explanation:</strong>\nThe smallest number in nums is 3.\nThe largest number in nums is 3.\nThe greatest common divisor of 3 and 3 is 3.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 1000</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 1000</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

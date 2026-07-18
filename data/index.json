@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-18",
+    "id": "1979",
+    "title": "Find Greatest Common Divisor of Array",
+    "slug": "find-greatest-common-divisor-of-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/find-greatest-common-divisor-of-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-17",
     "id": "3312",
     "title": "Sorted GCD Pair Queries",
