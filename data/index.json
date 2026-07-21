@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-21",
+    "id": "3499",
+    "title": "Maximize Active Section with Trade I",
+    "slug": "maximize-active-section-with-trade-i",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/maximize-active-section-with-trade-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-20",
     "id": "1260",
     "title": "Shift 2D Grid",
