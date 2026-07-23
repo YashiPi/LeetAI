@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-23",
+    "id": "3513",
+    "title": "Number of Unique XOR Triplets I",
+    "slug": "number-of-unique-xor-triplets-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Bit Manipulation"
+    ],
+    "link": "https://leetcode.com/problems/number-of-unique-xor-triplets-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-22",
     "id": "3501",
     "title": "Maximize Active Section with Trade II",
