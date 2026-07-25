@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-07-25",
+    "id": "3536",
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-product-of-two-digits/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-24",
     "id": "3514",
     "title": "Number of Unique XOR Triplets II",

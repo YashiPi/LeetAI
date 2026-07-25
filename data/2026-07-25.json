@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-25T02:53:08.055321+00:00",
+    "date": "2026-07-25",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-25",
+    "link": "https://leetcode.com/problems/maximum-product-of-two-digits/",
+    "id": "3536",
+    "title": "Maximum Product of Two Digits",
+    "slug": "maximum-product-of-two-digits",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Sorting"
+    ],
+    "hints": [
+      "Use brute force"
+    ],
+    "stats": {
+      "total_accepted": "60.9K",
+      "total_submissions": "86.1K",
+      "acceptance_rate": "70.8%"
+    },
+    "likes": 87,
+    "dislikes": 3,
+    "similar_questions": [],
+    "example_testcases": "31\n22\n124",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxProduct(int n) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxProduct(int n) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxProduct(self, n: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @return {number}\n */\nvar maxProduct = function(n) {\n    \n};"
+    },
+    "description": "You are given a positive integer n.\n\nReturn the maximum product of any two digits in n.\n\nNote: You may use the same digit twice if it appears more than once in n.\n\n \n\nExample 1:\n\nInput: n = 31\n\nOutput: 3\n\nExplanation:\n\nThe digits of n are [3, 1].\nThe possible products of any two digits are: 3 * 1 = 3.\nThe maximum product is 3.\n\nExample 2:\n\nInput: n = 22\n\nOutput: 4\n\nExplanation:\n\nThe digits of n are [2, 2].\nThe possible products of any two digits are: 2 * 2 = 4.\nThe maximum product is 4.\n\nExample 3:\n\nInput: n = 124\n\nOutput: 8\n\nExplanation:\n\nThe digits of n are [1, 2, 4].\nThe possible products of any two digits are: 1 * 2 = 2, 1 * 4 = 4, 2 * 4 = 8.\nThe maximum product is 8.\n\n \n\nConstraints:\n\n10 <= n <= 109",
+    "description_html": "<p>You are given a positive integer <code>n</code>.</p>\n\n<p>Return the <strong>maximum</strong> product of any two digits in <code>n</code>.</p>\n\n<p><strong>Note:</strong> You may use the <strong>same</strong> digit twice if it appears more than once in <code>n</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 31</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The digits of <code>n</code> are <code>[3, 1]</code>.</li>\n\t<li>The possible products of any two digits are: <code>3 * 1 = 3</code>.</li>\n\t<li>The maximum product is 3.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 22</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">4</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The digits of <code>n</code> are <code>[2, 2]</code>.</li>\n\t<li>The possible products of any two digits are: <code>2 * 2 = 4</code>.</li>\n\t<li>The maximum product is 4.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 124</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">8</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The digits of <code>n</code> are <code>[1, 2, 4]</code>.</li>\n\t<li>The possible products of any two digits are: <code>1 * 2 = 2</code>, <code>1 * 4 = 4</code>, <code>2 * 4 = 8</code>.</li>\n\t<li>The maximum product is 8.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>10 &lt;= n &lt;= 10<sup>9</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
