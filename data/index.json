@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-26",
+    "id": "628",
+    "title": "Maximum Product of Three Numbers",
+    "slug": "maximum-product-of-three-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-25",
     "id": "3536",
     "title": "Maximum Product of Two Digits",

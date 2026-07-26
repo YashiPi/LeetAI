@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-26T03:08:05.491267+00:00",
+    "date": "2026-07-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-26",
+    "link": "https://leetcode.com/problems/maximum-product-of-three-numbers/",
+    "id": "628",
+    "title": "Maximum Product of Three Numbers",
+    "slug": "maximum-product-of-three-numbers",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "524.6K",
+      "total_submissions": "1.1M",
+      "acceptance_rate": "46.3%"
+    },
+    "likes": 4586,
+    "dislikes": 718,
+    "similar_questions": [
+      {
+        "title": "Maximum Product Subarray",
+        "slug": "maximum-product-subarray",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Maximum Product of Three Elements After One Replacement",
+        "slug": "maximum-product-of-three-elements-after-one-replacement",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[1,2,3]\n[1,2,3,4]\n[-1,-2,-3]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maximumProduct(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maximumProduct(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maximumProduct(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maximumProduct = function(nums) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
