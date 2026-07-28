@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-28T02:46:22.839771+00:00",
+    "date": "2026-07-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-28",
+    "link": "https://leetcode.com/problems/smallest-palindromic-rearrangement-i/",
+    "id": "3517",
+    "title": "Smallest Palindromic Rearrangement I",
+    "slug": "smallest-palindromic-rearrangement-i",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Sorting",
+      "Counting Sort"
+    ],
+    "hints": [
+      "Consider a palindrome as composed of two mirror-image halves.",
+      "Construct one half (using <code>s</code>), and then the other half is its reverse to obtain the lexicographically smallest permutation."
+    ],
+    "stats": {
+      "total_accepted": "45.1K",
+      "total_submissions": "68K",
+      "acceptance_rate": "66.4%"
+    },
+    "likes": 121,
+    "dislikes": 3,
+    "similar_questions": [
+      {
+        "title": "Shortest Palindrome",
+        "slug": "shortest-palindrome",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "\"z\"\n\"babab\"\n\"daccad\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string smallestPalindrome(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String smallestPalindrome(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def smallestPalindrome(self, s: str) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {string}\n */\nvar smallestPalindrome = function(s) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
