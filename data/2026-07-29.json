@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-07-29T02:52:20.017624+00:00",
+    "date": "2026-07-29",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-07-29",
+    "link": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/",
+    "id": "3518",
+    "title": "Smallest Palindromic Rearrangement II",
+    "slug": "smallest-palindromic-rearrangement-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String",
+      "Combinatorics",
+      "Counting"
+    ],
+    "hints": [
+      "Only build <code>floor(n / 2)</code> characters (the rest are determined by symmetry).",
+      "Count character frequencies and use half the counts for construction.",
+      "Incrementally choose each character (from smallest to largest) and calculate how many valid arrangements result if that character is chosen at the current index.",
+      "If the count is at least <code>k</code>, fix that character; otherwise, subtract the count from <code>k</code> and try the next candidate.",
+      "Use combinatorics to compute the number of permutations at each step."
+    ],
+    "stats": {
+      "total_accepted": "10.4K",
+      "total_submissions": "49.6K",
+      "acceptance_rate": "20.9%"
+    },
+    "likes": 93,
+    "dislikes": 8,
+    "similar_questions": [],
+    "example_testcases": "\"abba\"\n2\n\"aa\"\n2\n\"bacab\"\n1",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string smallestPalindrome(string s, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String smallestPalindrome(String s, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def smallestPalindrome(self, s: str, k: int) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {number} k\n * @return {string}\n */\nvar smallestPalindrome = function(s, k) {\n    \n};"
+    },
+    "description": "You are given a palindromic string s and an integer k.\n\nReturn the k-th lexicographically smallest palindromic permutation of s. If there are fewer than k distinct palindromic permutations, return an empty string.\n\nNote: Different rearrangements that yield the same palindromic string are considered identical and are counted once.\n\n \n\nExample 1:\n\nInput: s = \"abba\", k = 2\n\nOutput: \"baab\"\n\nExplanation:\n\nThe two distinct palindromic rearrangements of \"abba\" are \"abba\" and \"baab\".\nLexicographically, \"abba\" comes before \"baab\". Since k = 2, the output is \"baab\".\n\nExample 2:\n\nInput: s = \"aa\", k = 2\n\nOutput: \"\"\n\nExplanation:\n\nThere is only one palindromic rearrangement: \"aa\".\nThe output is an empty string since k = 2 exceeds the number of possible rearrangements.\n\nExample 3:\n\nInput: s = \"bacab\", k = 1\n\nOutput: \"abcba\"\n\nExplanation:\n\nThe two distinct palindromic rearrangements of \"bacab\" are \"abcba\" and \"bacab\".\nLexicographically, \"abcba\" comes before \"bacab\". Since k = 1, the output is \"abcba\".\n\n \n\nConstraints:\n\n1 <= s.length <= 104\ns consists of lowercase English letters.\ns is guaranteed to be palindromic.\n1 <= k <= 106",
+    "description_html": "<p data-end=\"332\" data-start=\"99\">You are given a <strong><span data-keyword=\"palindrome-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_1o_\" data-state=\"closed\" class=\"\">palindromic</button></span></strong> string <code>s</code> and an integer <code>k</code>.</p>\n\n<p>Return the <strong>k-th</strong> <strong><span data-keyword=\"lexicographically-smaller-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_1p_\" data-state=\"closed\" class=\"\">lexicographically smallest</button></span></strong> palindromic <span data-keyword=\"permutation-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_1q_\" data-state=\"closed\" class=\"\">permutation</button></span> of <code>s</code>. If there are fewer than <code>k</code> distinct palindromic permutations, return an empty string.</p>\n\n<p><strong>Note:</strong> Different rearrangements that yield the same palindromic string are considered identical and are counted once.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"abba\", k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"baab\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The two distinct palindromic rearrangements of <code>\"abba\"</code> are <code>\"abba\"</code> and <code>\"baab\"</code>.</li>\n\t<li>Lexicographically, <code>\"abba\"</code> comes before <code>\"baab\"</code>. Since <code>k = 2</code>, the output is <code>\"baab\"</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"aa\", k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>There is only one palindromic rearrangement: <code data-end=\"1112\" data-start=\"1106\">\"aa\"</code>.</li>\n\t<li>The output is an empty string since <code>k = 2</code> exceeds the number of possible rearrangements.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"bacab\", k = 1</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"abcba\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The two distinct palindromic rearrangements of <code>\"bacab\"</code> are <code>\"abcba\"</code> and <code>\"bacab\"</code>.</li>\n\t<li>Lexicographically, <code>\"abcba\"</code> comes before <code>\"bacab\"</code>. Since <code>k = 1</code>, the output is <code>\"abcba\"</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n\t<li><code>s</code> is guaranteed to be palindromic.</li>\n\t<li><code>1 &lt;= k &lt;= 10<sup>6</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

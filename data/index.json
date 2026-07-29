@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-29",
+    "id": "3518",
+    "title": "Smallest Palindromic Rearrangement II",
+    "slug": "smallest-palindromic-rearrangement-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String",
+      "Combinatorics",
+      "Counting"
+    ],
+    "link": "https://leetcode.com/problems/smallest-palindromic-rearrangement-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-28",
     "id": "3517",
     "title": "Smallest Palindromic Rearrangement I",
