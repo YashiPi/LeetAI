@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-07-30",
+    "id": "3014",
+    "title": "Minimum Number of Pushes to Type Word I",
+    "slug": "minimum-number-of-pushes-to-type-word-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-29",
     "id": "3518",
     "title": "Smallest Palindromic Rearrangement II",
