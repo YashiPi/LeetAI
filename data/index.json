@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-07-31",
+    "id": "3016",
+    "title": "Minimum Number of Pushes to Type Word II",
+    "slug": "minimum-number-of-pushes-to-type-word-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting",
+      "Counting"
+    ],
+    "link": "https://leetcode.com/problems/minimum-number-of-pushes-to-type-word-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-07-30",
     "id": "3014",
     "title": "Minimum Number of Pushes to Type Word I",
