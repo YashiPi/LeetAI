@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-02",
+    "id": "877",
+    "title": "Stone Game",
+    "slug": "stone-game",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Game Theory"
+    ],
+    "link": "https://leetcode.com/problems/stone-game/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-01",
     "id": "486",
     "title": "Predict the Winner",
