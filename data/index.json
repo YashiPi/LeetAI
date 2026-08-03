@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-03",
+    "id": "1406",
+    "title": "Stone Game III",
+    "slug": "stone-game-iii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Game Theory"
+    ],
+    "link": "https://leetcode.com/problems/stone-game-iii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-02",
     "id": "877",
     "title": "Stone Game",
