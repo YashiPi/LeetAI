@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-04",
+    "id": "3731",
+    "title": "Find Missing Elements",
+    "slug": "find-missing-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/find-missing-elements/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-03",
     "id": "1406",
     "title": "Stone Game III",
