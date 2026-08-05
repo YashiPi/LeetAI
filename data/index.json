@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-05",
+    "id": "3310",
+    "title": "Remove Methods From Project",
+    "slug": "remove-methods-from-project",
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ],
+    "link": "https://leetcode.com/problems/remove-methods-from-project/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-04",
     "id": "3731",
     "title": "Find Missing Elements",
