@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-06",
+    "id": "3345",
+    "title": "Smallest Divisible Digit Product I",
+    "slug": "smallest-divisible-digit-product-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/smallest-divisible-digit-product-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-05",
     "id": "3310",
     "title": "Remove Methods From Project",
