@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-07",
+    "id": "3348",
+    "title": "Smallest Divisible Digit Product II",
+    "slug": "smallest-divisible-digit-product-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "String",
+      "Backtracking",
+      "Greedy",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/smallest-divisible-digit-product-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-06",
     "id": "3345",
     "title": "Smallest Divisible Digit Product I",
