@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-08",
+    "id": "3302",
+    "title": "Find the Lexicographically Smallest Valid Sequence",
+    "slug": "find-the-lexicographically-smallest-valid-sequence",
+    "difficulty": "Medium",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/find-the-lexicographically-smallest-valid-sequence/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-07",
     "id": "3348",
     "title": "Smallest Divisible Digit Product II",
