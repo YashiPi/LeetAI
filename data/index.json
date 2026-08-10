@@ -1,5 +1,24 @@
 [
   {
+    "date": "2026-08-10",
+    "id": "1510",
+    "title": "Stone Game IV",
+    "slug": "stone-game-iv",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Minimax",
+      "Game Theory",
+      "Nim Game",
+      "Sprague\u2013Grundy Theorem",
+      "Zero-Sum Game"
+    ],
+    "link": "https://leetcode.com/problems/stone-game-iv/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-09",
     "id": "1140",
     "title": "Stone Game II",
