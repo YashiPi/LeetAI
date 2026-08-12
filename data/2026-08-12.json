@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-12T02:07:23.797315+00:00",
+    "date": "2026-08-12",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-12",
+    "link": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/",
+    "id": "2958",
+    "title": "Length of Longest Subarray With at Most K Frequency",
+    "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ],
+    "hints": [
+      "For each index <code>i</code>, find the rightmost index <code>j >= i</code> such that the frequency of each element in the subarray <code>[i, j]</code> is at most <code>k</code>.",
+      "We can use 2 pointers / sliding window to achieve it."
+    ],
+    "stats": {
+      "total_accepted": "204.7K",
+      "total_submissions": "358.1K",
+      "acceptance_rate": "57.2%"
+    },
+    "likes": 1234,
+    "dislikes": 37,
+    "similar_questions": [
+      {
+        "title": "Longest Substring with At Least K Repeating Characters",
+        "slug": "longest-substring-with-at-least-k-repeating-characters",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[1,2,3,1,2,3,1,2]\n2\n[1,2,1,2,1,2,1,2]\n1\n[5,5,5,5,5,5,5]\n4",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxSubarrayLength(vector<int>& nums, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxSubarrayLength(int[] nums, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxSubarrayLength(self, nums: List[int], k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} k\n * @return {number}\n */\nvar maxSubarrayLength = function(nums, k) {\n    \n};"
+    },
+    "description": "You are given an integer array nums and an integer k.\n\nThe frequency of an element x is the number of times it occurs in an array.\n\nAn array is called good if the frequency of each element in this array is less than or equal to k.\n\nReturn the length of the longest good subarray of nums.\n\nA subarray is a contiguous non-empty sequence of elements within an array.\n\n \n\nExample 1:\n\nInput: nums = [1,2,3,1,2,3,1,2], k = 2\nOutput: 6\nExplanation: The longest possible good subarray is [1,2,3,1,2,3] since the values 1, 2, and 3 occur at most twice in this subarray. Note that the subarrays [2,3,1,2,3,1] and [3,1,2,3,1,2] are also good.\nIt can be shown that there are no good subarrays with length more than 6.\n\n\nExample 2:\n\nInput: nums = [1,2,1,2,1,2,1,2], k = 1\nOutput: 2\nExplanation: The longest possible good subarray is [1,2] since the values 1 and 2 occur at most once in this subarray. Note that the subarray [2,1] is also good.\nIt can be shown that there are no good subarrays with length more than 2.\n\n\nExample 3:\n\nInput: nums = [5,5,5,5,5,5,5], k = 4\nOutput: 4\nExplanation: The longest possible good subarray is [5,5,5,5] since the value 5 occurs 4 times in this subarray.\nIt can be shown that there are no good subarrays with length more than 4.\n\n\n \n\nConstraints:\n\n1 <= nums.length <= 105\n1 <= nums[i] <= 109\n1 <= k <= nums.length",
+    "description_html": "<p>You are given an integer array <code>nums</code> and an integer <code>k</code>.</p>\n\n<p>The <strong>frequency</strong> of an element <code>x</code> is the number of times it occurs in an array.</p>\n\n<p>An array is called <strong>good</strong> if the frequency of each element in this array is <strong>less than or equal</strong> to <code>k</code>.</p>\n\n<p>Return <em>the length of the <strong>longest</strong> <strong>good</strong> subarray of</em> <code>nums</code><em>.</em></p>\n\n<p>A <strong>subarray</strong> is a contiguous non-empty sequence of elements within an array.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> nums = [1,2,3,1,2,3,1,2], k = 2\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> The longest possible good subarray is [1,2,3,1,2,3] since the values 1, 2, and 3 occur at most twice in this subarray. Note that the subarrays [2,3,1,2,3,1] and [3,1,2,3,1,2] are also good.\nIt can be shown that there are no good subarrays with length more than 6.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> nums = [1,2,1,2,1,2,1,2], k = 1\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The longest possible good subarray is [1,2] since the values 1 and 2 occur at most once in this subarray. Note that the subarray [2,1] is also good.\nIt can be shown that there are no good subarrays with length more than 2.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> nums = [5,5,5,5,5,5,5], k = 4\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The longest possible good subarray is [5,5,5,5] since the value 5 occurs 4 times in this subarray.\nIt can be shown that there are no good subarrays with length more than 4.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= nums.length</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

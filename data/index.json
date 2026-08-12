@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-12",
+    "id": "2958",
+    "title": "Length of Longest Subarray With at Most K Frequency",
+    "slug": "length-of-longest-subarray-with-at-most-k-frequency",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ],
+    "link": "https://leetcode.com/problems/length-of-longest-subarray-with-at-most-k-frequency/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-11",
     "id": "2996",
     "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
