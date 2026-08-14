@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-08-14",
+    "id": "3090",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "link": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-13",
     "id": "2213",
     "title": "Longest Substring of One Repeating Character",

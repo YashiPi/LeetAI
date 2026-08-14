@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-14T02:08:44.793056+00:00",
+    "date": "2026-08-14",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-14",
+    "link": "https://leetcode.com/problems/maximum-length-substring-with-two-occurrences/",
+    "id": "3090",
+    "title": "Maximum Length Substring With Two Occurrences",
+    "slug": "maximum-length-substring-with-two-occurrences",
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ],
+    "hints": [
+      "We can try all substrings by brute-force since the constraints are very small."
+    ],
+    "stats": {
+      "total_accepted": "73.8K",
+      "total_submissions": "110.1K",
+      "acceptance_rate": "67.0%"
+    },
+    "likes": 280,
+    "dislikes": 23,
+    "similar_questions": [],
+    "example_testcases": "\"bcbbbcba\"\n\"aaaa\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maximumLengthSubstring(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maximumLengthSubstring(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maximumLengthSubstring(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar maximumLengthSubstring = function(s) {\n    \n};"
+    },
+    "description": "Given a string s, return the maximum length of a substring such that it contains at most two occurrences of each character.\n\n \n\nExample 1:\n\nInput: s = \"bcbbbcba\"\n\nOutput: 4\n\nExplanation:\n\nThe following substring has a length of 4 and contains at most two occurrences of each character: \"bcbbbcba\".\n\nExample 2:\n\nInput: s = \"aaaa\"\n\nOutput: 2\n\nExplanation:\n\nThe following substring has a length of 2 and contains at most two occurrences of each character: \"aaaa\".\n\n \n\nConstraints:\n\n2 <= s.length <= 100\ns consists only of lowercase English letters.",
+    "description_html": "Given a string <code>s</code>, return the <strong>maximum</strong> length of a <span data-keyword=\"substring\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_q_\" data-state=\"closed\" class=\"\">substring</button></span>&nbsp;such that it contains <em>at most two occurrences</em> of each character.\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"bcbbbcba\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">4</span></p>\n\n<p><strong>Explanation:</strong></p>\nThe following substring has a length of 4 and contains at most two occurrences of each character: <code>\"bcbb<u>bcba</u>\"</code>.</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"aaaa\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\nThe following substring has a length of 2 and contains at most two occurrences of each character: <code>\"<u>aa</u>aa\"</code>.</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s</code> consists only of lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
