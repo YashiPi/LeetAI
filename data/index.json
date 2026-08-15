@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-15",
+    "id": "3702",
+    "title": "Longest Subsequence With Non-Zero Bitwise XOR",
+    "slug": "longest-subsequence-with-non-zero-bitwise-xor",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
+    ],
+    "link": "https://leetcode.com/problems/longest-subsequence-with-non-zero-bitwise-xor/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-14",
     "id": "3090",
     "title": "Maximum Length Substring With Two Occurrences",
