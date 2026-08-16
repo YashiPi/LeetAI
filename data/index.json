@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-08-16",
+    "id": "2029",
+    "title": "Stone Game IX",
+    "slug": "stone-game-ix",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Minimax",
+      "Counting",
+      "Game Theory",
+      "Nim Game",
+      "Zero-Sum Game"
+    ],
+    "link": "https://leetcode.com/problems/stone-game-ix/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-15",
     "id": "3702",
     "title": "Longest Subsequence With Non-Zero Bitwise XOR",
