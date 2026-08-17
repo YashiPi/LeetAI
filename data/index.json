@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-17",
+    "id": "1563",
+    "title": "Stone Game V",
+    "slug": "stone-game-v",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Game Theory"
+    ],
+    "link": "https://leetcode.com/problems/stone-game-v/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-16",
     "id": "2029",
     "title": "Stone Game IX",
