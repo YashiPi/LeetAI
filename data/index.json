@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-19",
+    "id": "1386",
+    "title": "Cinema Seat Allocation",
+    "slug": "cinema-seat-allocation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Bit Manipulation"
+    ],
+    "link": "https://leetcode.com/problems/cinema-seat-allocation/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-17",
     "id": "1563",
     "title": "Stone Game V",

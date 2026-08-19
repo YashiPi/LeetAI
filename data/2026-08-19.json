@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-19T01:22:54.501612+00:00",
+    "date": "2026-08-19",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-19",
+    "link": "https://leetcode.com/problems/cinema-seat-allocation/",
+    "id": "1386",
+    "title": "Cinema Seat Allocation",
+    "slug": "cinema-seat-allocation",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Bit Manipulation"
+    ],
+    "hints": [
+      "Note you can allocate at most two four-person groups in one row.",
+      "Greedily check if you can allocate seats for two groups, one group or none.",
+      "Process only rows that appear in the input, for other rows you can always allocate seats for two groups."
+    ],
+    "stats": {
+      "total_accepted": "70.3K",
+      "total_submissions": "154.9K",
+      "acceptance_rate": "45.4%"
+    },
+    "likes": 1006,
+    "dislikes": 418,
+    "similar_questions": [
+      {
+        "title": "Booking Concert Tickets in Groups",
+        "slug": "booking-concert-tickets-in-groups",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "3\n[[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]\n2\n[[2,1],[1,8],[2,6]]\n4\n[[4,3],[1,4],[4,6],[1,7]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxNumberOfFamilies(int n, int[][] reservedSeats) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxNumberOfFamilies(self, n: int, reservedSeats: List[List[int]]) -> int:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @param {number[][]} reservedSeats\n * @return {number}\n */\nvar maxNumberOfFamilies = function(n, reservedSeats) {\n    \n};"
+    },
+    "description": "A cinema has n rows of seats, numbered from 1 to n. Each row has 10 seats, numbered from 1 to 10.\n\nYou are given a 2D integer array reservedSeats, where reservedSeats[i] = [rowi, seati] means that seat seati in row rowi is already reserved.\n\nA four-person group must be assigned to four seats in the same row. The group can be seated in one of the following seat blocks:\n\nseats 2, 3, 4, 5\nseats 4, 5, 6, 7\nseats 6, 7, 8, 9\n\nA block can be used only if none of its seats are reserved. Each seat can be assigned to at most one group.\n\nReturn an integer denoting the maximum number of four-person groups that can be assigned.\n\n \n\nExample 1:\n\nInput: n = 3, reservedSeats = [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]\nOutput: 4\nExplanation: The figure above shows an optimal allocation of four groups. Seats marked in blue are already reserved, and each set of four contiguous seats marked in orange is assigned to one group.\n\n\nExample 2:\n\nInput: n = 2, reservedSeats = [[2,1],[1,8],[2,6]]\nOutput: 2\n\n\nExample 3:\n\nInput: n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]\nOutput: 4\n\n\n \n\nConstraints:\n\n1 <= n <= 109\n1 <= reservedSeats.length <= min(10 * n, 104)\nreservedSeats[i] == [rowi, seati]\n1 <= rowi <= n\n1 <= seati <= 10\nAll reservedSeats[i] are distinct.",
+    "description_html": "<p><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_1.png\" style=\"width: 400px; height: 149px;\"></p>\n\n<p>A cinema has <code>n</code> rows of seats, numbered from 1 to <code>n</code>. Each row has 10 seats, numbered from 1 to 10.</p>\n\n<p>You are given a 2D integer array <code data-end=\"170\" data-start=\"155\">reservedSeats</code>, where <code data-end=\"212\" data-start=\"178\">reservedSeats[i] = [row<sub>i</sub>, seat<sub>i</sub>]</code> means that seat <code data-end=\"236\" data-start=\"229\">seat<sub>i</sub></code> in row <code data-end=\"250\" data-start=\"244\">row<sub>i</sub></code> is already reserved.</p>\n\n<p>A four-person group must be assigned to four seats in the <strong>same</strong> row. The group can be seated in one of the following seat blocks:</p>\n\n<ul>\n\t<li>seats <code data-end=\"423\" data-start=\"411\">2, 3, 4, 5</code></li>\n\t<li>seats <code data-end=\"444\" data-start=\"432\">4, 5, 6, 7</code></li>\n\t<li>seats <code data-end=\"465\" data-start=\"453\">6, 7, 8, 9</code></li>\n</ul>\n\n<p>A block can be used only if <strong>none</strong> of its seats are reserved. Each seat can be assigned to <strong>at most </strong>one group.</p>\n\n<p>Return an integer denoting the <strong>maximum</strong> number of four-person groups that can be assigned.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<p><img alt=\"\" src=\"https://assets.leetcode.com/uploads/2020/02/14/cinema_seats_3.png\" style=\"width: 400px; height: 96px;\"></p>\n\n<pre><strong>Input:</strong> n = 3, reservedSeats = [[1,2],[1,3],[1,8],[2,6],[3,1],[3,10]]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The figure above shows an optimal allocation of four groups. Seats marked in blue are already reserved, and each set of four contiguous seats marked in orange is assigned to one group.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> n = 2, reservedSeats = [[2,1],[1,8],[2,6]]\n<strong>Output:</strong> 2\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> n = 4, reservedSeats = [[4,3],[1,4],[4,6],[1,7]]\n<strong>Output:</strong> 4\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 10<sup>9</sup></code></li>\n\t<li><code>1 &lt;= reservedSeats.length &lt;= min(10 * n, 10<sup>4</sup>)</code></li>\n\t<li><code>reservedSeats[i] == [row<sub>i</sub>, seat<sub>i</sub>]</code></li>\n\t<li><code>1 &lt;= row<sub>i</sub> &lt;= n</code></li>\n\t<li><code>1 &lt;= seat<sub>i</sub> &lt;= 10</code></li>\n\t<li>All <code>reservedSeats[i]</code> are distinct.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
