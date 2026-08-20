@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-20",
+    "id": "3069",
+    "title": "Distribute Elements Into Two Arrays I",
+    "slug": "distribute-elements-into-two-arrays-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/distribute-elements-into-two-arrays-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-19",
     "id": "1386",
     "title": "Cinema Seat Allocation",
