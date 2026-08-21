@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-08-21",
+    "id": "3116",
+    "title": "Kth Smallest Amount With Single Denomination Combination",
+    "slug": "kth-smallest-amount-with-single-denomination-combination",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Combinatorics",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/kth-smallest-amount-with-single-denomination-combination/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-20",
     "id": "3069",
     "title": "Distribute Elements Into Two Arrays I",
