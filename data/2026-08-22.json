@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-22T01:21:06.285519+00:00",
+    "date": "2026-08-22",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-22",
+    "link": "https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/",
+    "id": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "hints": [
+      "Compute the digits' sum and product, then check if <code>n % (sum + product) == 0</code>."
+    ],
+    "stats": {
+      "total_accepted": "80.3K",
+      "total_submissions": "114.7K",
+      "acceptance_rate": "70.0%"
+    },
+    "likes": 64,
+    "dislikes": 2,
+    "similar_questions": [],
+    "example_testcases": "99\n23",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool checkDivisibility(int n) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean checkDivisibility(int n) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def checkDivisibility(self, n: int) -> bool:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar checkDivisibility = function(n) {\n    \n};"
+    },
+    "description": "You are given a positive integer n. Determine whether n is divisible by the sum of the following two values:\n\nThe digit sum of n (the sum of its digits).\n\nThe digit product of n (the product of its digits).\n\nReturn true if n is divisible by this sum; otherwise, return false.\n\n \n\nExample 1:\n\nInput: n = 99\n\nOutput: true\n\nExplanation:\n\nSince 99 is divisible by the sum (9 + 9 = 18) plus product (9 * 9 = 81) of its digits (total 99), the output is true.\n\nExample 2:\n\nInput: n = 23\n\nOutput: false\n\nExplanation:\n\nSince 23 is not divisible by the sum (2 + 3 = 5) plus product (2 * 3 = 6) of its digits (total 11), the output is false.\n\n \n\nConstraints:\n\n1 <= n <= 106",
+    "description_html": "<p>You are given a positive integer <code>n</code>. Determine whether <code>n</code> is divisible by the <strong>sum </strong>of the following two values:</p>\n\n<ul>\n\t<li>\n\t<p>The <strong>digit sum</strong> of <code>n</code> (the sum of its digits).</p>\n\t</li>\n\t<li>\n\t<p>The <strong>digit</strong> <strong>product</strong> of <code>n</code> (the product of its digits).</p>\n\t</li>\n</ul>\n\n<p>Return <code>true</code> if <code>n</code> is divisible by this sum; otherwise, return <code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 99</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Since 99 is divisible by the sum (9 + 9 = 18) plus product (9 * 9 = 81) of its digits (total 99), the output is true.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">n = 23</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Since 23 is not divisible by the sum (2 + 3 = 5) plus product (2 * 3 = 6) of its digits (total 11), the output is false.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 10<sup>6</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

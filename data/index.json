@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-22",
+    "id": "3622",
+    "title": "Check Divisibility by Digit Sum and Product",
+    "slug": "check-divisibility-by-digit-sum-and-product",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-21",
     "id": "3116",
     "title": "Kth Smallest Amount With Single Denomination Combination",
