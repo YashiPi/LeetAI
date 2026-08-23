@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-08-23",
+    "id": "1927",
+    "title": "Sum Game",
+    "slug": "sum-game",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "String",
+      "Greedy",
+      "Game Theory"
+    ],
+    "link": "https://leetcode.com/problems/sum-game/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-22",
     "id": "3622",
     "title": "Check Divisibility by Digit Sum and Product",
