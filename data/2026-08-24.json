@@ -1,0 +1,112 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-24T01:25:53.321141+00:00",
+    "date": "2026-08-24",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-24",
+    "link": "https://leetcode.com/problems/stone-game-viii/",
+    "id": "1872",
+    "title": "Stone Game VIII",
+    "slug": "stone-game-viii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Minimax",
+      "Prefix Sum",
+      "Game Theory",
+      "Zero-Sum Game"
+    ],
+    "hints": [
+      "Let's note that the only thing that matters is how many stones were removed so we can maintain dp[numberOfRemovedStones]",
+      "dp[x] = max(sum of all elements up to y - dp[y]) for all y > x"
+    ],
+    "stats": {
+      "total_accepted": "16K",
+      "total_submissions": "28.4K",
+      "acceptance_rate": "56.4%"
+    },
+    "likes": 505,
+    "dislikes": 25,
+    "similar_questions": [
+      {
+        "title": "Stone Game",
+        "slug": "stone-game",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Stone Game II",
+        "slug": "stone-game-ii",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Stone Game III",
+        "slug": "stone-game-iii",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Stone Game IV",
+        "slug": "stone-game-iv",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Stone Game V",
+        "slug": "stone-game-v",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Stone Game VI",
+        "slug": "stone-game-vi",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Stone Game VII",
+        "slug": "stone-game-vii",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Stone Game VIII",
+        "slug": "stone-game-viii",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Stone Game IX",
+        "slug": "stone-game-ix",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[-1,2,-3,4,-5]\n[7,-6,5,10,5,-2,-6]\n[-10,-12]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int stoneGameVIII(vector<int>& stones) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int stoneGameVIII(int[] stones) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def stoneGameVIII(self, stones: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} stones\n * @return {number}\n */\nvar stoneGameVIII = function(stones) {\n    \n};"
+    },
+    "description": "Alice and Bob take turns playing a game, with Alice starting first.\n\nThere are n stones arranged in a row. On each player's turn, while the number of stones is more than one, they will do the following:\n\nChoose an integer x > 1, and remove the leftmost x stones from the row.\nAdd the sum of the removed stones' values to the player's score.\nPlace a new stone, whose value is equal to that sum, on the left side of the row.\n\nThe game stops when only one stone is left in the row.\n\nThe score difference between Alice and Bob is (Alice's score - Bob's score). Alice's goal is to maximize the score difference, and Bob's goal is the minimize the score difference.\n\nGiven an integer array stones of length n where stones[i] represents the value of the ith stone from the left, return the score difference between Alice and Bob if they both play optimally.\n\n \n\nExample 1:\n\nInput: stones = [-1,2,-3,4,-5]\nOutput: 5\nExplanation:\n- Alice removes the first 4 stones, adds (-1) + 2 + (-3) + 4 = 2 to her score, and places a stone of\n  value 2 on the left. stones = [2,-5].\n- Bob removes the first 2 stones, adds 2 + (-5) = -3 to his score, and places a stone of value -3 on\n  the left. stones = [-3].\nThe difference between their scores is 2 - (-3) = 5.\n\n\nExample 2:\n\nInput: stones = [7,-6,5,10,5,-2,-6]\nOutput: 13\nExplanation:\n- Alice removes all stones, adds 7 + (-6) + 5 + 10 + 5 + (-2) + (-6) = 13 to her score, and places a\n  stone of value 13 on the left. stones = [13].\nThe difference between their scores is 13 - 0 = 13.\n\n\nExample 3:\n\nInput: stones = [-10,-12]\nOutput: -22\nExplanation:\n- Alice can only make one move, which is to remove both stones. She adds (-10) + (-12) = -22 to her\n  score and places a stone of value -22 on the left. stones = [-22].\nThe difference between their scores is (-22) - 0 = -22.\n\n\n \n\nConstraints:\n\nn == stones.length\n2 <= n <= 105\n-104 <= stones[i] <= 104",
+    "description_html": "<p>Alice and Bob take turns playing a game, with <strong>Alice starting first</strong>.</p>\n\n<p>There are <code>n</code> stones arranged in a row. On each player's turn, while the number of stones is <strong>more than one</strong>, they will do the following:</p>\n\n<ol>\n\t<li>Choose an integer <code>x &gt; 1</code>, and <strong>remove</strong> the leftmost <code>x</code> stones from the row.</li>\n\t<li>Add the <strong>sum</strong> of the <strong>removed</strong> stones' values to the player's score.</li>\n\t<li>Place a <strong>new stone</strong>, whose value is equal to that sum, on the left side of the row.</li>\n</ol>\n\n<p>The game stops when <strong>only</strong> <strong>one</strong> stone is left in the row.</p>\n\n<p>The <strong>score difference</strong> between Alice and Bob is <code>(Alice's score - Bob's score)</code>. Alice's goal is to <strong>maximize</strong> the score difference, and Bob's goal is the <strong>minimize</strong> the score difference.</p>\n\n<p>Given an integer array <code>stones</code> of length <code>n</code> where <code>stones[i]</code> represents the value of the <code>i<sup>th</sup></code> stone <strong>from the left</strong>, return <em>the <strong>score difference</strong> between Alice and Bob if they both play <strong>optimally</strong>.</em></p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> stones = [-1,2,-3,4,-5]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong>\n- Alice removes the first 4 stones, adds (-1) + 2 + (-3) + 4 = 2 to her score, and places a stone of\n  value 2 on the left. stones = [2,-5].\n- Bob removes the first 2 stones, adds 2 + (-5) = -3 to his score, and places a stone of value -3 on\n  the left. stones = [-3].\nThe difference between their scores is 2 - (-3) = 5.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> stones = [7,-6,5,10,5,-2,-6]\n<strong>Output:</strong> 13\n<strong>Explanation:</strong>\n- Alice removes all stones, adds 7 + (-6) + 5 + 10 + 5 + (-2) + (-6) = 13 to her score, and places a\n  stone of value 13 on the left. stones = [13].\nThe difference between their scores is 13 - 0 = 13.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> stones = [-10,-12]\n<strong>Output:</strong> -22\n<strong>Explanation:</strong>\n- Alice can only make one move, which is to remove both stones. She adds (-10) + (-12) = -22 to her\n  score and places a stone of value -22 on the left. stones = [-22].\nThe difference between their scores is (-22) - 0 = -22.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>n == stones.length</code></li>\n\t<li><code>2 &lt;= n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>4</sup> &lt;= stones[i] &lt;= 10<sup>4</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
