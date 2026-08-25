@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-25",
+    "id": "3718",
+    "title": "Smallest Missing Multiple of K",
+    "slug": "smallest-missing-multiple-of-k",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ],
+    "link": "https://leetcode.com/problems/smallest-missing-multiple-of-k/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-24",
     "id": "1872",
     "title": "Stone Game VIII",
