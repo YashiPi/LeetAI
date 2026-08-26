@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-26T01:26:39.768146+00:00",
+    "date": "2026-08-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-26",
+    "link": "https://leetcode.com/problems/shortest-and-lexicographically-smallest-beautiful-string/",
+    "id": "2904",
+    "title": "Shortest and Lexicographically Smallest Beautiful String",
+    "slug": "shortest-and-lexicographically-smallest-beautiful-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Sliding Window"
+    ],
+    "hints": [
+      "Notice that if we consider that index <code>i</code> is the leftmost index of a beautiful substring, it has only one candidate <code>j</code>, such that <code>s[i:j]</code> is beautiful and shortest too.",
+      "We can iterate over all possibilities of leftmost index <code>i</code> take <code>s[i:j]</code> and compare with the shortest and the lexicographically smallest beautiful string we could get before index <code>i</code>."
+    ],
+    "stats": {
+      "total_accepted": "36.8K",
+      "total_submissions": "87.4K",
+      "acceptance_rate": "42.1%"
+    },
+    "likes": 220,
+    "dislikes": 12,
+    "similar_questions": [],
+    "example_testcases": "\"100011001\"\n3\n\"1011\"\n2\n\"000\"\n1",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string shortestBeautifulSubstring(string s, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String shortestBeautifulSubstring(String s, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def shortestBeautifulSubstring(self, s: str, k: int) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {number} k\n * @return {string}\n */\nvar shortestBeautifulSubstring = function(s, k) {\n    \n};"
+    },
+    "description": "You are given a binary string s and a positive integer k.\n\nA substring of s is beautiful if the number of 1's in it is exactly k.\n\nLet len be the length of the shortest beautiful substring.\n\nReturn the lexicographically smallest beautiful substring of string s with length equal to len. If s doesn't contain a beautiful substring, return an empty string.\n\nA string a is lexicographically larger than a string b (of the same length) if in the first position where a and b differ, a has a character strictly larger than the corresponding character in b.\n\nFor example, \"abcd\" is lexicographically larger than \"abcc\" because the first position they differ is at the fourth character, and d is greater than c.\n\n \n\nExample 1:\n\nInput: s = \"100011001\", k = 3\nOutput: \"11001\"\nExplanation: There are 7 beautiful substrings in this example:\n1. The substring \"100011001\".\n2. The substring \"100011001\".\n3. The substring \"100011001\".\n4. The substring \"100011001\".\n5. The substring \"100011001\".\n6. The substring \"100011001\".\n7. The substring \"100011001\".\nThe length of the shortest beautiful substring is 5.\nThe lexicographically smallest beautiful substring with length 5 is the substring \"11001\".\n\n\nExample 2:\n\nInput: s = \"1011\", k = 2\nOutput: \"11\"\nExplanation: There are 3 beautiful substrings in this example:\n1. The substring \"1011\".\n2. The substring \"1011\".\n3. The substring \"1011\".\nThe length of the shortest beautiful substring is 2.\nThe lexicographically smallest beautiful substring with length 2 is the substring \"11\".\n\n\nExample 3:\n\nInput: s = \"000\", k = 1\nOutput: \"\"\nExplanation: There are no beautiful substrings in this example.\n\n\n \n\nConstraints:\n\n1 <= s.length <= 100\n1 <= k <= s.length",
+    "description_html": "<p>You are given a binary string <code>s</code> and a positive integer <code>k</code>.</p>\n\n<p>A substring of <code>s</code> is <strong>beautiful</strong> if the number of <code>1</code>'s in it is exactly <code>k</code>.</p>\n\n<p>Let <code>len</code> be the length of the <strong>shortest</strong> beautiful substring.</p>\n\n<p>Return <em>the lexicographically <strong>smallest</strong> beautiful substring of string </em><code>s</code><em> with length equal to </em><code>len</code>. If <code>s</code> doesn't contain a beautiful substring, return <em>an <strong>empty</strong> string</em>.</p>\n\n<p>A string <code>a</code> is lexicographically <strong>larger</strong> than a string <code>b</code> (of the same length) if in the first position where <code>a</code> and <code>b</code> differ, <code>a</code> has a character strictly larger than the corresponding character in <code>b</code>.</p>\n\n<ul>\n\t<li>For example, <code>\"abcd\"</code> is lexicographically larger than <code>\"abcc\"</code> because the first position they differ is at the fourth character, and <code>d</code> is greater than <code>c</code>.</li>\n</ul>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"100011001\", k = 3\n<strong>Output:</strong> \"11001\"\n<strong>Explanation:</strong> There are 7 beautiful substrings in this example:\n1. The substring \"<u>100011</u>001\".\n2. The substring \"<u>1000110</u>01\".\n3. The substring \"<u>10001100</u>1\".\n4. The substring \"1<u>00011001</u>\".\n5. The substring \"10<u>0011001</u>\".\n6. The substring \"100<u>011001</u>\".\n7. The substring \"1000<u>11001</u>\".\nThe length of the shortest beautiful substring is 5.\nThe lexicographically smallest beautiful substring with length 5 is the substring \"11001\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"1011\", k = 2\n<strong>Output:</strong> \"11\"\n<strong>Explanation:</strong> There are 3 beautiful substrings in this example:\n1. The substring \"<u>101</u>1\".\n2. The substring \"1<u>011</u>\".\n3. The substring \"10<u>11</u>\".\nThe length of the shortest beautiful substring is 2.\nThe lexicographically smallest beautiful substring with length 2 is the substring \"11\".\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"000\", k = 1\n<strong>Output:</strong> \"\"\n<strong>Explanation:</strong> There are no beautiful substrings in this example.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= k &lt;= s.length</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
