@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-08-27",
+    "id": "3720",
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-permutation-greater-than-target",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-26",
     "id": "2904",
     "title": "Shortest and Lexicographically Smallest Beautiful String",

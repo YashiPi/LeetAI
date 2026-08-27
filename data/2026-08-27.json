@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-27T08:11:03.821642+00:00",
+    "date": "2026-08-27",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-27",
+    "link": "https://leetcode.com/problems/lexicographically-smallest-permutation-greater-than-target/",
+    "id": "3720",
+    "title": "Lexicographically Smallest Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-permutation-greater-than-target",
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting",
+      "Enumeration"
+    ],
+    "hints": [
+      "Maintain frequency counts of <code>s</code>.",
+      "Walk left-to-right; if equal to <code>target[i]</code> is possible, take it and continue.",
+      "If not, try the smallest letter strictly greater than <code>target[i]</code>.",
+      "If neither, backtrack left to the most recent index where you matched <code>target</code> and try to bump there."
+    ],
+    "stats": {
+      "total_accepted": "33.1K",
+      "total_submissions": "87.2K",
+      "acceptance_rate": "37.9%"
+    },
+    "likes": 231,
+    "dislikes": 14,
+    "similar_questions": [],
+    "example_testcases": "\"abc\"\n\"bba\"\n\"leet\"\n\"code\"\n\"baba\"\n\"bbaa\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string lexGreaterPermutation(string s, string target) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String lexGreaterPermutation(String s, String target) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def lexGreaterPermutation(self, s: str, target: str) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {string} target\n * @return {string}\n */\nvar lexGreaterPermutation = function(s, target) {\n    \n};"
+    },
+    "description": "You are given two strings s and target, both having length n, consisting of lowercase English letters.\n\nReturn the lexicographically smallest permutation of s that is strictly greater than target. If no permutation of s is lexicographically strictly greater than target, return an empty string.\n\nA string a is lexicographically strictly greater than a string b (of the same length) if in the first position where a and b differ, string a has a letter that appears later in the alphabet than the corresponding letter in b.\n\n \n\nExample 1:\n\nInput: s = \"abc\", target = \"bba\"\n\nOutput: \"bca\"\n\nExplanation:\n\nThe permutations of s (in lexicographical order) are \"abc\", \"acb\", \"bac\", \"bca\", \"cab\", and \"cba\".\nThe lexicographically smallest permutation that is strictly greater than target is \"bca\".\n\nExample 2:\n\nInput: s = \"leet\", target = \"code\"\n\nOutput: \"eelt\"\n\nExplanation:\n\nThe permutations of s (in lexicographical order) are \"eelt\", \"eetl\", \"elet\", \"elte\", \"etel\", \"etle\", \"leet\", \"lete\", \"ltee\", \"teel\", \"tele\", and \"tlee\".\nThe lexicographically smallest permutation that is strictly greater than target is \"eelt\".\n\nExample 3:\n\nInput: s = \"baba\", target = \"bbaa\"\n\nOutput: \"\"\n\nExplanation:\n\nThe permutations of s (in lexicographical order) are \"aabb\", \"abab\", \"abba\", \"baab\", \"baba\", and \"bbaa\".\nNone of them is lexicographically strictly greater than target. Therefore, the answer is \"\".\n\n \n\nConstraints:\n\n1 <= s.length == target.length <= 300\ns and target consist of only lowercase English letters.",
+    "description_html": "<p>You are given two strings <code>s</code> and <code>target</code>, both having length <code>n</code>, consisting of lowercase English letters.</p>\n\n<p>Return the <strong>lexicographically smallest <span data-keyword=\"permutation-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_q_\" data-state=\"closed\" class=\"\">permutation</button></span></strong> of <code>s</code> that is <strong>strictly</strong> greater than <code>target</code>. If no permutation of <code>s</code> is lexicographically strictly greater than <code>target</code>, return an empty string.</p>\n\n<p>A string <code>a</code> is <strong>lexicographically strictly greater </strong>than a string <code>b</code> (of the same length) if in the first position where <code>a</code> and <code>b</code> differ, string <code>a</code> has a letter that appears later in the alphabet than the corresponding letter in <code>b</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"abc\", target = \"bba\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"bca\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>\"abc\"</code>, <code>\"acb\"</code>, <code>\"bac\"</code>, <code>\"bca\"</code>, <code>\"cab\"</code>, and <code>\"cba\"</code>.</li>\n\t<li>The lexicographically smallest permutation that is strictly greater than <code>target</code> is <code>\"bca\"</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"leet\", target = \"code\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"eelt\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>\"eelt\"</code>, <code>\"eetl\"</code>, <code>\"elet\"</code>, <code>\"elte\"</code>, <code>\"etel\"</code>, <code>\"etle\"</code>, <code>\"leet\"</code>, <code>\"lete\"</code>, <code>\"ltee\"</code>, <code>\"teel\"</code>, <code>\"tele\"</code>, and <code>\"tlee\"</code>.</li>\n\t<li>The lexicographically smallest permutation that is strictly greater than <code>target</code> is <code>\"eelt\"</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"baba\", target = \"bbaa\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The permutations of <code>s</code> (in lexicographical order) are <code>\"aabb\"</code>, <code>\"abab\"</code>, <code>\"abba\"</code>, <code>\"baab\"</code>, <code>\"baba\"</code>, and <code>\"bbaa\"</code>.</li>\n\t<li>None of them is lexicographically strictly greater than <code>target</code>. Therefore, the answer is <code>\"\"</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length == target.length &lt;= 300</code></li>\n\t<li><code>s</code> and <code>target</code> consist of only lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
