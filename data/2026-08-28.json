@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "fetched_at": "2026-08-28T10:13:40.063120+00:00",
+    "date": "2026-08-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-08-28",
+    "link": "https://leetcode.com/problems/lexicographically-smallest-palindromic-permutation-greater-than-target/",
+    "id": "3734",
+    "title": "Lexicographically Smallest Palindromic Permutation Greater Than Target",
+    "slug": "lexicographically-smallest-palindromic-permutation-greater-than-target",
+    "difficulty": "Hard",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Enumeration"
+    ],
+    "hints": [
+      "A palindromic permutation exists only if at most one character has an odd count (for odd-length strings) or all counts are even (for even-length strings).",
+      "Focus on constructing the first half of the palindrome. The second half is determined by mirroring.",
+      "To be lexicographically greater than target, the first half must be greater than or equal to target's first half, with careful handling of the middle character for odd-length strings.",
+      "Use a backtracking approach or greedy selection for each position in the first half, trying the smallest available character that can still produce a valid palindrome.",
+      "After building the first half, mirror it (and add the middle character if needed) to form the full palindrome and verify it is strictly greater than target."
+    ],
+    "stats": {
+      "total_accepted": "25.3K",
+      "total_submissions": "53.2K",
+      "acceptance_rate": "47.7%"
+    },
+    "likes": 112,
+    "dislikes": 7,
+    "similar_questions": [],
+    "example_testcases": "\"baba\"\n\"abba\"\n\"baba\"\n\"bbaa\"\n\"abc\"\n\"abb\"\n\"aac\"\n\"abb\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string lexPalindromicPermutation(string s, string target) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String lexPalindromicPermutation(String s, String target) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def lexPalindromicPermutation(self, s: str, target: str) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {string} target\n * @return {string}\n */\nvar lexPalindromicPermutation = function(s, target) {\n    \n};"
+    },
+    "description": "You are given two strings s and target, each of length n, consisting of lowercase English letters.\n\nReturn the lexicographically smallest string that is both a palindromic permutation of s and strictly greater than target. If no such permutation exists, return an empty string.\n\n \n\nExample 1:\n\nInput: s = \"baba\", target = \"abba\"\n\nOutput: \"baab\"\n\nExplanation:\n\nThe palindromic permutations of s (in lexicographical order) are \"abba\" and \"baab\".\nThe lexicographically smallest permutation that is strictly greater than target is \"baab\".\n\nExample 2:\n\nInput: s = \"baba\", target = \"bbaa\"\n\nOutput: \"\"\n\nExplanation:\n\nThe palindromic permutations of s (in lexicographical order) are \"abba\" and \"baab\".\nNone of them is lexicographically strictly greater than target. Therefore, the answer is \"\".\n\nExample 3:\n\nInput: s = \"abc\", target = \"abb\"\n\nOutput: \"\"\n\nExplanation:\n\ns has no palindromic permutations. Therefore, the answer is \"\".\n\nExample 4:\n\nInput: s = \"aac\", target = \"abb\"\n\nOutput: \"aca\"\n\nExplanation:\n\nThe only palindromic permutation of s is \"aca\".\n\"aca\" is strictly greater than target. Therefore, the answer is \"aca\".\n\n \n\nConstraints:\n\n1 <= n == s.length == target.length <= 300\ns and target consist of only lowercase English letters.",
+    "description_html": "<p>You are given two strings <code>s</code> and <code>target</code>, each of length <code>n</code>, consisting of lowercase English letters.</p>\n\n<p>Return the <strong><span data-keyword=\"lexicographically-smaller-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_s_\" data-state=\"closed\" class=\"\">lexicographically smallest</button></span> string</strong> that is <strong>both</strong> a <strong><span data-keyword=\"palindrome-string\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_t_\" data-state=\"closed\" class=\"\">palindromic</button></span> <span data-keyword=\"permutation\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_u_\" data-state=\"closed\" class=\"\">permutation</button></span></strong> of <code>s</code> and <strong>strictly</strong> greater than <code>target</code>. If no such permutation exists, return an empty string.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"baba\", target = \"abba\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"baab\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The palindromic permutations of <code>s</code> (in lexicographical order) are <code>\"abba\"</code> and <code>\"baab\"</code>.</li>\n\t<li>The lexicographically smallest permutation that is strictly greater than <code>target</code> is <code>\"baab\"</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"baba\", target = \"bbaa\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The palindromic permutations of <code>s</code> (in lexicographical order) are <code>\"abba\"</code> and <code>\"baab\"</code>.</li>\n\t<li>None of them is lexicographically strictly greater than <code>target</code>. Therefore, the answer is <code>\"\"</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"abc\", target = \"abb\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p><code>s</code> has no palindromic permutations. Therefore, the answer is <code>\"\"</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 4:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"aac\", target = \"abb\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">\"aca\"</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>The only palindromic permutation of <code>s</code> is <code>\"aca\"</code>.</li>\n\t<li><code>\"aca\"</code> is strictly greater than <code>target</code>. Therefore, the answer is <code>\"aca\"</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == s.length == target.length &lt;= 300</code></li>\n\t<li><code>s</code> and <code>target</code> consist of only lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
