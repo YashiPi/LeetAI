@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-08-30",
+    "id": "2091",
+    "title": "Removing Minimum and Maximum From Array",
+    "slug": "removing-minimum-and-maximum-from-array",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/removing-minimum-and-maximum-from-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-29",
     "id": "2948",
     "title": "Make Lexicographically Smallest Array by Swapping Elements",
