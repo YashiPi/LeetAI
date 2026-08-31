@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-08-31",
+    "id": "2058",
+    "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
+    "slug": "find-the-minimum-and-maximum-number-of-nodes-between-critical-points",
+    "difficulty": "Medium",
+    "tags": [
+      "Linked List"
+    ],
+    "link": "https://leetcode.com/problems/find-the-minimum-and-maximum-number-of-nodes-between-critical-points/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-30",
     "id": "2091",
     "title": "Removing Minimum and Maximum From Array",
