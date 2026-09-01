@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-09-01",
+    "id": "3568",
+    "title": "Minimum Moves to Clean the Classroom",
+    "slug": "minimum-moves-to-clean-the-classroom",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Breadth-First Search",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/minimum-moves-to-clean-the-classroom/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-08-31",
     "id": "2058",
     "title": "Find the Minimum and Maximum Number of Nodes Between Critical Points",
