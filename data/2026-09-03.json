@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-03T03:32:52.393449+00:00",
+    "date": "2026-09-03",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-03",
+    "link": "https://leetcode.com/problems/construct-uniform-parity-array-ii/",
+    "id": "3876",
+    "title": "Construct Uniform Parity Array II",
+    "slug": "construct-uniform-parity-array-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "hints": [
+      "Try fixing the parity to either all even or all odd.",
+      "Use the smallest odd/even element if a subtraction is needed to match the chosen parity."
+    ],
+    "stats": {
+      "total_accepted": "54.5K",
+      "total_submissions": "97.7K",
+      "acceptance_rate": "55.8%"
+    },
+    "likes": 128,
+    "dislikes": 11,
+    "similar_questions": [],
+    "example_testcases": "[1,4,7]\n[2,3]\n[4,6]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool uniformArray(vector<int>& nums1) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean uniformArray(int[] nums1) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def uniformArray(self, nums1: list[int]) -> bool:\n        ",
+      "javascript": "/**\n * @param {number[]} nums1\n * @return {boolean}\n */\nvar uniformArray = function(nums1) {\n    \n};"
+    },
+    "description": "You are given an array nums1 of n distinct integers.\n\nYou want to construct another array nums2 of length n such that the elements in nums2 are either all odd or all even.\n\nFor each index i, you must choose exactly one of the following (in any order):\n\nnums2[i] = nums1[i]​​​​​​​\nnums2[i] = nums1[i] - nums1[j], for an index j != i, such that nums1[i] - nums1[j] >= 1\n\nReturn true if it is possible to construct such an array, otherwise return false.\n\n \n\nExample 1:\n\nInput: nums1 = [1,4,7]\n\nOutput: true\n\nExplanation:​​​​​​​​​​​​​​\n\nSet nums2[0] = nums1[0] = 1.\nSet nums2[1] = nums1[1] - nums1[0] = 4 - 1 = 3.\nSet nums2[2] = nums1[2] = 7.\nnums2 = [1, 3, 7], and all elements are odd. Thus, the answer is true.\n\nExample 2:\n\nInput: nums1 = [2,3]\n\nOutput: false\n\nExplanation:\n\nIt is not possible to construct nums2 such that all elements have the same parity. Thus, the answer is false.\n\nExample 3:\n\nInput: nums1 = [4,6]\n\nOutput: true\n\nExplanation:\n\nSet nums2[0] = nums1[0] = 4.\nSet nums2[1] = nums1[1] = 6.\nnums2 = [4, 6], and all elements are even. Thus, the answer is true.\n\n \n\nConstraints:\n\n1 <= n == nums1.length <= 105\n1 <= nums1[i] <= 109\nnums1 consists of distinct integers.",
+    "description_html": "<p>You are given an array <code>nums1</code> of <code>n</code> <strong>distinct</strong> integers.</p>\n\n<p>You want to construct another array <code>nums2</code> of length <code>n</code> such that the elements in <code>nums2</code> are either <strong>all odd or all even</strong>.</p>\n\n<p>For each index <code>i</code>, you must choose <strong>exactly one</strong> of the following (in any order):</p>\n\n<ul>\n\t<li><code>nums2[i] = nums1[i]</code>​​​​​​​</li>\n\t<li><code>nums2[i] = nums1[i] - nums1[j]</code>, for an index <code>j != i</code>, such that <code>nums1[i] - nums1[j] &gt;= 1</code></li>\n</ul>\n\n<p>Return <code>true</code> if it is possible to construct such an array, otherwise return <code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums1 = [1,4,7]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong>​​​​​​​​​​​​​​</p>\n\n<ul>\n\t<li>Set <code>nums2[0] = nums1[0] = 1</code>.</li>\n\t<li>Set <code>nums2[1] = nums1[1] - nums1[0] = 4 - 1 = 3</code>.</li>\n\t<li>Set <code>nums2[2] = nums1[2] = 7</code>.</li>\n\t<li><code>nums2 = [1, 3, 7]</code>, and all elements are odd. Thus, the answer is <code>true</code>.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums1 = [2,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>It is not possible to construct <code>nums2</code> such that all elements have the same parity. Thus, the answer is <code>false</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums1 = [4,6]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Set <code>nums2[0] = nums1[0] = 4</code>.</li>\n\t<li>Set <code>nums2[1] = nums1[1] = 6</code>.</li>\n\t<li><code>nums2 = [4, 6]</code>, and all elements are even. Thus, the answer is <code>true</code>.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == nums1.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= nums1[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>nums1</code> consists of distinct integers.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
