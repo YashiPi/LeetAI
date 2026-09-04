@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-04",
+    "id": "3903",
+    "title": "Smallest Stable Index I",
+    "slug": "smallest-stable-index-i",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/smallest-stable-index-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-03",
     "id": "3876",
     "title": "Construct Uniform Parity Array II",
