@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-05",
+    "id": "3904",
+    "title": "Smallest Stable Index II",
+    "slug": "smallest-stable-index-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/smallest-stable-index-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-04",
     "id": "3903",
     "title": "Smallest Stable Index I",
