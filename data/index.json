@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-06",
+    "id": "115",
+    "title": "Distinct Subsequences",
+    "slug": "distinct-subsequences",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/distinct-subsequences/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-05",
     "id": "3904",
     "title": "Smallest Stable Index II",
