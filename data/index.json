@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-07",
+    "id": "940",
+    "title": "Distinct Subsequences II",
+    "slug": "distinct-subsequences-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/distinct-subsequences-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-06",
     "id": "115",
     "title": "Distinct Subsequences",

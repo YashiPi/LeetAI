@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-07T03:33:51.519439+00:00",
+    "date": "2026-09-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-07",
+    "link": "https://leetcode.com/problems/distinct-subsequences-ii/",
+    "id": "940",
+    "title": "Distinct Subsequences II",
+    "slug": "distinct-subsequences-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "62.3K",
+      "total_submissions": "133.9K",
+      "acceptance_rate": "46.6%"
+    },
+    "likes": 1884,
+    "dislikes": 43,
+    "similar_questions": [
+      {
+        "title": "Number of Unique Good Subsequences",
+        "slug": "number-of-unique-good-subsequences",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Count K-Subsequences of a String With Maximum Beauty",
+        "slug": "count-k-subsequences-of-a-string-with-maximum-beauty",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "\"abc\"\n\"aba\"\n\"aaa\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int distinctSubseqII(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int distinctSubseqII(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def distinctSubseqII(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar distinctSubseqII = function(s) {\n    \n};"
+    },
+    "description": "Given a string s, return the number of distinct non-empty subsequences of s. Since the answer may be very large, return it modulo 109 + 7.\n\nA subsequence of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., \"ace\" is a subsequence of \"abcde\" while \"aec\" is not.\n\n \n\nExample 1:\n\nInput: s = \"abc\"\nOutput: 7\nExplanation: The 7 distinct subsequences are \"a\", \"b\", \"c\", \"ab\", \"ac\", \"bc\", and \"abc\".\n\n\nExample 2:\n\nInput: s = \"aba\"\nOutput: 6\nExplanation: The 6 distinct subsequences are \"a\", \"b\", \"ab\", \"aa\", \"ba\", and \"aba\".\n\n\nExample 3:\n\nInput: s = \"aaa\"\nOutput: 3\nExplanation: The 3 distinct subsequences are \"a\", \"aa\" and \"aaa\".\n\n\n \n\nConstraints:\n\n1 <= s.length <= 2000\ns consists of lowercase English letters.",
+    "description_html": "<p>Given a string s, return <em>the number of <strong>distinct non-empty subsequences</strong> of</em> <code>s</code>. Since the answer may be very large, return it <strong>modulo</strong> <code>10<sup>9</sup> + 7</code>.</p>\nA <strong>subsequence</strong> of a string is a new string that is formed from the original string by deleting some (can be none) of the characters without disturbing the relative positions of the remaining characters. (i.e., <code>\"ace\"</code> is a subsequence of <code>\"<u>a</u>b<u>c</u>d<u>e</u>\"</code> while <code>\"aec\"</code> is not.\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"abc\"\n<strong>Output:</strong> 7\n<strong>Explanation:</strong> The 7 distinct subsequences are \"a\", \"b\", \"c\", \"ab\", \"ac\", \"bc\", and \"abc\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"aba\"\n<strong>Output:</strong> 6\n<strong>Explanation:</strong> The 6 distinct subsequences are \"a\", \"b\", \"ab\", \"aa\", \"ba\", and \"aba\".\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"aaa\"\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> The 3 distinct subsequences are \"a\", \"aa\" and \"aaa\".\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 2000</code></li>\n\t<li><code>s</code> consists of lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
