@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-08",
+    "id": "3870",
+    "title": "Count Commas in Range",
+    "slug": "count-commas-in-range",
+    "difficulty": "Easy",
+    "tags": [
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/count-commas-in-range/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-07",
     "id": "940",
     "title": "Distinct Subsequences II",
