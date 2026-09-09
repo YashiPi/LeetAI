@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-09-09",
+    "id": "3871",
+    "title": "Count Commas in Range II",
+    "slug": "count-commas-in-range-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/count-commas-in-range-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-08",
     "id": "3870",
     "title": "Count Commas in Range",
