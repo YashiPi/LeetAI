@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-13",
+    "id": "835",
+    "title": "Image Overlap",
+    "slug": "image-overlap",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/image-overlap/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-12",
     "id": "3414",
     "title": "Maximum Score of Non-overlapping Intervals",
