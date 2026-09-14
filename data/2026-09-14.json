@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-14T03:58:50.666007+00:00",
+    "date": "2026-09-14",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-14",
+    "link": "https://leetcode.com/problems/rectangle-overlap/",
+    "id": "836",
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Geometry"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "199.9K",
+      "total_submissions": "418.8K",
+      "acceptance_rate": "47.7%"
+    },
+    "likes": 2135,
+    "dislikes": 484,
+    "similar_questions": [
+      {
+        "title": "Rectangle Area",
+        "slug": "rectangle-area",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[0,0,2,2]\n[1,1,3,3]\n[0,0,1,1]\n[1,0,2,1]\n[0,0,1,1]\n[2,2,3,3]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool isRectangleOverlap(vector<int>& rec1, vector<int>& rec2) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean isRectangleOverlap(int[] rec1, int[] rec2) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def isRectangleOverlap(self, rec1: List[int], rec2: List[int]) -> bool:\n        ",
+      "javascript": "/**\n * @param {number[]} rec1\n * @param {number[]} rec2\n * @return {boolean}\n */\nvar isRectangleOverlap = function(rec1, rec2) {\n    \n};"
+    },
+    "description": "An axis-aligned rectangle is represented as a list [x1, y1, x2, y2], where (x1, y1) is the coordinate of its bottom-left corner, and (x2, y2) is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.\n\nTwo rectangles overlap if the area of their intersection is positive. To be clear, two rectangles that only touch at the corner or edges do not overlap.\n\nGiven two axis-aligned rectangles rec1 and rec2, return true if they overlap, otherwise return false.\n\n \n\nExample 1:\n\nInput: rec1 = [0,0,2,2], rec2 = [1,1,3,3]\nOutput: true\n\n\nExample 2:\n\nInput: rec1 = [0,0,1,1], rec2 = [1,0,2,1]\nOutput: false\n\n\nExample 3:\n\nInput: rec1 = [0,0,1,1], rec2 = [2,2,3,3]\nOutput: false\n\n\n \n\nConstraints:\n\nrec1.length == 4\nrec2.length == 4\n-109 <= rec1[i], rec2[i] <= 109\nrec1 and rec2 represent a valid rectangle with a non-zero area.",
+    "description_html": "<p>An axis-aligned rectangle is represented as a list <code>[x1, y1, x2, y2]</code>, where <code>(x1, y1)</code> is the coordinate of its bottom-left corner, and <code>(x2, y2)</code> is the coordinate of its top-right corner. Its top and bottom edges are parallel to the X-axis, and its left and right edges are parallel to the Y-axis.</p>\n\n<p>Two rectangles overlap if the area of their intersection is <strong>positive</strong>. To be clear, two rectangles that only touch at the corner or edges do not overlap.</p>\n\n<p>Given two axis-aligned rectangles <code>rec1</code> and <code>rec2</code>, return <code>true</code><em> if they overlap, otherwise return </em><code>false</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> rec1 = [0,0,2,2], rec2 = [1,1,3,3]\n<strong>Output:</strong> true\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> rec1 = [0,0,1,1], rec2 = [1,0,2,1]\n<strong>Output:</strong> false\n</pre><p><strong class=\"example\">Example 3:</strong></p>\n<pre><strong>Input:</strong> rec1 = [0,0,1,1], rec2 = [2,2,3,3]\n<strong>Output:</strong> false\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>rec1.length == 4</code></li>\n\t<li><code>rec2.length == 4</code></li>\n\t<li><code>-10<sup>9</sup> &lt;= rec1[i], rec2[i] &lt;= 10<sup>9</sup></code></li>\n\t<li><code>rec1</code> and <code>rec2</code> represent a valid rectangle with a non-zero area.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

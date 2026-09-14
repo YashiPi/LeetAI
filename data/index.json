@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-14",
+    "id": "836",
+    "title": "Rectangle Overlap",
+    "slug": "rectangle-overlap",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Geometry"
+    ],
+    "link": "https://leetcode.com/problems/rectangle-overlap/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-13",
     "id": "835",
     "title": "Image Overlap",
