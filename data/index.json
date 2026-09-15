@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-15",
+    "id": "2472",
+    "title": "Maximum Number of Non-overlapping Palindrome Substrings",
+    "slug": "maximum-number-of-non-overlapping-palindrome-substrings",
+    "difficulty": "Hard",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-palindrome-substrings/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-14",
     "id": "836",
     "title": "Rectangle Overlap",
