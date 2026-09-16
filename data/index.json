@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-16",
+    "id": "1621",
+    "title": "Number of Sets of K Non-Overlapping Line Segments",
+    "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-15",
     "id": "2472",
     "title": "Maximum Number of Non-overlapping Palindrome Substrings",
