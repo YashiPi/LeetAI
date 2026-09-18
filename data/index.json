@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-09-18",
+    "id": "1520",
+    "title": "Maximum Number of Non-Overlapping Substrings",
+    "slug": "maximum-number-of-non-overlapping-substrings",
+    "difficulty": "Hard",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-non-overlapping-substrings/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-17",
     "id": "1477",
     "title": "Find Two Non-overlapping Sub-arrays Each With Target Sum",
