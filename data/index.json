@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-09-19",
+    "id": "1401",
+    "title": "Circle and Rectangle Overlapping",
+    "slug": "circle-and-rectangle-overlapping",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Geometry"
+    ],
+    "link": "https://leetcode.com/problems/circle-and-rectangle-overlapping/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-18",
     "id": "1520",
     "title": "Maximum Number of Non-Overlapping Substrings",
