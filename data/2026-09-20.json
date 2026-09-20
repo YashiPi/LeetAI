@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-20T04:00:59.555225+00:00",
+    "date": "2026-09-20",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-20",
+    "link": "https://leetcode.com/problems/reverse-degree-of-a-string/",
+    "id": "3498",
+    "title": "Reverse Degree of a String",
+    "slug": "reverse-degree-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "hints": [
+      "Simulate the operations as described."
+    ],
+    "stats": {
+      "total_accepted": "90K",
+      "total_submissions": "101.1K",
+      "acceptance_rate": "89.0%"
+    },
+    "likes": 127,
+    "dislikes": 8,
+    "similar_questions": [],
+    "example_testcases": "\"abc\"\n\"zaza\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int reverseDegree(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int reverseDegree(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def reverseDegree(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar reverseDegree = function(s) {\n    \n};"
+    },
+    "description": "Given a string s, calculate its reverse degree.\n\nThe reverse degree is calculated as follows:\n\nFor each character, multiply its position in the reversed alphabet ('a' = 26, 'b' = 25, ..., 'z' = 1) with its position in the string (1-indexed).\nSum these products for all characters in the string.\n\nReturn the reverse degree of s.\n\n \n\nExample 1:\n\nInput: s = \"abc\"\n\nOutput: 148\n\nExplanation:\n\nLetter\tIndex in Reversed Alphabet\tIndex in String\tProduct\n'a'\t26\t1\t26\n'b'\t25\t2\t50\n'c'\t24\t3\t72\n\nThe reversed degree is 26 + 50 + 72 = 148.\n\nExample 2:\n\nInput: s = \"zaza\"\n\nOutput: 160\n\nExplanation:\n\nLetter\tIndex in Reversed Alphabet\tIndex in String\tProduct\n'z'\t1\t1\t1\n'a'\t26\t2\t52\n'z'\t1\t3\t3\n'a'\t26\t4\t104\n\nThe reverse degree is 1 + 52 + 3 + 104 = 160.\n\n \n\nConstraints:\n\n1 <= s.length <= 1000\ns contains only lowercase English letters.",
+    "description_html": "<p>Given a string <code>s</code>, calculate its <strong>reverse degree</strong>.</p>\n\n<p>The <strong>reverse degree</strong> is calculated as follows:</p>\n\n<ol>\n\t<li>For each character, multiply its position in the <em>reversed</em> alphabet (<code>'a'</code> = 26, <code>'b'</code> = 25, ..., <code>'z'</code> = 1) with its position in the string <strong>(1-indexed)</strong>.</li>\n\t<li>Sum these products for all characters in the string.</li>\n</ol>\n\n<p>Return the <strong>reverse degree</strong> of <code>s</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"abc\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">148</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table style=\"border: 1px solid black;\"><tbody><tr><th style=\"border: 1px solid black;\">Letter</th><th style=\"border: 1px solid black;\">Index in Reversed Alphabet</th><th style=\"border: 1px solid black;\">Index in String</th><th style=\"border: 1px solid black;\">Product</th></tr><tr><td style=\"border: 1px solid black;\"><code>'a'</code></td><td style=\"border: 1px solid black;\">26</td><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">26</td></tr><tr><td style=\"border: 1px solid black;\"><code>'b'</code></td><td style=\"border: 1px solid black;\">25</td><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">50</td></tr><tr><td style=\"border: 1px solid black;\"><code>'c'</code></td><td style=\"border: 1px solid black;\">24</td><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\">72</td></tr></tbody></table>\n\n<p>The reversed degree is <code>26 + 50 + 72 = 148</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"zaza\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">160</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<table style=\"border: 1px solid black;\"><tbody><tr><th style=\"border: 1px solid black;\">Letter</th><th style=\"border: 1px solid black;\">Index in Reversed Alphabet</th><th style=\"border: 1px solid black;\">Index in String</th><th style=\"border: 1px solid black;\">Product</th></tr><tr><td style=\"border: 1px solid black;\"><code>'z'</code></td><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">1</td></tr><tr><td style=\"border: 1px solid black;\"><code>'a'</code></td><td style=\"border: 1px solid black;\">26</td><td style=\"border: 1px solid black;\">2</td><td style=\"border: 1px solid black;\">52</td></tr><tr><td style=\"border: 1px solid black;\"><code>'z'</code></td><td style=\"border: 1px solid black;\">1</td><td style=\"border: 1px solid black;\">3</td><td style=\"border: 1px solid black;\">3</td></tr><tr><td style=\"border: 1px solid black;\"><code>'a'</code></td><td style=\"border: 1px solid black;\">26</td><td style=\"border: 1px solid black;\">4</td><td style=\"border: 1px solid black;\">104</td></tr></tbody></table>\n\n<p>The reverse degree is <code>1 + 52 + 3 + 104 = 160</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 1000</code></li>\n\t<li><code>s</code> contains only lowercase English letters.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
