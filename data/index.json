@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-21",
+    "id": "3524",
+    "title": "Find X Value of Array I",
+    "slug": "find-x-value-of-array-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/find-x-value-of-array-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-20",
     "id": "3498",
     "title": "Reverse Degree of a String",
