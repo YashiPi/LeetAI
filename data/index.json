@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-22",
+    "id": "3525",
+    "title": "Find X Value of Array II",
+    "slug": "find-x-value-of-array-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Segment Tree"
+    ],
+    "link": "https://leetcode.com/problems/find-x-value-of-array-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-21",
     "id": "3524",
     "title": "Find X Value of Array I",
