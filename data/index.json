@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-09-25",
+    "id": "1096",
+    "title": "Brace Expansion II",
+    "slug": "brace-expansion-ii",
+    "difficulty": "Hard",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking",
+      "Stack",
+      "Breadth-First Search",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/brace-expansion-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-24",
     "id": "3550",
     "title": "Smallest Index With Digit Sum Equal to Index",
