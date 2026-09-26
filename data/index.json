@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-26",
+    "id": "1807",
+    "title": "Evaluate the Bracket Pairs of a String",
+    "slug": "evaluate-the-bracket-pairs-of-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/evaluate-the-bracket-pairs-of-a-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-25",
     "id": "1096",
     "title": "Brace Expansion II",
