@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-09-27",
+    "id": "1190",
+    "title": "Reverse Substrings Between Each Pair of Parentheses",
+    "slug": "reverse-substrings-between-each-pair-of-parentheses",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "link": "https://leetcode.com/problems/reverse-substrings-between-each-pair-of-parentheses/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-09-26",
     "id": "1807",
     "title": "Evaluate the Bracket Pairs of a String",
