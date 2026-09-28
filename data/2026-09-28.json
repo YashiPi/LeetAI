@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-28T04:21:23.157819+00:00",
+    "date": "2026-09-28",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-28",
+    "link": "https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/",
+    "id": "1614",
+    "title": "Maximum Nesting Depth of the Parentheses",
+    "slug": "maximum-nesting-depth-of-the-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "The depth of any character in the VPS is the ( number of left brackets before it ) - ( number of right brackets before it )"
+    ],
+    "stats": {
+      "total_accepted": "626.3K",
+      "total_submissions": "734.2K",
+      "acceptance_rate": "85.3%"
+    },
+    "likes": 2957,
+    "dislikes": 526,
+    "similar_questions": [
+      {
+        "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+        "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"(1+(2*3)+((8)/4))+1\"\n\"(1)+((2))+(((3)))\"\n\"()(())((()()))\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int maxDepth(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int maxDepth(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxDepth(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar maxDepth = function(s) {\n    \n};"
+    },
+    "description": "Given a valid parentheses string s, return the nesting depth of s. The nesting depth is the maximum number of nested parentheses.\n\n \n\nExample 1:\n\nInput: s = \"(1+(2*3)+((8)/4))+1\"\n\nOutput: 3\n\nExplanation:\n\nDigit 8 is inside of 3 nested parentheses in the string.\n\nExample 2:\n\nInput: s = \"(1)+((2))+(((3)))\"\n\nOutput: 3\n\nExplanation:\n\nDigit 3 is inside of 3 nested parentheses in the string.\n\nExample 3:\n\nInput: s = \"()(())((()()))\"\n\nOutput: 3\n\n \n\nConstraints:\n\n1 <= s.length <= 100\ns consists of digits 0-9 and characters '+', '-', '*', '/', '(', and ')'.\nIt is guaranteed that parentheses expression s is a VPS.",
+    "description_html": "<p>Given a <strong>valid parentheses string</strong> <code>s</code>, return the <strong>nesting depth</strong> of<em> </em><code>s</code>. The nesting depth is the <strong>maximum</strong> number of nested parentheses.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"(1+(2*3)+((8)/4))+1\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Digit 8 is inside of 3 nested parentheses in the string.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"(1)+((2))+(((3)))\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>Digit 3 is inside of 3 nested parentheses in the string.</p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"()(())((()()))\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>s</code> consists of digits <code>0-9</code> and characters <code>'+'</code>, <code>'-'</code>, <code>'*'</code>, <code>'/'</code>, <code>'('</code>, and <code>')'</code>.</li>\n\t<li>It is guaranteed that parentheses expression <code>s</code> is a VPS.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
