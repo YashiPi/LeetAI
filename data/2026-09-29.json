@@ -1,0 +1,73 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-29T04:54:34.096293+00:00",
+    "date": "2026-09-29",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-29",
+    "link": "https://leetcode.com/problems/check-if-there-is-a-valid-parentheses-string-path/",
+    "id": "2267",
+    "title": " Check if There Is a Valid Parentheses String Path",
+    "slug": "check-if-there-is-a-valid-parentheses-string-path",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "What observations can you make about the number of open brackets and close brackets for any prefix of a valid bracket sequence?",
+      "The number of open brackets must always be greater than or equal to the number of close brackets.",
+      "Could you use dynamic programming?"
+    ],
+    "stats": {
+      "total_accepted": "34.2K",
+      "total_submissions": "72K",
+      "acceptance_rate": "47.5%"
+    },
+    "likes": 614,
+    "dislikes": 13,
+    "similar_questions": [
+      {
+        "title": "Check if There is a Valid Path in a Grid",
+        "slug": "check-if-there-is-a-valid-path-in-a-grid",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Check if a Parentheses String Can Be Valid",
+        "slug": "check-if-a-parentheses-string-can-be-valid",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[[\"(\",\"(\",\"(\"],[\")\",\"(\",\")\"],[\"(\",\"(\",\")\"],[\"(\",\"(\",\")\"]]\n[[\")\",\")\"],[\"(\",\"(\"]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool hasValidPath(vector<vector<char>>& grid) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean hasValidPath(char[][] grid) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def hasValidPath(self, grid: list[list[str]]) -> bool:\n        ",
+      "javascript": "/**\n * @param {character[][]} grid\n * @return {boolean}\n */\nvar hasValidPath = function(grid) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
