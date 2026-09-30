@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "fetched_at": "2026-09-30T04:46:12.201550+00:00",
+    "date": "2026-09-30",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-09-30",
+    "link": "https://leetcode.com/problems/maximum-nesting-depth-of-two-valid-parentheses-strings/",
+    "id": "1111",
+    "title": "Maximum Nesting Depth of Two Valid Parentheses Strings",
+    "slug": "maximum-nesting-depth-of-two-valid-parentheses-strings",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "49.7K",
+      "total_submissions": "65.3K",
+      "acceptance_rate": "76.1%"
+    },
+    "likes": 518,
+    "dislikes": 2108,
+    "similar_questions": [
+      {
+        "title": "Maximum Nesting Depth of the Parentheses",
+        "slug": "maximum-nesting-depth-of-the-parentheses",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "\"(()())\"\n\"()(())()\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> maxDepthAfterSplit(string seq) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int[] maxDepthAfterSplit(String seq) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxDepthAfterSplit(self, seq: str) -> list[int]:\n        ",
+      "javascript": "/**\n * @param {string} seq\n * @return {number[]}\n */\nvar maxDepthAfterSplit = function(seq) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
