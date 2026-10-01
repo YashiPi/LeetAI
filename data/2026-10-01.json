@@ -1,0 +1,94 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-01T04:49:53.924552+00:00",
+    "date": "2026-10-01",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-01",
+    "link": "https://leetcode.com/problems/valid-parentheses/",
+    "id": "20",
+    "title": "Valid Parentheses",
+    "slug": "valid-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "Use a stack of characters.",
+      "When you encounter an opening bracket, push it to the top of the stack.",
+      "When you encounter a closing bracket, check if the top of the stack was the opening for it. If yes, pop it from the stack. Otherwise, return false."
+    ],
+    "stats": {
+      "total_accepted": "8.2M",
+      "total_submissions": "18.3M",
+      "acceptance_rate": "45.0%"
+    },
+    "likes": 28644,
+    "dislikes": 2049,
+    "similar_questions": [
+      {
+        "title": "Generate Parentheses",
+        "slug": "generate-parentheses",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Longest Valid Parentheses",
+        "slug": "longest-valid-parentheses",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Remove Invalid Parentheses",
+        "slug": "remove-invalid-parentheses",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Check If Word Is Valid After Substitutions",
+        "slug": "check-if-word-is-valid-after-substitutions",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Check if a Parentheses String Can Be Valid",
+        "slug": "check-if-a-parentheses-string-can-be-valid",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Move Pieces to Obtain a String",
+        "slug": "move-pieces-to-obtain-a-string",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"()\"\n\"()[]{}\"\n\"(]\"\n\"([])\"\n\"([)]\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool isValid(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean isValid(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def isValid(self, s: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar isValid = function(s) {\n    \n};"
+    },
+    "description": "Given a string s containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.\n\nAn input string is valid if:\n\nOpen brackets must be closed by the same type of brackets.\nOpen brackets must be closed in the correct order.\nEvery close bracket has a corresponding open bracket of the same type.\n\n \n\nExample 1:\n\nInput: s = \"()\"\n\nOutput: true\n\nExample 2:\n\nInput: s = \"()[]{}\"\n\nOutput: true\n\nExample 3:\n\nInput: s = \"(]\"\n\nOutput: false\n\nExample 4:\n\nInput: s = \"([])\"\n\nOutput: true\n\nExample 5:\n\nInput: s = \"([)]\"\n\nOutput: false\n\n \n\nConstraints:\n\n1 <= s.length <= 104\ns consists of parentheses only '()[]{}'.",
+    "description_html": "<p>Given a string <code>s</code> containing just the characters <code>'('</code>, <code>')'</code>, <code>'{'</code>, <code>'}'</code>, <code>'['</code> and <code>']'</code>, determine if the input string is valid.</p>\n\n<p>An input string is valid if:</p>\n\n<ol>\n\t<li>Open brackets must be closed by the same type of brackets.</li>\n\t<li>Open brackets must be closed in the correct order.</li>\n\t<li>Every close bracket has a corresponding open bracket of the same type.</li>\n</ol>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"()\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"()[]{}\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"(]\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p><strong class=\"example\">Example 4:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"([])\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">true</span></p>\n</div>\n\n<p><strong class=\"example\">Example 5:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">s = \"([)]\"</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">false</span></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>4</sup></code></li>\n\t<li><code>s</code> consists of parentheses only <code>'()[]{}'</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
