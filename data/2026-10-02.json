@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-02T04:41:48.900534+00:00",
+    "date": "2026-10-02",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-02",
+    "link": "https://leetcode.com/problems/generate-parentheses/",
+    "id": "22",
+    "title": "Generate Parentheses",
+    "slug": "generate-parentheses",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bracket Sequences"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "3.1M",
+      "total_submissions": "4M",
+      "acceptance_rate": "79.3%"
+    },
+    "likes": 23705,
+    "dislikes": 1102,
+    "similar_questions": [
+      {
+        "title": "Letter Combinations of a Phone Number",
+        "slug": "letter-combinations-of-a-phone-number",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Check if a Parentheses String Can Be Valid",
+        "slug": "check-if-a-parentheses-string-can-be-valid",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "3\n1",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<string> generateParenthesis(int n) {\n        \n    }\n};",
+      "java": "class Solution {\n    public List<String> generateParenthesis(int n) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def generateParenthesis(self, n: int) -> list[str]:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @return {string[]}\n */\nvar generateParenthesis = function(n) {\n    \n};"
+    },
+    "description": "Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.\n\n \n\nExample 1:\n\nInput: n = 3\nOutput: [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\n\n\nExample 2:\n\nInput: n = 1\nOutput: [\"()\"]\n\n\n \n\nConstraints:\n\n1 <= n <= 8",
+    "description_html": "<p>Given <code>n</code> pairs of parentheses, write a function to <em>generate all combinations of well-formed parentheses</em>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> n = 3\n<strong>Output:</strong> [\"((()))\",\"(()())\",\"(())()\",\"()(())\",\"()()()\"]\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> n = 1\n<strong>Output:</strong> [\"()\"]\n</pre>\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n &lt;= 8</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
