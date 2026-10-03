@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-03T04:24:07.712033+00:00",
+    "date": "2026-10-03",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-03",
+    "link": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "id": "32",
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "1.2M",
+      "total_submissions": "3M",
+      "acceptance_rate": "40.1%"
+    },
+    "likes": 13560,
+    "dislikes": 479,
+    "similar_questions": [
+      {
+        "title": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "\"(()\"\n\")()())\"\n\"\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int longestValidParentheses(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int longestValidParentheses(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def longestValidParentheses(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar longestValidParentheses = function(s) {\n    \n};"
+    },
+    "description": "Given a string containing just the characters '(' and ')', return the length of the longest valid (well-formed) parentheses substring.\n\n \n\nExample 1:\n\nInput: s = \"(()\"\nOutput: 2\nExplanation: The longest valid parentheses substring is \"()\".\n\n\nExample 2:\n\nInput: s = \")()())\"\nOutput: 4\nExplanation: The longest valid parentheses substring is \"()()\".\n\n\nExample 3:\n\nInput: s = \"\"\nOutput: 0\n\n\n \n\nConstraints:\n\n0 <= s.length <= 3 * 104\ns[i] is '(', or ')'.",
+    "description_html": "<p>Given a string containing just the characters <code>'('</code> and <code>')'</code>, return <em>the length of the longest valid (well-formed) parentheses </em><span data-keyword=\"substring-nonempty\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_q_\" data-state=\"closed\" class=\"\"><em>substring</em></button></span>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"(()\"\n<strong>Output:</strong> 2\n<strong>Explanation:</strong> The longest valid parentheses substring is \"()\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \")()())\"\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> The longest valid parentheses substring is \"()()\".\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"\"\n<strong>Output:</strong> 0\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>0 &lt;= s.length &lt;= 3 * 10<sup>4</sup></code></li>\n\t<li><code>s[i]</code> is <code>'('</code>, or <code>')'</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

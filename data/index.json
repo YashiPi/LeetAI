@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-03",
+    "id": "32",
+    "title": "Longest Valid Parentheses",
+    "slug": "longest-valid-parentheses",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "link": "https://leetcode.com/problems/longest-valid-parentheses/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-02",
     "id": "22",
     "title": "Generate Parentheses",
