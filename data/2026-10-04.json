@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-04T04:57:44.068292+00:00",
+    "date": "2026-10-04",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-04",
+    "link": "https://leetcode.com/problems/valid-parenthesis-string/",
+    "id": "678",
+    "title": "Valid Parenthesis String",
+    "slug": "valid-parenthesis-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "Use backtracking to explore all possible combinations of treating '*' as either '(', ')', or an empty string. If any combination leads to a valid string, return true.",
+      "DP[i][j] represents whether the substring s[i:j] is valid.",
+      "Keep track of the count of open parentheses encountered so far. If you encounter a close parenthesis, it should balance with an open parenthesis. Utilize a stack to handle this effectively.",
+      "How about using 2 stacks instead of 1? Think about it."
+    ],
+    "stats": {
+      "total_accepted": "663K",
+      "total_submissions": "1.6M",
+      "acceptance_rate": "40.9%"
+    },
+    "likes": 7252,
+    "dislikes": 232,
+    "similar_questions": [
+      {
+        "title": "Special Binary String",
+        "slug": "special-binary-string",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Check if a Parentheses String Can Be Valid",
+        "slug": "check-if-a-parentheses-string-can-be-valid",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"()\"\n\"(*)\"\n\"(*))\"\n\"(\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool checkValidString(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean checkValidString(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def checkValidString(self, s: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkValidString = function(s) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
