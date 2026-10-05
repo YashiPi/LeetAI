@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-05",
+    "id": "856",
+    "title": "Score of Parentheses",
+    "slug": "score-of-parentheses",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "link": "https://leetcode.com/problems/score-of-parentheses/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-04",
     "id": "678",
     "title": "Valid Parenthesis String",
