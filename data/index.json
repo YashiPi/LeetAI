@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-06",
+    "id": "921",
+    "title": "Minimum Add to Make Parentheses Valid",
+    "slug": "minimum-add-to-make-parentheses-valid",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
+    ],
+    "link": "https://leetcode.com/problems/minimum-add-to-make-parentheses-valid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-05",
     "id": "856",
     "title": "Score of Parentheses",
