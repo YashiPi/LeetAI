@@ -1,0 +1,75 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-07T04:58:36.873612+00:00",
+    "date": "2026-10-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-07",
+    "link": "https://leetcode.com/problems/remove-invalid-parentheses/",
+    "id": "301",
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
+    ],
+    "hints": [
+      "Since we do not know which brackets can be removed, we try all the options! We can use recursion.",
+      "In the recursion, for each bracket, we can either use it or remove it.",
+      "Recursion will generate all the valid parentheses strings but we want the ones with the least number of parentheses deleted.",
+      "We can count the number of invalid brackets to be deleted and only generate the valid strings in the recusrion."
+    ],
+    "stats": {
+      "total_accepted": "531.5K",
+      "total_submissions": "1.1M",
+      "acceptance_rate": "50.6%"
+    },
+    "likes": 6157,
+    "dislikes": 310,
+    "similar_questions": [
+      {
+        "title": "Valid Parentheses",
+        "slug": "valid-parentheses",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"()())()\"\n\"(a)())()\"\n\")(\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<string> removeInvalidParentheses(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public List<String> removeInvalidParentheses(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def removeInvalidParentheses(self, s: str) -> list[str]:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {string[]}\n */\nvar removeInvalidParentheses = function(s) {\n    \n};"
+    },
+    "description": "Given a string s that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.\n\nReturn a list of unique strings that are valid with the minimum number of removals. You may return the answer in any order.\n\n \n\nExample 1:\n\nInput: s = \"()())()\"\nOutput: [\"(())()\",\"()()()\"]\n\n\nExample 2:\n\nInput: s = \"(a)())()\"\nOutput: [\"(a())()\",\"(a)()()\"]\n\n\nExample 3:\n\nInput: s = \")(\"\nOutput: [\"\"]\n\n\n \n\nConstraints:\n\n1 <= s.length <= 25\ns consists of lowercase English letters and parentheses '(' and ')'.\nThere will be at most 20 parentheses in s.",
+    "description_html": "<p>Given a string <code>s</code> that contains parentheses and letters, remove the minimum number of invalid parentheses to make the input string valid.</p>\n\n<p>Return <em>a list of <strong>unique strings</strong> that are valid with the minimum number of removals</em>. You may return the answer in <strong>any order</strong>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"()())()\"\n<strong>Output:</strong> [\"(())()\",\"()()()\"]\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"(a)())()\"\n<strong>Output:</strong> [\"(a())()\",\"(a)()()\"]\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \")(\"\n<strong>Output:</strong> [\"\"]\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 25</code></li>\n\t<li><code>s</code> consists of lowercase English letters and parentheses <code>'('</code> and <code>')'</code>.</li>\n\t<li>There will be at most <code>20</code> parentheses in <code>s</code>.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

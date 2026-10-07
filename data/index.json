@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-07",
+    "id": "301",
+    "title": "Remove Invalid Parentheses",
+    "slug": "remove-invalid-parentheses",
+    "difficulty": "Hard",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
+    ],
+    "link": "https://leetcode.com/problems/remove-invalid-parentheses/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-06",
     "id": "921",
     "title": "Minimum Add to Make Parentheses Valid",
