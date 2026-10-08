@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-08T05:08:49.766443+00:00",
+    "date": "2026-10-08",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-08",
+    "link": "https://leetcode.com/problems/remove-outermost-parentheses/",
+    "id": "1021",
+    "title": "Remove Outermost Parentheses",
+    "slug": "remove-outermost-parentheses",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "Can you find the primitive decomposition?  The number of ( and ) characters must be equal."
+    ],
+    "stats": {
+      "total_accepted": "781.4K",
+      "total_submissions": "890.9K",
+      "acceptance_rate": "87.7%"
+    },
+    "likes": 3963,
+    "dislikes": 1751,
+    "similar_questions": [],
+    "example_testcases": "\"(()())(())\"\n\"(()())(())(()(()))\"\n\"()()\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string removeOuterParentheses(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String removeOuterParentheses(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def removeOuterParentheses(self, s: str) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {string}\n */\nvar removeOuterParentheses = function(s) {\n    \n};"
+    },
+    "description": "A valid parentheses string is either empty \"\", \"(\" + A + \")\", or A + B, where A and B are valid parentheses strings, and + represents string concatenation.\n\nFor example, \"\", \"()\", \"(())()\", and \"(()(()))\" are all valid parentheses strings.\n\nA valid parentheses string s is primitive if it is nonempty, and there does not exist a way to split it into s = A + B, with A and B nonempty valid parentheses strings.\n\nGiven a valid parentheses string s, consider its primitive decomposition: s = P1 + P2 + ... + Pk, where Pi are primitive valid parentheses strings.\n\nReturn s after removing the outermost parentheses of every primitive string in the primitive decomposition of s.\n\n \n\nExample 1:\n\nInput: s = \"(()())(())\"\nOutput: \"()()()\"\nExplanation: \nThe input string is \"(()())(())\", with primitive decomposition \"(()())\" + \"(())\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" = \"()()()\".\n\n\nExample 2:\n\nInput: s = \"(()())(())(()(()))\"\nOutput: \"()()()()(())\"\nExplanation: \nThe input string is \"(()())(())(()(()))\", with primitive decomposition \"(()())\" + \"(())\" + \"(()(()))\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" + \"()(())\" = \"()()()()(())\".\n\n\nExample 3:\n\nInput: s = \"()()\"\nOutput: \"\"\nExplanation: \nThe input string is \"()()\", with primitive decomposition \"()\" + \"()\".\nAfter removing outer parentheses of each part, this is \"\" + \"\" = \"\".\n\n\n \n\nConstraints:\n\n1 <= s.length <= 105\ns[i] is either '(' or ')'.\ns is a valid parentheses string.",
+    "description_html": "<p>A valid parentheses string is either empty <code>\"\"</code>, <code>\"(\" + A + \")\"</code>, or <code>A + B</code>, where <code>A</code> and <code>B</code> are valid parentheses strings, and <code>+</code> represents string concatenation.</p>\n\n<ul>\n\t<li>For example, <code>\"\"</code>, <code>\"()\"</code>, <code>\"(())()\"</code>, and <code>\"(()(()))\"</code> are all valid parentheses strings.</li>\n</ul>\n\n<p>A valid parentheses string <code>s</code> is primitive if it is nonempty, and there does not exist a way to split it into <code>s = A + B</code>, with <code>A</code> and <code>B</code> nonempty valid parentheses strings.</p>\n\n<p>Given a valid parentheses string <code>s</code>, consider its primitive decomposition: <code>s = P<sub>1</sub> + P<sub>2</sub> + ... + P<sub>k</sub></code>, where <code>P<sub>i</sub></code> are primitive valid parentheses strings.</p>\n\n<p>Return <code>s</code> <em>after removing the outermost parentheses of every primitive string in the primitive decomposition of </em><code>s</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"(()())(())\"\n<strong>Output:</strong> \"()()()\"\n<strong>Explanation:</strong> \nThe input string is \"(()())(())\", with primitive decomposition \"(()())\" + \"(())\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" = \"()()()\".\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"(()())(())(()(()))\"\n<strong>Output:</strong> \"()()()()(())\"\n<strong>Explanation:</strong> \nThe input string is \"(()())(())(()(()))\", with primitive decomposition \"(()())\" + \"(())\" + \"(()(()))\".\nAfter removing outer parentheses of each part, this is \"()()\" + \"()\" + \"()(())\" = \"()()()()(())\".\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"()()\"\n<strong>Output:</strong> \"\"\n<strong>Explanation:</strong> \nThe input string is \"()()\", with primitive decomposition \"()\" + \"()\".\nAfter removing outer parentheses of each part, this is \"\" + \"\" = \"\".\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s[i]</code> is either <code>'('</code> or <code>')'</code>.</li>\n\t<li><code>s</code> is a valid parentheses string.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
