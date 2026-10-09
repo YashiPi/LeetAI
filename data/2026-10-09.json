@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-09T05:11:55.977185+00:00",
+    "date": "2026-10-09",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-09",
+    "link": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/",
+    "id": "1541",
+    "title": "Minimum Insertions to Balance a Parentheses String",
+    "slug": "minimum-insertions-to-balance-a-parentheses-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
+    ],
+    "hints": [
+      "Use a stack to keep opening brackets. If you face single closing ')' add 1 to the answer and consider it as '))'.",
+      "If you have '))' with empty stack, add 1 to the answer, If after finishing you have x opening remaining in the stack, add 2x to the answer."
+    ],
+    "stats": {
+      "total_accepted": "104K",
+      "total_submissions": "186K",
+      "acceptance_rate": "55.9%"
+    },
+    "likes": 1367,
+    "dislikes": 308,
+    "similar_questions": [
+      {
+        "title": "Minimum Number of Swaps to Make the String Balanced",
+        "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"(()))\"\n\"())\"\n\"))())(\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minInsertions(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minInsertions(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minInsertions(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar minInsertions = function(s) {\n    \n};"
+    },
+    "description": "Given a parentheses string s containing only the characters '(' and ')'. A parentheses string is balanced if:\n\nAny left parenthesis '(' must have a corresponding two consecutive right parenthesis '))'.\nLeft parenthesis '(' must go before the corresponding two consecutive right parenthesis '))'.\n\nIn other words, we treat '(' as an opening parenthesis and '))' as a closing parenthesis.\n\nFor example, \"())\", \"())(())))\" and \"(())())))\" are balanced, \")()\", \"()))\" and \"(()))\" are not balanced.\n\nYou can insert the characters '(' and ')' at any position of the string to balance it if needed.\n\nReturn the minimum number of insertions needed to make s balanced.\n\n \n\nExample 1:\n\nInput: s = \"(()))\"\nOutput: 1\nExplanation: The second '(' has two matching '))', but the first '(' has only ')' matching. We need to add one more ')' at the end of the string to be \"(())))\" which is balanced.\n\n\nExample 2:\n\nInput: s = \"())\"\nOutput: 0\nExplanation: The string is already balanced.\n\n\nExample 3:\n\nInput: s = \"))())(\"\nOutput: 3\nExplanation: Add '(' to match the first '))', Add '))' to match the last '('.\n\n\n \n\nConstraints:\n\n1 <= s.length <= 105\ns consists of '(' and ')' only.",
+    "description_html": "<p>Given a parentheses string <code>s</code> containing only the characters <code>'('</code> and <code>')'</code>. A parentheses string is <strong>balanced</strong> if:</p>\n\n<ul>\n\t<li>Any left parenthesis <code>'('</code> must have a corresponding two consecutive right parenthesis <code>'))'</code>.</li>\n\t<li>Left parenthesis <code>'('</code> must go before the corresponding two consecutive right parenthesis <code>'))'</code>.</li>\n</ul>\n\n<p>In other words, we treat <code>'('</code> as an opening parenthesis and <code>'))'</code> as a closing parenthesis.</p>\n\n<ul>\n\t<li>For example, <code>\"())\"</code>, <code>\"())(())))\"</code> and <code>\"(())())))\"</code> are balanced, <code>\")()\"</code>, <code>\"()))\"</code> and <code>\"(()))\"</code> are not balanced.</li>\n</ul>\n\n<p>You can insert the characters <code>'('</code> and <code>')'</code> at any position of the string to balance it if needed.</p>\n\n<p>Return <em>the minimum number of insertions</em> needed to make <code>s</code> balanced.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"(()))\"\n<strong>Output:</strong> 1\n<strong>Explanation:</strong> The second '(' has two matching '))', but the first '(' has only ')' matching. We need to add one more ')' at the end of the string to be \"(())))\" which is balanced.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"())\"\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> The string is already balanced.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> s = \"))())(\"\n<strong>Output:</strong> 3\n<strong>Explanation:</strong> Add '(' to match the first '))', Add '))' to match the last '('.\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>s</code> consists of <code>'('</code> and <code>')'</code> only.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

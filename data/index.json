@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-09",
+    "id": "1541",
+    "title": "Minimum Insertions to Balance a Parentheses String",
+    "slug": "minimum-insertions-to-balance-a-parentheses-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
+    ],
+    "link": "https://leetcode.com/problems/minimum-insertions-to-balance-a-parentheses-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-08",
     "id": "1021",
     "title": "Remove Outermost Parentheses",
