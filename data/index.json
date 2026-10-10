@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-10",
+    "id": "2333",
+    "title": "Minimum Sum of Squared Difference",
+    "slug": "minimum-sum-of-squared-difference",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "link": "https://leetcode.com/problems/minimum-sum-of-squared-difference/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-09",
     "id": "1541",
     "title": "Minimum Insertions to Balance a Parentheses String",
