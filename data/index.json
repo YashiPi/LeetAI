@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-11",
+    "id": "2778",
+    "title": "Sum of Squares of Special Elements ",
+    "slug": "sum-of-squares-of-special-elements",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/sum-of-squares-of-special-elements/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-10",
     "id": "2333",
     "title": "Minimum Sum of Squared Difference",
