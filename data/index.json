@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-12",
+    "id": "2897",
+    "title": "Apply Operations on Array to Maximize Sum of Squares",
+    "slug": "apply-operations-on-array-to-maximize-sum-of-squares",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Bit Manipulation"
+    ],
+    "link": "https://leetcode.com/problems/apply-operations-on-array-to-maximize-sum-of-squares/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-11",
     "id": "2778",
     "title": "Sum of Squares of Special Elements ",
