@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-13",
+    "id": "3727",
+    "title": "Maximum Alternating Sum of Squares",
+    "slug": "maximum-alternating-sum-of-squares",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-12",
     "id": "2897",
     "title": "Apply Operations on Array to Maximize Sum of Squares",

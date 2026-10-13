@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-13T06:03:12.451228+00:00",
+    "date": "2026-10-13",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-13",
+    "link": "https://leetcode.com/problems/maximum-alternating-sum-of-squares/",
+    "id": "3727",
+    "title": "Maximum Alternating Sum of Squares",
+    "slug": "maximum-alternating-sum-of-squares",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "hints": [
+      "The score uses squares of values. The original signs of <code>nums</code> don't affect the squared terms.",
+      "In the alternating sum, even indices contribute positively and odd indices negatively."
+    ],
+    "stats": {
+      "total_accepted": "66.6K",
+      "total_submissions": "95K",
+      "acceptance_rate": "70.1%"
+    },
+    "likes": 155,
+    "dislikes": 4,
+    "similar_questions": [],
+    "example_testcases": "[1,2,3]\n[1,-1,2,-2,3,-3]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long maxAlternatingSum(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long maxAlternatingSum(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxAlternatingSum(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar maxAlternatingSum = function(nums) {\n    \n};"
+    },
+    "description": "You are given an integer array nums. You may rearrange the elements in any order.\n\nThe alternating score of an array arr is defined as:\n\nscore = arr[0]2 - arr[1]2 + arr[2]2 - arr[3]2 + ...\n\nReturn an integer denoting the maximum possible alternating score of nums after rearranging its elements.\n\n \n\nExample 1:\n\nInput: nums = [1,2,3]\n\nOutput: 12\n\nExplanation:\n\nA possible rearrangement for nums is [2,1,3], which gives the maximum alternating score among all possible rearrangements.\n\nThe alternating score is calculated as:\n\nscore = 22 - 12 + 32 = 4 - 1 + 9 = 12\n\nExample 2:\n\nInput: nums = [1,-1,2,-2,3,-3]\n\nOutput: 16\n\nExplanation:\n\nA possible rearrangement for nums is [-3,-1,-2,1,3,2], which gives the maximum alternating score among all possible rearrangements.\n\nThe alternating score is calculated as:\n\nscore = (-3)2 - (-1)2 + (-2)2 - (1)2 + (3)2 - (2)2 = 9 - 1 + 4 - 1 + 9 - 4 = 16\n\n \n\nConstraints:\n\n1 <= nums.length <= 105\n-4 * 104 <= nums[i] <= 4 * 104",
+    "description_html": "<p>You are given an integer array <code>nums</code>. You may <strong>rearrange the elements</strong> in any order.</p>\n\n<p>The <strong>alternating score</strong> of an array <code>arr</code> is defined as:</p>\n\n<ul>\n\t<li><code>score = arr[0]<sup>2</sup> - arr[1]<sup>2</sup> + arr[2]<sup>2</sup> - arr[3]<sup>2</sup> + ...</code></li>\n</ul>\n\n<p>Return an integer denoting the <strong>maximum possible alternating score</strong> of <code>nums</code> after rearranging its elements.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,2,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">12</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>A possible rearrangement for <code>nums</code> is <code>[2,1,3]</code>, which gives the maximum alternating score among all possible rearrangements.</p>\n\n<p>The alternating score is calculated as:</p>\n\n<p><code>score = 2<sup>2</sup> - 1<sup>2</sup> + 3<sup>2</sup> = 4 - 1 + 9 = 12</code></p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [1,-1,2,-2,3,-3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">16</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>A possible rearrangement for <code>nums</code> is <code>[-3,-1,-2,1,3,2]</code>, which gives the maximum alternating score among all possible rearrangements.</p>\n\n<p>The alternating score is calculated as:</p>\n\n<p><code>score = (-3)<sup>2</sup> - (-1)<sup>2</sup> + (-2)<sup>2</sup> - (1)<sup>2</sup> + (3)<sup>2</sup> - (2)<sup>2</sup> = 9 - 1 + 4 - 1 + 9 - 4 = 16</code></p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-4 * 10<sup>4</sup> &lt;= nums[i] &lt;= 4 * 10<sup>4</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
