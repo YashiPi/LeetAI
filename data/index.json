@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-14",
+    "id": "3723",
+    "title": "Maximize Sum of Squares of Digits",
+    "slug": "maximize-sum-of-squares-of-digits",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-13",
     "id": "3727",
     "title": "Maximum Alternating Sum of Squares",

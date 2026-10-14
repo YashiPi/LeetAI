@@ -1,0 +1,59 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-14T04:04:26.425094+00:00",
+    "date": "2026-10-14",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-14",
+    "link": "https://leetcode.com/problems/maximize-sum-of-squares-of-digits/",
+    "id": "3723",
+    "title": "Maximize Sum of Squares of Digits",
+    "slug": "maximize-sum-of-squares-of-digits",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Greedy"
+    ],
+    "hints": [
+      "Use a greedy approach.",
+      "Fill the leftmost digits with 9s first (as much as possible)."
+    ],
+    "stats": {
+      "total_accepted": "38.3K",
+      "total_submissions": "59.9K",
+      "acceptance_rate": "64.0%"
+    },
+    "likes": 128,
+    "dislikes": 3,
+    "similar_questions": [],
+    "example_testcases": "2\n3\n2\n17\n1\n10",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string maxSumOfSquares(int num, int sum) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String maxSumOfSquares(int num, int sum) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def maxSumOfSquares(self, num: int, sum: int) -> str:\n        ",
+      "javascript": "/**\n * @param {number} num\n * @param {number} sum\n * @return {string}\n */\nvar maxSumOfSquares = function(num, sum) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
