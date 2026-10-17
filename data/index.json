@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-17",
+    "id": "3551",
+    "title": "Minimum Swaps to Sort by Digit Sum",
+    "slug": "minimum-swaps-to-sort-by-digit-sum",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-16",
     "id": "2916",
     "title": "Subarrays Distinct Element Sum of Squares II",

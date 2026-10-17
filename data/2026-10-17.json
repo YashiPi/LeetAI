@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-17T03:33:59.198807+00:00",
+    "date": "2026-10-17",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-17",
+    "link": "https://leetcode.com/problems/minimum-swaps-to-sort-by-digit-sum/",
+    "id": "3551",
+    "title": "Minimum Swaps to Sort by Digit Sum",
+    "slug": "minimum-swaps-to-sort-by-digit-sum",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ],
+    "hints": [
+      "First, sort the array based on digit sum (and value as a tiebreaker). Then, map each original value to its index in the sorted array.",
+      "Now, the problem reduces to finding the minimum number of swaps to sort this mapped array. The answer is <code>n - number_of_cycles</code> in the permutation."
+    ],
+    "stats": {
+      "total_accepted": "33.3K",
+      "total_submissions": "62K",
+      "acceptance_rate": "53.7%"
+    },
+    "likes": 192,
+    "dislikes": 6,
+    "similar_questions": [],
+    "example_testcases": "[37,100]\n[22,14,33,7]\n[18,43,34,16]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minSwaps(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minSwaps(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minSwaps(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minSwaps = function(nums) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
