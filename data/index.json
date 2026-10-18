@@ -1,5 +1,28 @@
 [
   {
+    "date": "2026-10-18",
+    "id": "1569",
+    "title": "Number of Ways to Reorder Array to Get Same BST",
+    "slug": "number-of-ways-to-reorder-array-to-get-same-bst",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Tree",
+      "Union-Find",
+      "Binary Search Tree",
+      "Memoization",
+      "Combinatorics",
+      "Binary Tree",
+      "Fermat's Little Theorem"
+    ],
+    "link": "https://leetcode.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-17",
     "id": "3551",
     "title": "Minimum Swaps to Sort by Digit Sum",
