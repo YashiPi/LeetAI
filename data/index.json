@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-19",
+    "id": "2089",
+    "title": "Find Target Indices After Sorting Array",
+    "slug": "find-target-indices-after-sorting-array",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/find-target-indices-after-sorting-array/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-18",
     "id": "1569",
     "title": "Number of Ways to Reorder Array to Get Same BST",
