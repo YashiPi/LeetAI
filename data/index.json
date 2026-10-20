@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-20",
+    "id": "3886",
+    "title": "Sum of Sortable Integers",
+    "slug": "sum-of-sortable-integers",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Enumeration"
+    ],
+    "link": "https://leetcode.com/problems/sum-of-sortable-integers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-19",
     "id": "2089",
     "title": "Find Target Indices After Sorting Array",
