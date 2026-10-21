@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-21T03:51:47.067188+00:00",
+    "date": "2026-10-21",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-21",
+    "link": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+    "id": "3863",
+    "title": "Minimum Operations to Sort a String",
+    "slug": "minimum-operations-to-sort-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "hints": [
+      "If <code>s</code> is already sorted, answer is <code>0</code>.",
+      "Let <code>mn</code> be the minimum char and <code>mx</code> be the maximum char; if <code>mn</code> appears at the beginning (not whole string) or <code>mx</code> appears at the end (not whole string), answer is <code>1</code>.",
+      "If <code>s</code> cannot be transformed into a sorted string, return <code>-1</code>.",
+      "If no <code>mn</code> exists in any proper prefix and no <code>mx</code> exists in any proper suffix, answer is <code>3</code>; otherwise answer is <code>2</code>"
+    ],
+    "stats": {
+      "total_accepted": "27.5K",
+      "total_submissions": "112.9K",
+      "acceptance_rate": "24.4%"
+    },
+    "likes": 136,
+    "dislikes": 17,
+    "similar_questions": [],
+    "example_testcases": "\"dog\"\n\"card\"\n\"gf\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minOperations(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minOperations(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minOperations(self, s: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {number}\n */\nvar minOperations = function(s) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

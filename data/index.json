@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-10-21",
+    "id": "3863",
+    "title": "Minimum Operations to Sort a String",
+    "slug": "minimum-operations-to-sort-a-string",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/minimum-operations-to-sort-a-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-20",
     "id": "3886",
     "title": "Sum of Sortable Integers",
