@@ -1,0 +1,70 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-24T03:49:35.811192+00:00",
+    "date": "2026-10-24",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-24",
+    "link": "https://leetcode.com/problems/count-days-spent-together/",
+    "id": "2409",
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "hints": [
+      "For a given day, determine if Alice or Bob or both are in Rome.",
+      "Brute force all 365 days for both Alice and Bob."
+    ],
+    "stats": {
+      "total_accepted": "40.3K",
+      "total_submissions": "76.8K",
+      "acceptance_rate": "52.5%"
+    },
+    "likes": 312,
+    "dislikes": 597,
+    "similar_questions": [
+      {
+        "title": "Number of Days Between Two Dates",
+        "slug": "number-of-days-between-two-dates",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Minimum Number of Operations to Convert Time",
+        "slug": "minimum-number-of-operations-to-convert-time",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "\"08-15\"\n\"08-18\"\n\"08-16\"\n\"08-19\"\n\"10-01\"\n\"10-31\"\n\"11-01\"\n\"12-31\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int countDaysTogether(string arriveAlice, string leaveAlice, string arriveBob, string leaveBob) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int countDaysTogether(String arriveAlice, String leaveAlice, String arriveBob, String leaveBob) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def countDaysTogether(self, arriveAlice: str, leaveAlice: str, arriveBob: str, leaveBob: str) -> int:\n        ",
+      "javascript": "/**\n * @param {string} arriveAlice\n * @param {string} leaveAlice\n * @param {string} arriveBob\n * @param {string} leaveBob\n * @return {number}\n */\nvar countDaysTogether = function(arriveAlice, leaveAlice, arriveBob, leaveBob) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

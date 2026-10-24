@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-10-24",
+    "id": "2409",
+    "title": "Count Days Spent Together",
+    "slug": "count-days-spent-together",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/count-days-spent-together/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-23",
     "id": "3644",
     "title": "Maximum K to Sort a Permutation",
