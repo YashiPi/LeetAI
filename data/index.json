@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-10-25",
+    "id": "1254",
+    "title": "Number of Closed Islands",
+    "slug": "number-of-closed-islands",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/number-of-closed-islands/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-24",
     "id": "2409",
     "title": "Count Days Spent Together",
