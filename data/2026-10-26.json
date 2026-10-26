@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-26T04:00:55.094909+00:00",
+    "date": "2026-10-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-26",
+    "link": "https://leetcode.com/problems/count-islands-with-total-value-divisible-by-k/",
+    "id": "3619",
+    "title": "Count Islands With Total Value Divisible by K",
+    "slug": "count-islands-with-total-value-divisible-by-k",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ],
+    "hints": [
+      "Use a BFS/DFS to find connected components."
+    ],
+    "stats": {
+      "total_accepted": "45K",
+      "total_submissions": "76.4K",
+      "acceptance_rate": "58.9%"
+    },
+    "likes": 106,
+    "dislikes": 4,
+    "similar_questions": [
+      {
+        "title": "Number of Islands",
+        "slug": "number-of-islands",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[[0,2,1,0,0],[0,5,0,0,5],[0,0,1,0,0],[0,1,4,7,0],[0,2,0,0,8]]\n5\n[[3,0,3,0],[0,3,0,3],[3,0,3,0]]\n3",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int countIslands(vector<vector<int>>& grid, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int countIslands(int[][] grid, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def countIslands(self, grid: List[List[int]], k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} grid\n * @param {number} k\n * @return {number}\n */\nvar countIslands = function(grid, k) {\n    \n};"
+    },
+    "description": "You are given an m x n matrix grid and a positive integer k. An island is a group of positive integers (representing land) that are 4-directionally connected (horizontally or vertically).\n\nThe total value of an island is the sum of the values of all cells in the island.\n\nReturn the number of islands with a total value divisible by k.\n\n \n\nExample 1:\n\nInput: grid = [[0,2,1,0,0],[0,5,0,0,5],[0,0,1,0,0],[0,1,4,7,0],[0,2,0,0,8]], k = 5\n\nOutput: 2\n\nExplanation:\n\nThe grid contains four islands. The islands highlighted in blue have a total value that is divisible by 5, while the islands highlighted in red do not.\n\nExample 2:\n\nInput: grid = [[3,0,3,0], [0,3,0,3], [3,0,3,0]], k = 3\n\nOutput: 6\n\nExplanation:\n\nThe grid contains six islands, each with a total value that is divisible by 3.\n\n \n\nConstraints:\n\nm == grid.length\nn == grid[i].length\n1 <= m, n <= 1000\n1 <= m * n <= 105\n0 <= grid[i][j] <= 106\n1 <= k <= 106",
+    "description_html": "<p>You are given an <code>m x n</code> matrix <code>grid</code> and a positive integer <code>k</code>. An <strong>island</strong> is a group of <strong>positive</strong> integers (representing land) that are <strong>4-directionally</strong> connected (horizontally or vertically).</p>\n\n<p>The <strong>total value</strong> of an island is the sum of the values of all cells in the island.</p>\n\n<p>Return the number of islands with a total value <strong>divisible by</strong> <code>k</code>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2025/03/06/example1griddrawio-1.png\" style=\"width: 200px; height: 200px;\">\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">grid = [[0,2,1,0,0],[0,5,0,0,5],[0,0,1,0,0],[0,1,4,7,0],[0,2,0,0,8]], k = 5</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The grid contains four islands. The islands highlighted in blue have a total value that is divisible by 5, while the islands highlighted in red do not.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n<img alt=\"\" src=\"https://assets.leetcode.com/uploads/2025/03/06/example2griddrawio.png\" style=\"width: 200px; height: 150px;\">\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">grid = [[3,0,3,0], [0,3,0,3], [3,0,3,0]], k = 3</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">6</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>The grid contains six islands, each with a total value that is divisible by 3.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>m == grid.length</code></li>\n\t<li><code>n == grid[i].length</code></li>\n\t<li><code>1 &lt;= m, n &lt;= 1000</code></li>\n\t<li><code>1 &lt;= m * n &lt;= 10<sup>5</sup></code></li>\n\t<li><code>0 &lt;= grid[i][j] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>1 &lt;= k &lt;= 10<sup>6</sup></code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
