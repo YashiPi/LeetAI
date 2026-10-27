@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-10-27",
+    "id": "3963",
+    "title": "Create Grid With Exactly One Path",
+    "slug": "create-grid-with-exactly-one-path",
+    "difficulty": "Easy",
+    "tags": [],
+    "link": "https://leetcode.com/problems/create-grid-with-exactly-one-path/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-26",
     "id": "3619",
     "title": "Count Islands With Total Value Divisible by K",
