@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-28",
+    "id": "3882",
+    "title": "Minimum XOR Path in a Grid",
+    "slug": "minimum-xor-path-in-a-grid",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/minimum-xor-path-in-a-grid/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-27",
     "id": "3963",
     "title": "Create Grid With Exactly One Path",
