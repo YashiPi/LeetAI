@@ -1,5 +1,25 @@
 [
   {
+    "date": "2026-10-29",
+    "id": "3841",
+    "title": "Palindromic Path Queries in a Tree",
+    "slug": "palindromic-path-queries-in-a-tree",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "String",
+      "Divide and Conquer",
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search",
+      "Binary Indexed Tree",
+      "Segment Tree"
+    ],
+    "link": "https://leetcode.com/problems/palindromic-path-queries-in-a-tree/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-28",
     "id": "3882",
     "title": "Minimum XOR Path in a Grid",
