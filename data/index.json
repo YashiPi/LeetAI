@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-10-30",
+    "id": "3970",
+    "title": "Shortest Path With At Most K Consecutive Identical Characters",
+    "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ],
+    "link": "https://leetcode.com/problems/shortest-path-with-at-most-k-consecutive-identical-characters/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-29",
     "id": "3841",
     "title": "Palindromic Path Queries in a Tree",
