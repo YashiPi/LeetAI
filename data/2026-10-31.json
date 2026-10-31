@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-10-31T04:47:38.248908+00:00",
+    "date": "2026-10-31",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-10-31",
+    "link": "https://leetcode.com/problems/twisted-mirror-path-count/",
+    "id": "3665",
+    "title": "Twisted Mirror Path Count",
+    "slug": "twisted-mirror-path-count",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "hints": [
+      "Precompute, for each cell and each move (right/down), where you actually land if there’s a mirror next—store these \"jump\" targets in a <code>go[i][j][0/1]</code> table.",
+      "Let <code>dp[i][j]</code> = number of ways to reach (i,j); set <code>dp[0][0] = 1</code>, then scan cells in row‑major order and for each <code>dp[i][j] > 0</code> add <code>dp[i][j]</code> into <code>dp[x][y]</code> for both precomputed moves.",
+      "Always take additions modulo <code>10<sup>9</sup>+7</code>, and skip any jump target that falls outside the grid."
+    ],
+    "stats": {
+      "total_accepted": "24.4K",
+      "total_submissions": "44.2K",
+      "acceptance_rate": "55.1%"
+    },
+    "likes": 114,
+    "dislikes": 8,
+    "similar_questions": [],
+    "example_testcases": "[[0,1,0],[0,0,1],[1,0,0]]\n[[0,0],[0,0]]\n[[0,1,1],[1,1,0]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int uniquePaths(vector<vector<int>>& grid) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int uniquePaths(int[][] grid) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def uniquePaths(self, grid: List[List[int]]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar uniquePaths = function(grid) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

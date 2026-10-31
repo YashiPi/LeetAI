@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-10-31",
+    "id": "3665",
+    "title": "Twisted Mirror Path Count",
+    "slug": "twisted-mirror-path-count",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ],
+    "link": "https://leetcode.com/problems/twisted-mirror-path-count/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-30",
     "id": "3970",
     "title": "Shortest Path With At Most K Consecutive Identical Characters",
