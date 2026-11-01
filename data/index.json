@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-01",
+    "id": "453",
+    "title": "Minimum Moves to Equal Array Elements",
+    "slug": "minimum-moves-to-equal-array-elements",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-10-31",
     "id": "3665",
     "title": "Twisted Mirror Path Count",

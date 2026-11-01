@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-01T05:00:37.786494+00:00",
+    "date": "2026-11-01",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-01",
+    "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements/",
+    "id": "453",
+    "title": "Minimum Moves to Equal Array Elements",
+    "slug": "minimum-moves-to-equal-array-elements",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "hints": [],
+    "stats": {
+      "total_accepted": "245.1K",
+      "total_submissions": "407.6K",
+      "acceptance_rate": "60.1%"
+    },
+    "likes": 2932,
+    "dislikes": 1918,
+    "similar_questions": [
+      {
+        "title": "Minimum Moves to Equal Array Elements II",
+        "slug": "minimum-moves-to-equal-array-elements-ii",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Maximum Running Time of N Computers",
+        "slug": "maximum-running-time-of-n-computers",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Pour Water Between Buckets to Make Water Levels Equal",
+        "slug": "pour-water-between-buckets-to-make-water-levels-equal",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Divide Players Into Teams of Equal Skill",
+        "slug": "divide-players-into-teams-of-equal-skill",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Find Minimum Operations to Make All Elements Divisible by Three",
+        "slug": "find-minimum-operations-to-make-all-elements-divisible-by-three",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "[1,2,3]\n[1,1,1]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minMoves(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minMoves(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minMoves(self, nums: list[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves = function(nums) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
