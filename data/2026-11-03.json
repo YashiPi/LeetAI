@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-03T05:49:54.818532+00:00",
+    "date": "2026-11-03",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-03",
+    "link": "https://leetcode.com/problems/minimum-moves-to-equal-array-elements-iii/",
+    "id": "3736",
+    "title": "Minimum Moves to Equal Array Elements III",
+    "slug": "minimum-moves-to-equal-array-elements-iii",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math"
+    ],
+    "hints": [
+      "To make all numbers equal, they must all reach at least the maximum value in the array."
+    ],
+    "stats": {
+      "total_accepted": "72.2K",
+      "total_submissions": "84.2K",
+      "acceptance_rate": "85.8%"
+    },
+    "likes": 111,
+    "dislikes": 5,
+    "similar_questions": [],
+    "example_testcases": "[2,1,3]\n[4,4,5]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minMoves(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minMoves(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minMoves(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar minMoves = function(nums) {\n    \n};"
+    },
+    "description": "You are given an integer array nums.\n\nIn one move, you may increase the value of any single element nums[i] by 1.\n\nReturn the minimum total number of moves required so that all elements in nums become equal.\n\n \n\nExample 1:\n\nInput: nums = [2,1,3]\n\nOutput: 3\n\nExplanation:\n\nTo make all elements equal:\n\nIncrease nums[0] = 2 by 1 to make it 3.\nIncrease nums[1] = 1 by 1 to make it 2.\nIncrease nums[1] = 2 by 1 to make it 3.\n\nNow, all elements of nums are equal to 3. The minimum total moves is 3.\n\nExample 2:\n\nInput: nums = [4,4,5]\n\nOutput: 2\n\nExplanation:\n\nTo make all elements equal:\n\nIncrease nums[0] = 4 by 1 to make it 5.\nIncrease nums[1] = 4 by 1 to make it 5.\n\nNow, all elements of nums are equal to 5. The minimum total moves is 2.\n\n \n\nConstraints:\n\n1 <= nums.length <= 100\n1 <= nums[i] <= 100",
+    "description_html": "<p>You are given an integer array <code>nums</code>.</p>\n\n<p>In one move, you may <strong>increase</strong> the value of any single element <code>nums[i]</code> by 1.</p>\n\n<p>Return the <strong>minimum total</strong> number of <strong>moves</strong> required so that all elements in <code>nums</code> become <strong>equal</strong>.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [2,1,3]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>To make all elements equal:</p>\n\n<ul>\n\t<li>Increase <code>nums[0] = 2</code> by 1 to make it 3.</li>\n\t<li>Increase <code>nums[1] = 1</code> by 1 to make it 2.</li>\n\t<li>Increase <code>nums[1] = 2</code> by 1 to make it 3.</li>\n</ul>\n\n<p>Now, all elements of <code>nums</code> are equal to 3. The minimum total moves is <code>3</code>.</p>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [4,4,5]</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">2</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<p>To make all elements equal:</p>\n\n<ul>\n\t<li>Increase <code>nums[0] = 4</code> by 1 to make it 5.</li>\n\t<li>Increase <code>nums[1] = 4</code> by 1 to make it 5.</li>\n</ul>\n\n<p>Now, all elements of <code>nums</code> are equal to 5. The minimum total moves is <code>2</code>.</p>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 100</code></li>\n\t<li><code>1 &lt;= nums[i] &lt;= 100</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
