@@ -1,0 +1,76 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-04T05:25:42.632233+00:00",
+    "date": "2026-11-04",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-04",
+    "link": "https://leetcode.com/problems/minimum-operations-to-make-elements-within-k-subarrays-equal/",
+    "id": "3505",
+    "title": "Minimum Operations to Make Elements Within K Subarrays Equal",
+    "slug": "minimum-operations-to-make-elements-within-k-subarrays-equal",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Dynamic Programming",
+      "Sliding Window",
+      "Heap (Priority Queue)"
+    ],
+    "hints": [
+      "Making every element of an x-sized window equal to its median is optimal.",
+      "Precalculate this for each window."
+    ],
+    "stats": {
+      "total_accepted": "13.3K",
+      "total_submissions": "28.1K",
+      "acceptance_rate": "47.2%"
+    },
+    "likes": 123,
+    "dislikes": 6,
+    "similar_questions": [
+      {
+        "title": "Find Median from Data Stream",
+        "slug": "find-median-from-data-stream",
+        "difficulty": "Hard"
+      },
+      {
+        "title": "Minimum Moves to Equal Array Elements II",
+        "slug": "minimum-moves-to-equal-array-elements-ii",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[5,-2,1,3,7,3,6,4,-1]\n3\n2\n[9,-2,-2,-2,1,5]\n2\n2",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    long long minOperations(vector<int>& nums, int x, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public long minOperations(int[] nums, int x, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minOperations(self, nums: List[int], x: int, k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} x\n * @param {number} k\n * @return {number}\n */\nvar minOperations = function(nums, x, k) {\n    \n};"
+    },
+    "description": "You are given an integer array nums and two integers, x and k. You can perform the following operation any number of times (including zero):\n\nIncrease or decrease any element of nums by 1.\n\nReturn the minimum number of operations needed to have at least k non-overlapping subarrays of size exactly x in nums, where all elements within each subarray are equal.\n\n \n\nExample 1:\n\nInput: nums = [5,-2,1,3,7,3,6,4,-1], x = 3, k = 2\n\nOutput: 8\n\nExplanation:\n\nUse 3 operations to add 3 to nums[1] and use 2 operations to subtract 2 from nums[3]. The resulting array is [5, 1, 1, 1, 7, 3, 6, 4, -1].\nUse 1 operation to add 1 to nums[5] and use 2 operations to subtract 2 from nums[6]. The resulting array is [5, 1, 1, 1, 7, 4, 4, 4, -1].\nNow, all elements within each subarray [1, 1, 1] (from indices 1 to 3) and [4, 4, 4] (from indices 5 to 7) are equal. Since 8 total operations were used, 8 is the output.\n\nExample 2:\n\nInput: nums = [9,-2,-2,-2,1,5], x = 2, k = 2\n\nOutput: 3\n\nExplanation:\n\nUse 3 operations to subtract 3 from nums[4]. The resulting array is [9, -2, -2, -2, -2, 5].\nNow, all elements within each subarray [-2, -2] (from indices 1 to 2) and [-2, -2] (from indices 3 to 4) are equal. Since 3 operations were used, 3 is the output.\n\n \n\nConstraints:\n\n2 <= nums.length <= 105\n-106 <= nums[i] <= 106\n2 <= x <= nums.length\n1 <= k <= 15\n2 <= k * x <= nums.length",
+    "description_html": "<p>You are given an integer array <code>nums</code> and two integers, <code>x</code> and <code>k</code>. You can perform the following operation any number of times (<strong>including zero</strong>):</p>\n\n<ul>\n\t<li>Increase or decrease any element of <code>nums</code> by 1.</li>\n</ul>\n\n<p>Return the <strong>minimum</strong> number of operations needed to have <strong>at least</strong> <code>k</code> <em>non-overlapping <span data-keyword=\"subarray-nonempty\" class=\" cursor-pointer relative text-dark-blue-s text-sm\"><button type=\"button\" aria-haspopup=\"dialog\" aria-expanded=\"false\" aria-controls=\"radix-_r_q_\" data-state=\"closed\" class=\"\">subarrays</button></span></em> of size <strong>exactly</strong> <code>x</code> in <code>nums</code>, where all elements within each subarray are equal.</p>\n\n<p>&nbsp;</p>\n<p><strong class=\"example\">Example 1:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [5,-2,1,3,7,3,6,4,-1], x = 3, k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">8</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Use 3 operations to add 3 to <code>nums[1]</code> and use 2 operations to subtract 2 from <code>nums[3]</code>. The resulting array is <code>[5, 1, 1, 1, 7, 3, 6, 4, -1]</code>.</li>\n\t<li>Use 1 operation to add 1 to <code>nums[5]</code> and use 2 operations to subtract 2 from <code>nums[6]</code>. The resulting array is <code>[5, 1, 1, 1, 7, 4, 4, 4, -1]</code>.</li>\n\t<li>Now, all elements within each subarray <code>[1, 1, 1]</code> (from indices 1 to 3) and <code>[4, 4, 4]</code> (from indices 5 to 7) are equal. Since 8 total operations were used, 8 is the output.</li>\n</ul>\n</div>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<div class=\"example-block\">\n<p><strong>Input:</strong> <span class=\"example-io\">nums = [9,-2,-2,-2,1,5], x = 2, k = 2</span></p>\n\n<p><strong>Output:</strong> <span class=\"example-io\">3</span></p>\n\n<p><strong>Explanation:</strong></p>\n\n<ul>\n\t<li>Use 3 operations to subtract 3 from <code>nums[4]</code>. The resulting array is <code>[9, -2, -2, -2, -2, 5]</code>.</li>\n\t<li>Now, all elements within each subarray <code>[-2, -2]</code> (from indices 1 to 2) and <code>[-2, -2]</code> (from indices 3 to 4) are equal. Since 3 operations were used, 3 is the output.</li>\n</ul>\n</div>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>2 &lt;= nums.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>-10<sup>6</sup> &lt;= nums[i] &lt;= 10<sup>6</sup></code></li>\n\t<li><code>2 &lt;= x &lt;= nums.length</code></li>\n\t<li><code>1 &lt;= k &lt;= 15</code></li>\n\t<li><code>2 &lt;= k * x &lt;= nums.length</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
