@@ -1,0 +1,60 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-05T05:45:29.619970+00:00",
+    "date": "2026-11-05",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-05",
+    "link": "https://leetcode.com/problems/find-the-distance-value-between-two-arrays/",
+    "id": "1385",
+    "title": "Find the Distance Value Between Two Arrays",
+    "slug": "find-the-distance-value-between-two-arrays",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
+    ],
+    "hints": [
+      "Sort 'arr2' and use binary search to get the closest element for each 'arr1[i]', it gives a time complexity of O(nlogn)."
+    ],
+    "stats": {
+      "total_accepted": "184.2K",
+      "total_submissions": "247.9K",
+      "acceptance_rate": "74.3%"
+    },
+    "likes": 1126,
+    "dislikes": 3228,
+    "similar_questions": [],
+    "example_testcases": "[4,5,8]\n[10,9,1,8]\n2\n[1,4,2,3]\n[-4,-3,6,10,20,30]\n3\n[2,1,100,3]\n[-5,-2,10,-3,7]\n6",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int findTheDistanceValue(vector<int>& arr1, vector<int>& arr2, int d) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int findTheDistanceValue(int[] arr1, int[] arr2, int d) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def findTheDistanceValue(self, arr1: list[int], arr2: list[int], d: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} arr1\n * @param {number[]} arr2\n * @param {number} d\n * @return {number}\n */\nvar findTheDistanceValue = function(arr1, arr2, d) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
