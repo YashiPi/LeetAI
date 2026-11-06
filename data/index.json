@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-06",
+    "id": "2747",
+    "title": "Count Zero Request Servers",
+    "slug": "count-zero-request-servers",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/count-zero-request-servers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-05",
     "id": "1385",
     "title": "Find the Distance Value Between Two Arrays",
