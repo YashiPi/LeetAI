@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-07T05:11:11.799397+00:00",
+    "date": "2026-11-07",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-07",
+    "link": "https://leetcode.com/problems/process-tasks-using-servers/",
+    "id": "1882",
+    "title": "Process Tasks Using Servers",
+    "slug": "process-tasks-using-servers",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)"
+    ],
+    "hints": [
+      "You can maintain a Heap of available Servers and a Heap of unavailable servers",
+      "Note that the tasks will be processed in the input order so you just need to find the x-th server that will be available according to the rules"
+    ],
+    "stats": {
+      "total_accepted": "60.3K",
+      "total_submissions": "135K",
+      "acceptance_rate": "44.7%"
+    },
+    "likes": 1098,
+    "dislikes": 292,
+    "similar_questions": [
+      {
+        "title": "Parallel Courses III",
+        "slug": "parallel-courses-iii",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "[3,3,2]\n[1,2,3,2,1,2]\n[5,1,4,3,2]\n[2,1,2,4,5,2,1]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> assignTasks(vector<int>& servers, vector<int>& tasks) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int[] assignTasks(int[] servers, int[] tasks) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def assignTasks(self, servers: list[int], tasks: list[int]) -> list[int]:\n        ",
+      "javascript": "/**\n * @param {number[]} servers\n * @param {number[]} tasks\n * @return {number[]}\n */\nvar assignTasks = function(servers, tasks) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-07",
+    "id": "1882",
+    "title": "Process Tasks Using Servers",
+    "slug": "process-tasks-using-servers",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)"
+    ],
+    "link": "https://leetcode.com/problems/process-tasks-using-servers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-06",
     "id": "2747",
     "title": "Count Zero Request Servers",
