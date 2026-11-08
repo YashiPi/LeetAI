@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-08T05:09:01.212334+00:00",
+    "date": "2026-11-08",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-08",
+    "link": "https://leetcode.com/problems/count-servers-that-communicate/",
+    "id": "1267",
+    "title": "Count Servers that Communicate",
+    "slug": "count-servers-that-communicate",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix",
+      "Counting"
+    ],
+    "hints": [
+      "Store number of computer in each row and column.",
+      "Count all servers that are not isolated."
+    ],
+    "stats": {
+      "total_accepted": "218.4K",
+      "total_submissions": "293.7K",
+      "acceptance_rate": "74.4%"
+    },
+    "likes": 1973,
+    "dislikes": 111,
+    "similar_questions": [],
+    "example_testcases": "[[1,0],[0,1]]\n[[1,0],[1,1]]\n[[1,1,0,0],[0,0,1,0],[0,0,1,0],[0,0,0,1]]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int countServers(vector<vector<int>>& grid) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int countServers(int[][] grid) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def countServers(self, grid: list[list[int]]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[][]} grid\n * @return {number}\n */\nvar countServers = function(grid) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

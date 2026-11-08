@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-08",
+    "id": "1267",
+    "title": "Count Servers that Communicate",
+    "slug": "count-servers-that-communicate",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix",
+      "Counting"
+    ],
+    "link": "https://leetcode.com/problems/count-servers-that-communicate/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-07",
     "id": "1882",
     "title": "Process Tasks Using Servers",
