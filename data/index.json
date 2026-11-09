@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-09",
+    "id": "1606",
+    "title": "Find Servers That Handled Most Number of Requests",
+    "slug": "find-servers-that-handled-most-number-of-requests",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)",
+      "Simulation",
+      "Ordered Set"
+    ],
+    "link": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-08",
     "id": "1267",
     "title": "Count Servers that Communicate",

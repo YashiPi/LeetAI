@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-09T05:19:52.852578+00:00",
+    "date": "2026-11-09",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-09",
+    "link": "https://leetcode.com/problems/find-servers-that-handled-most-number-of-requests/",
+    "id": "1606",
+    "title": "Find Servers That Handled Most Number of Requests",
+    "slug": "find-servers-that-handled-most-number-of-requests",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)",
+      "Simulation",
+      "Ordered Set"
+    ],
+    "hints": [
+      "To speed up the next available server search, keep track of the available servers in a sorted structure such as an ordered set.",
+      "To determine if a server is available, keep track of the end times for each task in a heap and add the server to the available set once the soonest task ending time is less than or equal to the next task to add."
+    ],
+    "stats": {
+      "total_accepted": "40.9K",
+      "total_submissions": "80.4K",
+      "acceptance_rate": "50.9%"
+    },
+    "likes": 727,
+    "dislikes": 31,
+    "similar_questions": [
+      {
+        "title": "Meeting Rooms III",
+        "slug": "meeting-rooms-iii",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "3\n[1,2,3,4,5]\n[5,2,3,3,3]\n3\n[1,2,3,4]\n[1,2,1,2]\n3\n[1,2,3]\n[10,12,11]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> busiestServers(int k, vector<int>& arrival, vector<int>& load) {\n        \n    }\n};",
+      "java": "class Solution {\n    public List<Integer> busiestServers(int k, int[] arrival, int[] load) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def busiestServers(self, k: int, arrival: list[int], load: list[int]) -> list[int]:\n        ",
+      "javascript": "/**\n * @param {number} k\n * @param {number[]} arrival\n * @param {number[]} load\n * @return {number[]}\n */\nvar busiestServers = function(k, arrival, load) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
