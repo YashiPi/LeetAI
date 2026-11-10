@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-10T06:30:51.937706+00:00",
+    "date": "2026-11-10",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-10",
+    "link": "https://leetcode.com/problems/climbing-stairs-ii/",
+    "id": "3693",
+    "title": "Climbing Stairs II",
+    "slug": "climbing-stairs-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "hints": [
+      "Use dynamic programming where <code>dp[j]</code> represents the minimum cost to reach step <code>j</code>.",
+      "From step <code>i</code>, you can jump to <code>i+1</code>, <code>i+2</code>, or <code>i+3</code>. Transition depends only on the previous three states.",
+      "<code>dp[j] = min(dp[i] + costs[j] + (j - i)<sup>2</sup>)</code> for all <code>i</code> in {<code>j-1</code>, <code>j-2</code>, <code>j-3</code>}.",
+      "Initialize <code>dp[0] = 0</code> and compute up to <code>dp[n]</code>; the answer is <code>dp[n]</code>."
+    ],
+    "stats": {
+      "total_accepted": "61.1K",
+      "total_submissions": "87.8K",
+      "acceptance_rate": "69.6%"
+    },
+    "likes": 187,
+    "dislikes": 30,
+    "similar_questions": [],
+    "example_testcases": "4\n[1,2,3,4]\n4\n[5,1,6,2]\n3\n[9,8,3]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int climbStairs(int n, vector<int>& costs) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int climbStairs(int n, int[] costs) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def climbStairs(self, n: int, costs: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @param {number[]} costs\n * @return {number}\n */\nvar climbStairs = function(n, costs) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

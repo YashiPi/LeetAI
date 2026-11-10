@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-10",
+    "id": "3693",
+    "title": "Climbing Stairs II",
+    "slug": "climbing-stairs-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/climbing-stairs-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-09",
     "id": "1606",
     "title": "Find Servers That Handled Most Number of Requests",
