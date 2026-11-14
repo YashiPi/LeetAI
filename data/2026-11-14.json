@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-14T05:34:33.314227+00:00",
+    "date": "2026-11-14",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-14",
+    "link": "https://leetcode.com/problems/minimum-positive-sum-subarray/",
+    "id": "3364",
+    "title": "Minimum Positive Sum Subarray ",
+    "slug": "minimum-positive-sum-subarray",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Sliding Window",
+      "Prefix Sum"
+    ],
+    "hints": [
+      "Check every subarray, since constraints are small."
+    ],
+    "stats": {
+      "total_accepted": "68.3K",
+      "total_submissions": "137K",
+      "acceptance_rate": "49.9%"
+    },
+    "likes": 233,
+    "dislikes": 44,
+    "similar_questions": [
+      {
+        "title": "Minimum Size Subarray Sum",
+        "slug": "minimum-size-subarray-sum",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[3,-2,1,4]\n2\n3\n[-2,2,-3,1]\n2\n3\n[1,2,3,4]\n2\n4",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minimumSumSubarray(vector<int>& nums, int l, int r) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minimumSumSubarray(List<Integer> nums, int l, int r) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minimumSumSubarray(self, nums: List[int], l: int, r: int) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @param {number} l\n * @param {number} r\n * @return {number}\n */\nvar minimumSumSubarray = function(nums, l, r) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
