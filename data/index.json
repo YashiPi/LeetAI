@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-15",
+    "id": "1524",
+    "title": "Number of Sub-arrays With Odd Sum",
+    "slug": "number-of-sub-arrays-with-odd-sum",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-14",
     "id": "3364",
     "title": "Minimum Positive Sum Subarray ",

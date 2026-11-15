@@ -1,0 +1,69 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-15T05:29:28.687729+00:00",
+    "date": "2026-11-15",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-15",
+    "link": "https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/",
+    "id": "1524",
+    "title": "Number of Sub-arrays With Odd Sum",
+    "slug": "number-of-sub-arrays-with-odd-sum",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Prefix Sum"
+    ],
+    "hints": [
+      "Can we use the accumulative sum to keep track of all the odd-sum sub-arrays ?",
+      "if the current accu sum is odd, we care only about previous even accu sums and vice versa."
+    ],
+    "stats": {
+      "total_accepted": "197.4K",
+      "total_submissions": "349.7K",
+      "acceptance_rate": "56.5%"
+    },
+    "likes": 2159,
+    "dislikes": 108,
+    "similar_questions": [
+      {
+        "title": "Subsequence of Size K With the Largest Even Sum",
+        "slug": "subsequence-of-size-k-with-the-largest-even-sum",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "[1,3,5]\n[2,4,6]\n[1,2,3,4,5,6,7]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int numOfSubarrays(vector<int>& arr) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int numOfSubarrays(int[] arr) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def numOfSubarrays(self, arr: list[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} arr\n * @return {number}\n */\nvar numOfSubarrays = function(arr) {\n    \n};"
+    },
+    "description": "Given an array of integers arr, return the number of subarrays with an odd sum.\n\nSince the answer can be very large, return it modulo 109 + 7.\n\n \n\nOriginal\nC++\nExample 1:\n\nInput: arr = [1,3,5]\nOutput: 4\nExplanation: All subarrays are [[1],[1,3],[1,3,5],[3],[3,5],[5]]\nAll sub-arrays sum are [1,4,9,3,8,5].\nOdd sums are [1,9,3,5] so the answer is 4.\n\n\nExample 2:\n\nInput: arr = [2,4,6]\nOutput: 0\nExplanation: All subarrays are [[2],[2,4],[2,4,6],[4],[4,6],[6]]\nAll sub-arrays sum are [2,6,12,4,10,6].\nAll sub-arrays have even sum and the answer is 0.\n\n\nExample 3:\n\nInput: arr = [1,2,3,4,5,6,7]\nOutput: 16\n\n\n \n\nConstraints:\n\n1 <= arr.length <= 105\n1 <= arr[i] <= 100",
+    "description_html": "<p>Given an array of integers <code>arr</code>, return <em>the number of subarrays with an <strong>odd</strong> sum</em>.</p>\n\n<p>Since the answer can be very large, return it modulo <code>10<sup>9</sup> + 7</code>.</p>\n\n<p>&nbsp;</p>\n<p><span class=\"float-right -my-0.5 ml-2 inline-flex select-none items-center\" data-example-lang-controls=\"\"><span role=\"group\" class=\"inline-flex h-6 items-center rounded-sd-md bg-sd-muted p-0.5\" data-example-lang-toggle=\"\"><button type=\"button\" aria-pressed=\"true\" class=\"h-5 max-w-[10rem] truncate whitespace-nowrap rounded-sd-sm border px-2 text-xs font-normal leading-none border-sd-border bg-sd-background text-sd-foreground\">Original</button><button type=\"button\" aria-pressed=\"false\" class=\"h-5 max-w-[10rem] truncate whitespace-nowrap rounded-sd-sm border px-2 text-xs font-normal leading-none border-transparent text-sd-muted-foreground hover:text-sd-foreground\">C++</button></span></span><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> arr = [1,3,5]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> All subarrays are [[1],[1,3],[1,3,5],[3],[3,5],[5]]\nAll sub-arrays sum are [1,4,9,3,8,5].\nOdd sums are [1,9,3,5] so the answer is 4.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> arr = [2,4,6]\n<strong>Output:</strong> 0\n<strong>Explanation:</strong> All subarrays are [[2],[2,4],[2,4,6],[4],[4,6],[6]]\nAll sub-arrays sum are [2,6,12,4,10,6].\nAll sub-arrays have even sum and the answer is 0.\n</pre>\n\n<p><strong class=\"example\">Example 3:</strong></p>\n\n<pre><strong>Input:</strong> arr = [1,2,3,4,5,6,7]\n<strong>Output:</strong> 16\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= arr.length &lt;= 10<sup>5</sup></code></li>\n\t<li><code>1 &lt;= arr[i] &lt;= 100</code></li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
