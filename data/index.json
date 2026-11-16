@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-16",
+    "id": "2243",
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-15",
     "id": "1524",
     "title": "Number of Sub-arrays With Odd Sum",

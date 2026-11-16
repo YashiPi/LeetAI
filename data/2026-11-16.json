@@ -1,0 +1,71 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-16T05:26:56.931808+00:00",
+    "date": "2026-11-16",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-16",
+    "link": "https://leetcode.com/problems/calculate-digit-sum-of-a-string/",
+    "id": "2243",
+    "title": "Calculate Digit Sum of a String",
+    "slug": "calculate-digit-sum-of-a-string",
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Simulation"
+    ],
+    "hints": [
+      "Try simulating the entire process to find the final answer."
+    ],
+    "stats": {
+      "total_accepted": "75.8K",
+      "total_submissions": "106K",
+      "acceptance_rate": "71.4%"
+    },
+    "likes": 669,
+    "dislikes": 59,
+    "similar_questions": [
+      {
+        "title": "Add Digits",
+        "slug": "add-digits",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Find Triangular Sum of an Array",
+        "slug": "find-triangular-sum-of-an-array",
+        "difficulty": "Medium"
+      }
+    ],
+    "example_testcases": "\"11111222223\"\n3\n\"00000000\"\n3",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    string digitSum(string s, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public String digitSum(String s, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def digitSum(self, s: str, k: int) -> str:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {number} k\n * @return {string}\n */\nvar digitSum = function(s, k) {\n    \n};"
+    },
+    "description": "You are given a string s consisting of digits and an integer k.\n\nA round can be completed if the length of s is greater than k. In one round, do the following:\n\nDivide s into consecutive groups of size k such that the first k characters are in the first group, the next k characters are in the second group, and so on. Note that the size of the last group can be smaller than k.\nReplace each group of s with a string representing the sum of all its digits. For example, \"346\" is replaced with \"13\" because 3 + 4 + 6 = 13.\nMerge consecutive groups together to form a new string. If the length of the string is greater than k, repeat from step 1.\n\nReturn s after all rounds have been completed.\n\n \n\nOriginal\nC++\nExample 1:\n\nInput: s = \"11111222223\", k = 3\nOutput: \"135\"\nExplanation: \n- For the first round, we divide s into groups of size 3: \"111\", \"112\", \"222\", and \"23\".\n  ​​​​​Then we calculate the digit sum of each group: 1 + 1 + 1 = 3, 1 + 1 + 2 = 4, 2 + 2 + 2 = 6, and 2 + 3 = 5. \n  So, s becomes \"3\" + \"4\" + \"6\" + \"5\" = \"3465\" after the first round.\n- For the second round, we divide s into \"346\" and \"5\".\n  Then we calculate the digit sum of each group: 3 + 4 + 6 = 13, 5 = 5. \n  So, s becomes \"13\" + \"5\" = \"135\" after second round. \nNow, s.length <= k, so we return \"135\" as the answer.\n\n\nExample 2:\n\nInput: s = \"00000000\", k = 3\nOutput: \"000\"\nExplanation: \nWe divide s into \"000\", \"000\", and \"00\".\nThen we calculate the digit sum of each group: 0 + 0 + 0 = 0, 0 + 0 + 0 = 0, and 0 + 0 = 0. \ns becomes \"0\" + \"0\" + \"0\" = \"000\", whose length is equal to k, so we return \"000\".\n\n\n \n\nConstraints:\n\n1 <= s.length <= 100\n2 <= k <= 100\ns consists of digits only.",
+    "description_html": "<p>You are given a string <code>s</code> consisting of digits and an integer <code>k</code>.</p>\n\n<p>A <strong>round</strong> can be completed if the length of <code>s</code> is greater than <code>k</code>. In one round, do the following:</p>\n\n<ol>\n\t<li><strong>Divide</strong> <code>s</code> into <strong>consecutive groups</strong> of size <code>k</code> such that the first <code>k</code> characters are in the first group, the next <code>k</code> characters are in the second group, and so on. <strong>Note</strong> that the size of the last group can be smaller than <code>k</code>.</li>\n\t<li><strong>Replace</strong> each group of <code>s</code> with a string representing the sum of all its digits. For example, <code>\"346\"</code> is replaced with <code>\"13\"</code> because <code>3 + 4 + 6 = 13</code>.</li>\n\t<li><strong>Merge</strong> consecutive groups together to form a new string. If the length of the string is greater than <code>k</code>, repeat from step <code>1</code>.</li>\n</ol>\n\n<p>Return <code>s</code> <em>after all rounds have been completed</em>.</p>\n\n<p>&nbsp;</p>\n<p><span class=\"float-right -my-0.5 ml-2 inline-flex select-none items-center\" data-example-lang-controls=\"\"><span role=\"group\" class=\"inline-flex h-6 items-center rounded-sd-md bg-sd-muted p-0.5\" data-example-lang-toggle=\"\"><button type=\"button\" aria-pressed=\"true\" class=\"h-5 max-w-[10rem] truncate whitespace-nowrap rounded-sd-sm border px-2 text-xs font-normal leading-none border-sd-border bg-sd-background text-sd-foreground\">Original</button><button type=\"button\" aria-pressed=\"false\" class=\"h-5 max-w-[10rem] truncate whitespace-nowrap rounded-sd-sm border px-2 text-xs font-normal leading-none border-transparent text-sd-muted-foreground hover:text-sd-foreground\">C++</button></span></span><strong class=\"example\">Example 1:</strong></p>\n\n<pre><strong>Input:</strong> s = \"11111222223\", k = 3\n<strong>Output:</strong> \"135\"\n<strong>Explanation:</strong> \n- For the first round, we divide s into groups of size 3: \"111\", \"112\", \"222\", and \"23\".\n  ​​​​​Then we calculate the digit sum of each group: 1 + 1 + 1 = 3, 1 + 1 + 2 = 4, 2 + 2 + 2 = 6, and 2 + 3 = 5. \n&nbsp; So, s becomes \"3\" + \"4\" + \"6\" + \"5\" = \"3465\" after the first round.\n- For the second round, we divide s into \"346\" and \"5\".\n&nbsp; Then we calculate the digit sum of each group: 3 + 4 + 6 = 13, 5 = 5. \n&nbsp; So, s becomes \"13\" + \"5\" = \"135\" after second round. \nNow, s.length &lt;= k, so we return \"135\" as the answer.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre><strong>Input:</strong> s = \"00000000\", k = 3\n<strong>Output:</strong> \"000\"\n<strong>Explanation:</strong> \nWe divide s into \"000\", \"000\", and \"00\".\nThen we calculate the digit sum of each group: 0 + 0 + 0 = 0, 0 + 0 + 0 = 0, and 0 + 0 = 0. \ns becomes \"0\" + \"0\" + \"0\" = \"000\", whose length is equal to k, so we return \"000\".\n</pre>\n\n<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= s.length &lt;= 100</code></li>\n\t<li><code>2 &lt;= k &lt;= 100</code></li>\n\t<li><code>s</code> consists of digits only.</li>\n</ul>\n"
+  },
+  "editorial": {
+    "available": false,
+    "reason": "content_not_rendered"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
