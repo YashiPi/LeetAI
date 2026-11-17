@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-17",
+    "id": "2911",
+    "title": "Minimum Changes to Make K Semi-palindromes",
+    "slug": "minimum-changes-to-make-k-semi-palindromes",
+    "difficulty": "Hard",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "link": "https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-16",
     "id": "2243",
     "title": "Calculate Digit Sum of a String",

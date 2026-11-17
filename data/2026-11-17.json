@@ -1,0 +1,67 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-17T07:11:45.426476+00:00",
+    "date": "2026-11-17",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-17",
+    "link": "https://leetcode.com/problems/minimum-changes-to-make-k-semi-palindromes/",
+    "id": "2911",
+    "title": "Minimum Changes to Make K Semi-palindromes",
+    "slug": "minimum-changes-to-make-k-semi-palindromes",
+    "difficulty": "Hard",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ],
+    "hints": [
+      "Define <code>dp[i][j]</code> as the minimum count of letter changes needed to split the suffix of string <code>s</code> starting from <code>s[i]</code> into <code>j</code> valid parts.",
+      "We have <code>dp[i][j] = min(dp[x + 1][j - 1] + v[i][x])</code>. Here <code>v[i][x]</code> is the minimum number of letter changes to change substring <code>s[i..x]</code> into semi-palindrome.",
+      "<code>v[i][j]</code> can be calculated separately by <b>brute-force</b>. We can create a table of <code>v[i][j]</code> independently to improve the complexity. Also note that semi-palindrome’s length is at least <code>2</code>."
+    ],
+    "stats": {
+      "total_accepted": "18.8K",
+      "total_submissions": "31.5K",
+      "acceptance_rate": "59.7%"
+    },
+    "likes": 178,
+    "dislikes": 126,
+    "similar_questions": [
+      {
+        "title": "Palindrome Partitioning III",
+        "slug": "palindrome-partitioning-iii",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "\"abcac\"\n2",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int minimumChanges(string s, int k) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int minimumChanges(String s, int k) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def minimumChanges(self, s: str, k: int) -> int:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @param {number} k\n * @return {number}\n */\nvar minimumChanges = function(s, k) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
