@@ -1,5 +1,18 @@
 [
   {
+    "date": "2026-11-18",
+    "id": "2914",
+    "title": "Minimum Number of Changes to Make Binary String Beautiful",
+    "slug": "minimum-number-of-changes-to-make-binary-string-beautiful",
+    "difficulty": "Medium",
+    "tags": [
+      "String"
+    ],
+    "link": "https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-17",
     "id": "2911",
     "title": "Minimum Changes to Make K Semi-palindromes",
