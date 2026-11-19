@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-19",
+    "id": "2567",
+    "title": "Minimum Score by Changing Two Elements",
+    "slug": "minimum-score-by-changing-two-elements",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/minimum-score-by-changing-two-elements/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-18",
     "id": "2914",
     "title": "Minimum Number of Changes to Make Binary String Beautiful",
