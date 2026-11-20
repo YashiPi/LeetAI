@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-20",
+    "id": "3041",
+    "title": "Maximize Consecutive Elements in an Array After Modification",
+    "slug": "maximize-consecutive-elements-in-an-array-after-modification",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Sorting"
+    ],
+    "link": "https://leetcode.com/problems/maximize-consecutive-elements-in-an-array-after-modification/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-19",
     "id": "2567",
     "title": "Minimum Score by Changing Two Elements",
