@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-21T06:10:15.375422+00:00",
+    "date": "2026-11-21",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-21",
+    "link": "https://leetcode.com/problems/find-subtree-sizes-after-changes/",
+    "id": "3331",
+    "title": "Find Subtree Sizes After Changes",
+    "slug": "find-subtree-sizes-after-changes",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Tree",
+      "Depth-First Search"
+    ],
+    "hints": [
+      "Perform a depth-first search on the tree, starting from the root.",
+      "During the DFS, keep track of the most recent node where each character from 'a' to 'z' has been seen."
+    ],
+    "stats": {
+      "total_accepted": "27.5K",
+      "total_submissions": "45.5K",
+      "acceptance_rate": "60.4%"
+    },
+    "likes": 140,
+    "dislikes": 47,
+    "similar_questions": [],
+    "example_testcases": "[-1,0,0,1,1,1]\n\"abaabc\"\n[-1,0,4,0,1]\n\"abbba\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    vector<int> findSubtreeSizes(vector<int>& parent, string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int[] findSubtreeSizes(int[] parent, String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def findSubtreeSizes(self, parent: List[int], s: str) -> List[int]:\n        ",
+      "javascript": "/**\n * @param {number[]} parent\n * @param {string} s\n * @return {number[]}\n */\nvar findSubtreeSizes = function(parent, s) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
