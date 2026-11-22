@@ -1,0 +1,74 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-22T05:51:02.831978+00:00",
+    "date": "2026-11-22",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-22",
+    "link": "https://leetcode.com/problems/check-if-all-as-appears-before-all-bs/",
+    "id": "2124",
+    "title": "Check if All A's Appears Before All B's",
+    "slug": "check-if-all-as-appears-before-all-bs",
+    "difficulty": "Easy",
+    "tags": [
+      "String"
+    ],
+    "hints": [
+      "You can check the opposite: check if there is a ‘b’ before an ‘a’. Then, negate and return that answer.",
+      "s should not have any occurrences of “ba” as a substring."
+    ],
+    "stats": {
+      "total_accepted": "156.7K",
+      "total_submissions": "209.1K",
+      "acceptance_rate": "74.9%"
+    },
+    "likes": 924,
+    "dislikes": 24,
+    "similar_questions": [
+      {
+        "title": "Minimum Deletions to Make String Balanced",
+        "slug": "minimum-deletions-to-make-string-balanced",
+        "difficulty": "Medium"
+      },
+      {
+        "title": "Check if Array Is Sorted and Rotated",
+        "slug": "check-if-array-is-sorted-and-rotated",
+        "difficulty": "Easy"
+      },
+      {
+        "title": "Check if Numbers Are Ascending in a Sentence",
+        "slug": "check-if-numbers-are-ascending-in-a-sentence",
+        "difficulty": "Easy"
+      }
+    ],
+    "example_testcases": "\"aaabbb\"\n\"abab\"\n\"bbb\"",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool checkString(string s) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean checkString(String s) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def checkString(self, s: str) -> bool:\n        ",
+      "javascript": "/**\n * @param {string} s\n * @return {boolean}\n */\nvar checkString = function(s) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
