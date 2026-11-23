@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-23T06:28:22.555429+00:00",
+    "date": "2026-11-23",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-23",
+    "link": "https://leetcode.com/problems/product-of-the-last-k-numbers/",
+    "id": "1352",
+    "title": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Design",
+      "Data Stream",
+      "Prefix Sum"
+    ],
+    "hints": [
+      "Keep all prefix products of numbers in an array, then calculate the product of last K elements in O(1) complexity.",
+      "When a zero number is added, clean the array of prefix products."
+    ],
+    "stats": {
+      "total_accepted": "291.9K",
+      "total_submissions": "454.9K",
+      "acceptance_rate": "64.2%"
+    },
+    "likes": 2252,
+    "dislikes": 112,
+    "similar_questions": [],
+    "example_testcases": "[\"ProductOfNumbers\",\"add\",\"add\",\"add\",\"add\",\"add\",\"getProduct\",\"getProduct\",\"getProduct\",\"add\",\"getProduct\"]\n[[],[3],[0],[2],[5],[4],[2],[3],[4],[8],[2]]",
+    "starter_codes": {
+      "cpp": "class ProductOfNumbers {\npublic:\n    ProductOfNumbers() {\n        \n    }\n    \n    void add(int num) {\n        \n    }\n    \n    int getProduct(int k) {\n        \n    }\n};\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * ProductOfNumbers* obj = new ProductOfNumbers();\n * obj->add(num);\n * int param_2 = obj->getProduct(k);\n */",
+      "java": "class ProductOfNumbers {\n\n    public ProductOfNumbers() {\n        \n    }\n    \n    public void add(int num) {\n        \n    }\n    \n    public int getProduct(int k) {\n        \n    }\n}\n\n/**\n * Your ProductOfNumbers object will be instantiated and called as such:\n * ProductOfNumbers obj = new ProductOfNumbers();\n * obj.add(num);\n * int param_2 = obj.getProduct(k);\n */",
+      "python3": "class ProductOfNumbers:\n\n    def __init__(self):\n        \n\n    def add(self, num: int) -> None:\n        \n\n    def getProduct(self, k: int) -> int:\n        \n\n\n# Your ProductOfNumbers object will be instantiated and called as such:\n# obj = ProductOfNumbers()\n# obj.add(num)\n# param_2 = obj.getProduct(k)",
+      "javascript": "\nvar ProductOfNumbers = function() {\n    \n};\n\n/** \n * @param {number} num\n * @return {void}\n */\nProductOfNumbers.prototype.add = function(num) {\n    \n};\n\n/** \n * @param {number} k\n * @return {number}\n */\nProductOfNumbers.prototype.getProduct = function(k) {\n    \n};\n\n/** \n * Your ProductOfNumbers object will be instantiated and called as such:\n * var obj = new ProductOfNumbers()\n * obj.add(num)\n * var param_2 = obj.getProduct(k)\n */"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}

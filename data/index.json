@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-23",
+    "id": "1352",
+    "title": "Product of the Last K Numbers",
+    "slug": "product-of-the-last-k-numbers",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Design",
+      "Data Stream",
+      "Prefix Sum"
+    ],
+    "link": "https://leetcode.com/problems/product-of-the-last-k-numbers/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-22",
     "id": "2124",
     "title": "Check if All A's Appears Before All B's",
