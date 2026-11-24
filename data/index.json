@@ -1,5 +1,22 @@
 [
   {
+    "date": "2026-11-24",
+    "id": "3411",
+    "title": "Maximum Subarray With Equal Products",
+    "slug": "maximum-subarray-with-equal-products",
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Math",
+      "Sliding Window",
+      "Enumeration",
+      "Number Theory"
+    ],
+    "link": "https://leetcode.com/problems/maximum-subarray-with-equal-products/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-23",
     "id": "1352",
     "title": "Product of the Last K Numbers",
