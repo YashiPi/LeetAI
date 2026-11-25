@@ -1,5 +1,23 @@
 [
   {
+    "date": "2026-11-25",
+    "id": "3934",
+    "title": "Smallest Unique Subarray",
+    "slug": "smallest-unique-subarray",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Rolling Hash",
+      "Suffix Array",
+      "Hash Function"
+    ],
+    "link": "https://leetcode.com/problems/smallest-unique-subarray/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-24",
     "id": "3411",
     "title": "Maximum Subarray With Equal Products",

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-25T07:37:48.510982+00:00",
+    "date": "2026-11-25",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-25",
+    "link": "https://leetcode.com/problems/smallest-unique-subarray/",
+    "id": "3934",
+    "title": "Smallest Unique Subarray",
+    "slug": "smallest-unique-subarray",
+    "difficulty": "Hard",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Rolling Hash",
+      "Suffix Array",
+      "Hash Function"
+    ],
+    "hints": [
+      "Think in terms of checking a fixed length <code>len</code>: count all subarrays of length <code>len</code>, and see whether any one appears exactly once.",
+      "Use rolling hash so each subarray can be represented in <code>O(1)</code> after preprocessing, instead of comparing arrays directly.",
+      "The answer can be binary searched because if there is a unique subarray of length <code>len</code>, then there is also a unique subarray of some length <code>> len</code>.",
+      "For each checked length, store frequencies of hashes in a hashmap. If any hash has frequency 1, that length works."
+    ],
+    "stats": {
+      "total_accepted": "22.2K",
+      "total_submissions": "41K",
+      "acceptance_rate": "54.2%"
+    },
+    "likes": 130,
+    "dislikes": 8,
+    "similar_questions": [],
+    "example_testcases": "[3,3,3]\n[2,1,2,3,3]\n[1,1,2,2,1]",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    int smallestUniqueSubarray(vector<int>& nums) {\n        \n    }\n};",
+      "java": "class Solution {\n    public int smallestUniqueSubarray(int[] nums) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def smallestUniqueSubarray(self, nums: List[int]) -> int:\n        ",
+      "javascript": "/**\n * @param {number[]} nums\n * @return {number}\n */\nvar smallestUniqueSubarray = function(nums) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
