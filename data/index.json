@@ -1,5 +1,19 @@
 [
   {
+    "date": "2026-11-26",
+    "id": "3360",
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "link": "https://leetcode.com/problems/stone-removal-game/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-25",
     "id": "3934",
     "title": "Smallest Unique Subarray",

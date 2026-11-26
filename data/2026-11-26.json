@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "fetched_at": "2026-11-26T07:30:34.720177+00:00",
+    "date": "2026-11-26",
+    "ai_explanation_status": "pending"
+  },
+  "problem": {
+    "date": "2026-11-26",
+    "link": "https://leetcode.com/problems/stone-removal-game/",
+    "id": "3360",
+    "title": "Stone Removal Game",
+    "slug": "stone-removal-game",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Simulation"
+    ],
+    "hints": [
+      "The constraints are small enough that a brute-force solution is feasible."
+    ],
+    "stats": {
+      "total_accepted": "66.4K",
+      "total_submissions": "132K",
+      "acceptance_rate": "50.3%"
+    },
+    "likes": 157,
+    "dislikes": 7,
+    "similar_questions": [
+      {
+        "title": "Stone Game IV",
+        "slug": "stone-game-iv",
+        "difficulty": "Hard"
+      }
+    ],
+    "example_testcases": "12\n1",
+    "starter_codes": {
+      "cpp": "class Solution {\npublic:\n    bool canAliceWin(int n) {\n        \n    }\n};",
+      "java": "class Solution {\n    public boolean canAliceWin(int n) {\n        \n    }\n}",
+      "python3": "class Solution:\n    def canAliceWin(self, n: int) -> bool:\n        ",
+      "javascript": "/**\n * @param {number} n\n * @return {boolean}\n */\nvar canAliceWin = function(n) {\n    \n};"
+    }
+  },
+  "editorial": {
+    "available": false,
+    "reason": "navigation_failed"
+  },
+  "community_solutions": {
+    "cpp": [],
+    "python3": [],
+    "javascript": [],
+    "java": []
+  },
+  "best_solution": {
+    "source_type": "none",
+    "explanation": "",
+    "codes": {
+      "cpp": "",
+      "python": "",
+      "javascript": "",
+      "java": ""
+    }
+  },
+  "ai_explanation": null
+}
