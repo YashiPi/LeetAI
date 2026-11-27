@@ -1,5 +1,20 @@
 [
   {
+    "date": "2026-11-27",
+    "id": "3946",
+    "title": "Maximum Number of Items From Sale I",
+    "slug": "maximum-number-of-items-from-sale-i",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-items-from-sale-i/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-26",
     "id": "3360",
     "title": "Stone Removal Game",
