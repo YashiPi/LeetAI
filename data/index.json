@@ -1,5 +1,21 @@
 [
   {
+    "date": "2026-11-28",
+    "id": "3947",
+    "title": "Maximum Number of Items From Sale II",
+    "slug": "maximum-number-of-items-from-sale-ii",
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ],
+    "link": "https://leetcode.com/problems/maximum-number-of-items-from-sale-ii/",
+    "solution_source": "none",
+    "has_editorial": false
+  },
+  {
     "date": "2026-11-27",
     "id": "3946",
     "title": "Maximum Number of Items From Sale I",
